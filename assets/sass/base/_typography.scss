@@ -19,22 +19,22 @@ body {
     line-height: 1.7;
 }
 
-h1,
-h2,
-h3 {
+.h1,
+.h2,
+.h3 {
     font-family: var(--font-header);
     text-transform: uppercase;
 }
 
-h1 {
+.h1 {
     font-size: var(--font-large);
 }
 
-h2 {
+.h2 {
     font-size: var(--font-medium);
 }
 
-h3 {
+.h3 {
     font-size: var(--font-small);
 }
 

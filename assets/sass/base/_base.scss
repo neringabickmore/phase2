@@ -5,6 +5,8 @@
     --color-black: #171818;
     --color-green: #095306; 
     --color-yellow: #F0B80F;
+    --color-white: #fff;
+
 }
 
 // Basic site styling
@@ -24,4 +26,10 @@ html {
     font-size: 62.5%;
     box-sizing: border-box;
     padding: 0 3rem;
+}
+
+body {
+    color: var(--color-black);
+    background-color: var(--color-white);
+    min-height: 100vh;
 }
