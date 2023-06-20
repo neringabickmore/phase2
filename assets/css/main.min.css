@@ -1,4 +1,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@348;400&display=swap");
+.footer {
+  background-color: var(--color-black);
+  color: var(--color-white);
+  padding: 4rem;
+  height: 33rem; }
+
 :root {
   --color-red: #DF1219;
   --color-blue: #0F699D;
