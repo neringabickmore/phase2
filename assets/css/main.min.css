@@ -26,6 +26,9 @@ body {
   background-color: var(--color-white);
   min-height: 100vh; }
 
+p {
+  text-align: justify; }
+
 :root {
   --font-text:'Montserrat', sans-serif;
   --font-header:'Montserrat', sans-serif;

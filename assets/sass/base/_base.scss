@@ -33,3 +33,7 @@ body {
     background-color: var(--color-white);
     min-height: 100vh;
 }
+// Ensure paragraphs fill the column form end to end
+p {
+    text-align: justify;
+}
