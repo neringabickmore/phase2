@@ -1,0 +1,12 @@
+.social a i {
+    width: 32px;
+    height: 32px;
+    padding: 1.2rem 0;
+    font-size: 3rem;
+    
+
+}
+//  required to get rid of blue default color
+.social a {
+    color: var(--color-black);
+}
