@@ -7,7 +7,9 @@
     --font-large: 5rem;
     --font-medium: 3.5rem;
     --font-small: 2.5rem;
-    --font-xs: 1.8rem;
+    --font-xs: 1.4rem;
+    // footer specific font size
+    --font-xxs: 1.2rem;
     --font-weight-light: 348;
     --font-weight-medium: 400;
 }
@@ -15,7 +17,8 @@
 body {
     font-family: var(--font-text);
     font-weight: var(--font-weight-medium);
-    font-size: var(--font-xs);
+    // font-size: var(--font-xs);
+    font-size: calc(var(--font-xs) + .2vw);
     line-height: 1.7;
 }
 
