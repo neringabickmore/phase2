@@ -25,13 +25,16 @@
 html {
     font-size: 62.5%;
     box-sizing: border-box;
-    padding: 0 3rem;
+    padding: 0;
 }
 
 body {
     color: var(--color-black);
     background-color: var(--color-white);
     min-height: 100vh;
+}
+.container {
+    padding: 0 3rem;
 }
 // Ensure paragraphs fill the column form end to end
 p {
