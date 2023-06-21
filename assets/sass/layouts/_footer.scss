@@ -2,26 +2,26 @@
     background-color: var(--color-black);
     color: var(--color-white);
     padding: 4rem;
-    height: 33rem;
-    &__logo {
+    min-height: 33rem;
+    font-size: calc(var(--font-xxs) + .4vw);
 
+    &__link a {
+        color: var(--color-white);
     }
-    &__social {
 
-    }
-    &__phone {
+    &__logo {}
 
+    &__social a i {
+        color: var(--color-white);
     }
-    &__email {
 
-    }
-    &__terms {
 
-    }
-    &__address {
 
-    }
-    &__copy {
-        
-    }
+    &__contacts {}
+
+    &__address {}
+
+    &__terms {}
+
+    &__copy {}
 }
