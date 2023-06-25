@@ -1,0 +1,16 @@
+.btn {
+    border-radius: 0%!important;
+    border-width: 2px;
+    font-size: var(--font-s);
+    margin: 3px;
+
+
+    &__border {
+        border-color: var(--color-black);
+    }
+}
+
+.btn a:link, .btn a:visited {
+    text-decoration: none;
+    color: var(--color-black);
+}
