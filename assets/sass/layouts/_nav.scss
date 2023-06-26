@@ -1,0 +1,44 @@
+/* header - site navigation */
+.navbar #navigation {
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+.nav-link-header {
+    display: block;
+    padding: .5rem 1rem;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+#navigation,
+.dropdown-menu-header,
+#navigation .nav-link-header,
+.dropdown-menu-header li a {
+    color: var(--color-black);
+    background-color: var(--color-white);
+}
+
+.nav-link-header,
+.dropdown-menu-header li a {
+    font-size: 1.8rem;
+    font-family: var(--font-text);
+    letter-spacing: 0.1vw;
+}
+
+.nav-link-header:focus,
+.nav-link-header:hover,
+.dropdown-menu-header li a:focus,
+.dropdown-menu-header li a:hover {
+    color: var(--color-red)!important;
+    text-decoration: none;
+}
+
+.fa-grip-lines {
+    color: var(--color-black);
+    font-size: 2.5rem;
+}
+
+.navbar-toggler:focus {
+    box-shadow: 0 0 0 0;
+}
