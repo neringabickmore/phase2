@@ -13,6 +13,8 @@
     <link rel="stylesheet" href="assets/css/main.min.css">
     <!--  Font Awesome-->
     <script src="https://kit.fontawesome.com/3ca4663ed2.js" crossorigin="anonymous"></script>
+    <!-- jQuery adding for event listeners -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
     <title>Phase 2.0 Hair Lounge and Barbers</title>
 </head>
 
@@ -30,10 +32,11 @@
             <div class="col-12">
                 <nav class=" d-block navbar pt-0">
                     <div class="container p-1 justify-content-end">
-                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                            data-bs-target="#navigation" aria-controls="navigation" aria-expanded="false"
-                            aria-label="Toggle navigation">
-                            <span class="navbar-bars"><i class="fas fa-grip-lines"></i></span>
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navigation"
+                            aria-controls="navigation" aria-expanded="false" aria-label="Toggle navigation">
+                            <div id="barsContainer">
+                            <div class="bar1"></div>
+                            <div class="bar2"></div></div>
                         </button>
                     </div>
                 </nav>
@@ -324,6 +327,7 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
         crossorigin="anonymous"></script>
+    <script src="script.js"></script>
 </body>
 
 </html>
