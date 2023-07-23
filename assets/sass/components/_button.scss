@@ -14,3 +14,34 @@
     text-decoration: none;
     color: var(--color-black);
 }
+
+/** Go Up button **/
+
+#goUpBtn {
+    display: none;
+    position: fixed;
+    bottom: 2rem;
+    right: 2rem;
+    z-index: 99;
+    // border: none;
+    border: 2px solid var(--color-black);
+    padding: 3px;
+    outline: none;
+    background-color: var(--color-white);
+    cursor: pointer;
+    // border-radius: 50%;
+    vertical-align: middle;
+}
+
+#goUpBtn:hover {
+    background-color: var(--color-white);
+}
+
+.fa-angles-up {
+    font-size: 2rem;
+    color: var(--color-black);
+}
+
+.fa-angles-up:hover {
+    color: var(--color-red);
+}
