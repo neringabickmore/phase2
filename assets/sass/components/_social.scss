@@ -1,12 +1,20 @@
 .social a i {
     width: 32px;
     height: 32px;
-    padding: 1.2rem 0;
-    font-size: 3rem;
-    
-
+    padding: 11.5px 7.5px;
+    font-size: 1.6rem;
+    border-radius: 50%;
+    line-height: 10px;
+    // text-align: center;
 }
+.social a i {
+    color: var(--color-white);
+    background-color: var(--color-black);
+}
+
 //  required to get rid of blue default color
 .social a {
-    color: var(--color-black);
+    // color: var(--color-black);
+    text-decoration: none;
+    
 }
