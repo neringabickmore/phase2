@@ -1,0 +1,20 @@
+.index__img {
+    width: 85vw;
+    height: 300px;
+    object-fit: cover;
+    // object-fit: contain;
+    object-position: 80% 30%;
+    
+  }
+
+ @media (min-width: 575px) {
+    .index__img {
+        width: 37vw;
+        padding-top: .5rem;
+    }
+ }
+ @media (min-width: 755px) {
+    .index__img {
+        height: 400px;
+    }
+ }
