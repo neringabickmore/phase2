@@ -1,11 +1,9 @@
 // COLORS VARIABLES
 :root {
-    --color-red: #DF1219;
-    --color-blue: #0F699D;
     --color-black: #171818;
-    --color-green: #095306; 
-    --color-yellow: #F0B80F;
     --color-white: #fff;
+    --color-terracotta: #b55d41;
+    --color-green: #2b361a; 
 
 }
 
@@ -30,7 +28,7 @@ html {
 }
 
 body {
-    color: var(--color-black);
+    color: var(--color-green);
     background-color: var(--color-white);
     min-height: 100vh;
 }
