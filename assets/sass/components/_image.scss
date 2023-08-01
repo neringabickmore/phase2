@@ -18,3 +18,14 @@
         height: 400px;
     }
  }
+
+ .careers__background {
+    &--image {
+        background-image: url(https://res.cloudinary.com/hwbrfij25/image/upload/v1/media/garage-brief_3_c3fz3e);
+        background-repeat: no-repeat;
+        opacity: .9;
+        background-attachment: fixed;  
+        background-size: cover;
+        // padding: 45rem 0;
+    }
+ }

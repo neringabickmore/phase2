@@ -27,6 +27,16 @@
   .team__img {
     width: 400px; } }
 
+.careers__body {
+  color: var(--color-white) !important; }
+
+.careers__btn {
+  border-color: var(--color-white) !important;
+  color: var(--color-white) !important; }
+
+.careers__btn a span {
+  color: var(--color-white); }
+
 .footer {
   background-color: var(--color-black);
   color: var(--color-white);
@@ -253,3 +263,10 @@ body {
 @media (min-width: 755px) {
   .index__img {
     height: 400px; } }
+
+.careers__background--image {
+  background-image: url(https://res.cloudinary.com/hwbrfij25/image/upload/v1/media/garage-brief_3_c3fz3e);
+  background-repeat: no-repeat;
+  opacity: .9;
+  background-attachment: fixed;
+  background-size: cover; }
