@@ -9,9 +9,12 @@
 }
 .social a i {
     color: var(--color-white);
-    background-color: var(--color-black);
+    background-color: var(--color-terracotta);
 }
 
+.social a:hover > i {
+    background-color: var(--color-green);
+}
 //  required to get rid of blue default color
 .social a {
     // color: var(--color-black);
