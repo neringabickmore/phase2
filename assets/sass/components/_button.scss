@@ -6,13 +6,32 @@
 
 
     &__border {
-        border-color: var(--color-black);
+        border-color: var(--color-terracotta);
     }
 }
 
-.btn a:link, .btn a:visited {
+.btn a:link, 
+.btn a:visited, 
+.btn a:active,
+.btn span {
     text-decoration: none;
-    color: var(--color-black);
+    color: var(--color-terracotta);
+}
+
+.btn:hover {
+    color: var(--color-white);
+    background-color: var(--color-terracotta);
+    transform: translateY(3px);
+}
+
+/*
+Special selection to ensure span 
+changes colour to white when 
+the user hovers on any place of the button
+*/
+
+.btn:hover > a > span {
+    color: var(--color-white);
 }
 
 /** Go Up button **/
@@ -23,7 +42,7 @@
     bottom: 2rem;
     right: 2rem;
     z-index: 99;
-    border: 1.75px solid var(--color-black);
+    border: 1.75px solid var(--color-terracotta);
     padding: .5px;
     outline: none;
     background-color: var(--color-white);
@@ -32,18 +51,17 @@
     vertical-align: middle;
     width: 32px;
     height: 32px;
-  
 }
 
 #goUpBtn:hover {
-    background-color: var(--color-white);
+    background-color: var(--color-terracotta);
 }
 
 .fa-angles-up {
     font-size: 16px;
-    color: var(--color-black);
+    color: var(--color-terracotta);
 }
 
-.fa-angles-up:hover {
-    color: var(--color-red);
+#goUpBtn:hover > i {
+    color: var(--color-white);
 }
