@@ -24,18 +24,27 @@
     font-size: 1.8rem;
     font-family: var(--font-text);
     letter-spacing: 0.1vw;
+    border: 1px var(--color-terracotta) solid;
+    align-items: end;
 }
 
 .nav-link-header:focus,
 .nav-link-header:hover,
 .dropdown-menu-header li a:focus,
 .dropdown-menu-header li a:hover {
-    color: var(--color-red)!important;
+    // color: var(--color-green)!important;
     text-decoration: none;
+    // font-weight: bold;
+    border: 1px var(--color-white) solid;
+}
+
+.nav-item:hover {
+    transform: translateY(5px);
+    // align-self: end;
 }
 
 .fa-grip-lines {
-    color: var(--color-black);
+    color: var(--color-green);
     font-size: 2.5rem;
 }
 
