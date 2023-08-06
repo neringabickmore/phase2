@@ -2,7 +2,6 @@
     color: var(--color-terracotta);
 }
 .breadcrumb-item a:hover {
-    // transform: translateY(10px);
     font-weight: bold;
 }
 
@@ -10,16 +9,25 @@
 .breadcrumb-item+.breadcrumb-item::before {
     color: var(--color-green);
 }
-.team__member_link {
-    color: var(--color-black);
+.team__member_link,
+.team__member_link:active,
+.team__member_link::before {
+    color: var(--color-green);
     text-decoration: none;
 }
+.team__member_link h3 {
+    text-decoration: underline;
+}
 
-.team__member_link:hover {
-    color: var(--color-black);
+.team__member_link h3:hover {
+    color: var(--color-terracotta);
+    font-weight: bold;
 }
 .team__col {
     padding: 0;
+}
+.team__col a:hover {
+    color: var(--color-green);
 }
 .team__img {
     width: 300px;
