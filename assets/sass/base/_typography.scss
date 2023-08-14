@@ -48,3 +48,11 @@ body {
 // .th, .td {
 //     font-size: var(--font-xs);
 // }
+.url-link{
+    color: var(--color-terracotta);
+}
+.url-link:hover {
+    color: var(--color-terracotta);
+    font-weight: bold;
+    transition: .5s;
+}

@@ -3,6 +3,7 @@
 }
 .breadcrumb-item a:hover {
     font-weight: bold;
+    transition: .5s;
 }
 
 .breadcrumb-item.active, 
@@ -22,12 +23,14 @@
 .team__member_link h3:hover {
     color: var(--color-terracotta);
     font-weight: bold;
+    transition: .5s;
 }
 .team__col {
     padding: 0;
 }
 .team__col a:hover {
     color: var(--color-green);
+    transition: .5s;
 }
 .team__img {
     width: 300px;

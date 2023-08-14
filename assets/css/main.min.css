@@ -17,7 +17,8 @@
   color: var(--color-terracotta); }
 
 .breadcrumb-item a:hover {
-  font-weight: bold; }
+  font-weight: bold;
+  transition: .5s; }
 
 .breadcrumb-item.active,
 .breadcrumb-item + .breadcrumb-item::before {
@@ -34,13 +35,15 @@
 
 .team__member_link h3:hover {
   color: var(--color-terracotta);
-  font-weight: bold; }
+  font-weight: bold;
+  transition: .5s; }
 
 .team__col {
   padding: 0; }
 
 .team__col a:hover {
-  color: var(--color-green); }
+  color: var(--color-green);
+  transition: .5s; }
 
 .team__img {
   width: 300px;
@@ -227,6 +230,14 @@ body {
 
 .paragraph {
   font-weight: var(--font-weight-light); }
+
+.url-link {
+  color: var(--color-terracotta); }
+
+.url-link:hover {
+  color: var(--color-terracotta);
+  font-weight: bold;
+  transition: .5s; }
 
 .btn {
   border-radius: 0% !important;
