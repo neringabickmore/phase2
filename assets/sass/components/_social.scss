@@ -14,6 +14,8 @@
 
 .social a:hover > i {
     background-color: var(--color-green);
+    transition: .5s;
+
 }
 //  required to get rid of blue default color
 .social a {
