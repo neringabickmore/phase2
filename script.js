@@ -1,4 +1,12 @@
 $(document).ready(function(){
+
+    /**
+     * While the document loads, this function 
+     * shows loader. 
+     * Original code idea from stack overflow
+     */
+    $('.loader-overlay-wrapper').fadeOut(3500);
+
     /* This function changes the style of 
     navbar bars when the user clicks on the bars.
     */ 
@@ -12,6 +20,11 @@ $(document).ready(function(){
 
     
 });
+
+// loads tooltips 
+$(function () {
+    $('[data-toggle="tooltip"]').tooltip();
+  });
 
 const goUpBtn = document.getElementById("goUpBtn");
   
