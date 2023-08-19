@@ -31,7 +31,7 @@ changes colour to white when
 the user hovers on any place of the button
 */
 
-.btn:hover > a > span {
+.btn:hover > span {
     color: var(--color-white);
 }
 
