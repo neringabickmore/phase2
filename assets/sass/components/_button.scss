@@ -10,9 +10,9 @@
     }
 }
 
-.btn a:link, 
-.btn a:visited, 
-.btn a:active,
+.btn:link, 
+.btn:visited, 
+.btn:active,
 .btn span {
     text-decoration: none;
     color: var(--color-terracotta);
