@@ -33,7 +33,7 @@
     transition: .5s;
 }
 .team__img {
-    width: 300px;
+    width: 225px;
     height: auto;
     padding: 1rem 0;
     margin: 3rem 0rem;
@@ -45,13 +45,19 @@
     }
  }
 
- @media (min-width: 992px) and (max-width: 1023px) { 
+ @media (min-width: 992px) { 
     .team__img {
-        width: 350px;
+        width: 300px;
     }
   }
 
   @media (min-width: 1200px) { 
+    .team__img {
+        width: 350px;
+    }
+   }
+
+   @media (min-width: 1200px) { 
     .team__img {
         width: 400px;
     }

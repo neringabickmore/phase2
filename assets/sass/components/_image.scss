@@ -24,6 +24,12 @@
         object-position: 100% 20%;
     }
  }
+ @media (min-width: 1400px) {
+    .index__img {
+        width: 30vw;
+    }
+
+ }
 
  .careers__background {
     &--image {

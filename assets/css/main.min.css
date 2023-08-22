@@ -46,7 +46,7 @@
   transition: .5s; }
 
 .team__img {
-  width: 300px;
+  width: 225px;
   height: auto;
   padding: 1rem 0;
   margin: 3rem 0rem; }
@@ -55,7 +55,11 @@
   .team__img {
     width: 200px; } }
 
-@media (min-width: 992px) and (max-width: 1023px) {
+@media (min-width: 992px) {
+  .team__img {
+    width: 300px; } }
+
+@media (min-width: 1200px) {
   .team__img {
     width: 350px; } }
 
@@ -116,7 +120,7 @@ header {
 
 @media (min-width: 1400px) {
   #logo__img {
-    width: 45%; } }
+    width: 35%; } }
 
 /* header - site navigation */
 .navbar #navigation {
@@ -382,6 +386,10 @@ the user hovers on any place of the button
   .index__img {
     height: 600px;
     object-position: 100% 20%; } }
+
+@media (min-width: 1400px) {
+  .index__img {
+    width: 30vw; } }
 
 .careers__background--image {
   background-image: url(https://res.cloudinary.com/hwbrfij25/image/upload/v1/media/garage-brief_3_c3fz3e);
