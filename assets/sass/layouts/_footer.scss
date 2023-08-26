@@ -9,32 +9,28 @@
         color: var(--color-white);
         text-decoration: none;
     }
+
     &__link a:hover {
         color: var(--color-terracotta);
         text-decoration: none;
         transition: .5s;
+        -webkit-transition: .5s;
+        -moz-transition: .5s;
+        -ms-transition: .5s;
+        -o-transition: .5s;
     }
-
-    &__logo {}
 
     &__social a i {
-        color: var(--color-green)!important;
-        background-color: var(--color-white)!important;
+        color: var(--color-green) !important;
+        background-color: var(--color-white) !important;
     }
-    &__social a:hover > i {
-        background-color: var(--color-terracotta)!important;
+
+    &__social a:hover>i {
+        background-color: var(--color-terracotta) !important;
         transition: .5s;
-        // color: var(--color-white)!important;
+        -webkit-transition: .5s;
+        -moz-transition: .5s;
+        -ms-transition: .5s;
+        -o-transition: .5s;
     }
-
-
-
-
-    &__contacts {}
-
-    &__address {}
-
-    &__terms {}
-
-    &__copy {}
 }
