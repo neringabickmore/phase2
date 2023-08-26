@@ -12,8 +12,8 @@
 }
 
 #navigation,
-.dropdown-menu-header,
 #navigation .nav-link-header,
+.dropdown-menu-header,
 .dropdown-menu-header li a {
     color: var(--color-white);
     background-color: var(--color-terracotta);
@@ -32,24 +32,25 @@
 .nav-link-header:hover,
 .dropdown-menu-header li a:focus,
 .dropdown-menu-header li a:hover {
-    // color: var(--color-green)!important;
     text-decoration: none;
-    // font-weight: bold;
     border: 1px var(--color-white) solid;
     transition: .5s;
+    -webkit-transition: .5s;
+    -moz-transition: .5s;
+    -ms-transition: .5s;
+    -o-transition: .5s;
 }
 
 .nav-item:hover {
+    -webkit-transform: translateY(5px);
+    -ms-transform: translateY(5px);
     transform: translateY(5px);
+    -webkit-transition: .5s;
+    -o-transition: .5s;
     transition: .5s;
-    // align-self: end;
 }
 
 .fa-grip-lines {
     color: var(--color-green);
     font-size: 2.5rem;
-}
-
-.navbar-toggler:focus {
-    box-shadow: 0 0 0 0;
 }
