@@ -1,13 +1,14 @@
-.careers__body {
-    color: var(--color-white)!important;
-    // padding-top: 15rem;
-}
-
-.careers__btn {
-    border-color: var(--color-white)!important;
-    color: var(--color-green)!important;
-}
-
-.careers__btn span {
-    color: var(--color-white)!important;   
+.careers {
+    &__body {
+        color: var(--color-white)!important;
+    }
+    &__btn {
+        border-color: var(--color-white)!important;
+    }
+    &__btn span {
+        color: var(--color-white)!important;  
+    }
+    &__btn:hover {
+        border-color: var(--color-terracotta)!important;
+    }
 }
