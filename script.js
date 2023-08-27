@@ -16,7 +16,7 @@ $(document).ready(function(){
 
     function changeBars(i) {
         i.classList.toggle("change");
-    };
+    }
 
     
 });
