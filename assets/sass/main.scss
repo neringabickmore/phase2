@@ -1,3 +1,17 @@
+
+@import "base/base";
+@import "base/typography";
+
+@import "components/button";
+@import "components/image";
+@import "components/navbars";
+@import "components/social";
+@import "components/table";
+
+@import "layouts/footer";
+@import "layouts/header";
+@import "layouts/nav";
+
 @import "pages/index";
 @import "pages/careers";
 @import "pages/faq";
@@ -5,15 +19,3 @@
 @import "pages/team";
 
 
-@import "layouts/footer";
-@import "layouts/header";
-@import "layouts/nav";
-
-@import "base/base";
-@import "base/typography";
-
-@import "components/button";
-@import "components/social";
-@import "components/table";
-@import "components/navbars";
-@import "components/image";
