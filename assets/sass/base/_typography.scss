@@ -50,11 +50,18 @@ font-style:normal;
 // .th, .td {
 //     font-size: var(--font-xs);
 // }
-.url-link{
+.url-link-terracotta, 
+.url-link-terracotta:hover{
     color: var(--color-terracotta);
 }
-.url-link:hover {
-    color: var(--color-terracotta);
+.url-link-white, 
+.url-link-white:hover {
+    color: var(--color-white);
+}
+
+.url-link-terracotta:hover,
+.url-link-white:hover {
+    // color: var(--color-terracotta);
     font-weight: bold;
     transition: .5s;
 }
