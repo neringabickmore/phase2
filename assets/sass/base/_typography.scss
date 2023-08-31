@@ -1,6 +1,10 @@
 @font-face {
-    font-family:'Century Gothic', 'sans-serif';
-    src: url('assets/fonts/CenturyGothic.ttf') format('ttf');
+    font-family: 'Century Gothic', 'sans-serif';
+    src: url('assets/fonts/CenturyGothic.ttf') format('truetype'),
+        url('assets/fonts/CenturyGothic.eot'),
+        url('assets/fonts/CenturyGothic.woff') format('woff'),
+        url('assets/fonts/CenturyGothic.woff2') format('woff2'),
+        url('assets/fonts/CenturyGothic.svg#CenturyGothic') format('svg');
 }
 // FONTS VARIABLES
 :root {
