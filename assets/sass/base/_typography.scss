@@ -14,6 +14,7 @@
     --font-medium: 3.5rem;
     --font-small: 2.5rem;
     --font-xs: 1.4rem;
+    --font-small-print: 1rem;
     // footer specific font size
     --font-xxs: 1.2rem;
     --font-weight-light: 348;
@@ -53,7 +54,7 @@ body {
 }
 
 .small-print {
-    font-size: var(--font-xxs);
+    font-size: calc(var(--font-small-print) + .2vw);
 }
 
 .url-link-terracotta, 
