@@ -52,9 +52,10 @@ body {
     font-weight: var(--font-weight-light);
 }
 
-// .th, .td {
-//     font-size: var(--font-xs);
-// }
+.small-print {
+    font-size: var(--font-xxs);
+}
+
 .url-link-terracotta, 
 .url-link-terracotta:hover{
     color: var(--color-terracotta);
