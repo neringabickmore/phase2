@@ -2,13 +2,14 @@
     font-family: 'Century Gothic', 'sans-serif';
     src: url('assets/fonts/CenturyGothic.ttf') format('truetype'),
         url('assets/fonts/CenturyGothic.eot'),
+        url("assets/fonts/CenturyGothic.otf") format("opentype"),
         url('assets/fonts/CenturyGothic.woff') format('woff'),
         url('assets/fonts/CenturyGothic.woff2') format('woff2'),
         url('assets/fonts/CenturyGothic.svg#CenturyGothic') format('svg');
 }
 // FONTS VARIABLES
 :root {
-    --font-main: 'Century Gothic', 'sans-serif';
+    --font-main: 'Century Gothic', Arial, sans-serif;
     --font-large: 5rem;
     --font-medium: 3.5rem;
     --font-small: 2.5rem;
@@ -23,8 +24,8 @@ body {
     font-family: var(--font-main);
     font-weight: var(--font-weight-medium);
     font-size: var(--font-xs);
-    font-weight:normal;
-font-style:normal;
+    font-weight: normal;
+    font-style: normal;
     font-size: calc(var(--font-xs) + .2vw);
     line-height: 1.7;
 }
