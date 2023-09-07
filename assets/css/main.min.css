@@ -78,7 +78,8 @@ body {
   text-align: center; }
 
 .h3 {
-  font-size: var(--font-small); }
+  font-size: var(--font-small);
+  color: var(--color-white); }
 
 .paragraph {
   font-weight: var(--font-weight-light); }
