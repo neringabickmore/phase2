@@ -41,6 +41,12 @@
     <!-- go up button -->
     <button id="goUpBtn" title="Go to top"><i class="fa-solid fa-angles-up p-2"></i></button>
     <!-- Logo container -->
+    <!-- Slow loader -->
+    <div class="loader-overlay-wrapper">
+    </div>
+    <!-- go up button -->
+    <button id="goUpBtn" title="Go to top"><i class="fa-solid fa-angles-up p-2"></i></button>
+    <!-- Logo container -->
     <header class="container-fluid">
         <div class="row">
             <!-- Logo -->
@@ -129,19 +135,7 @@
     <!-- call to action container -->
     <div class="container mt-5">
         <div class="row  justify-content-center py-3">
-            <div class="col-12 col-lg-4 col-md-5 text-center text-md-end">
-                <!-- Call to Book btn -->
-                <a class="btn  col-7 col-md-8 btn__border" href="tel:01268683992" rel="noopener"
-                    aria-label="call us on 01268 683992">
-                    <span>Call to Book </span></a>
-            </div>
-            <div class="col-12 col-lg-4 col-md-5 text-center text-md-start">
-                <!-- go online to book btn -->
-                <a class="btn  col-7 col-md-8 btn__border" href="" rel="noopener noreferrer" target="_blank"
-                    aria-label="book appointment online"><span>Book Online</span></a>
-            </div>
             <!-- Social media links -->
-            <div class="col-12 text-center p-2 mt-5 mb-2">Follow Us</div>
             <div class="col-6 text-center social">
                 <a href="https://www.instagram.com/" rel="noopener noreferrer" target="_blank"
                     aria-label="Find us on Instagram" title="instagram" class="p-2">
@@ -157,61 +151,70 @@
     <!-- Welcome Intro -->
     <div class="container mt-5">
         <div class="row py-3 justify-content-center">
-            <div class="col-12 text-center">
+            <!-- <div class="col-12 text-center">
                 <h2 class="h2">Welcome</h2>
-            </div>
+            </div> -->
             <div class="col-12 col-sm-6 pt-4 text-center">
+                <!-- header displayed on mobile -->
+                <h2 class="h2 d-block d-sm-none">Welcome</h2>
                 <img class="index__img d-sm-block"
                     src="https://res.cloudinary.com/hwbrfij25/image/upload/v1/media/may_zx3ajb"
                     alt="long wavy hair image ">
             </div>
-            <div class="col-12 col-sm-6 pt-4 ps-sm-4">
+            <div class="col-12 col-sm-6 ps-sm-4 pt-4">
+                <!-- header displayed on large screens -->
+                <h2 class="h2 d-none d-sm-block">Welcome</h2>
                 <p>
                     Welcome to Phase2 Hair Lounge & Barbers. We are thrilled to have you here and
                     can't wait to to help you achieve the look that you desire.
                 </p>
                 <p>
-                    Our commitment to customer service is our guiding star. Your comfort and satisfaction 
-                    are at the heart of everything we do. We believe that every individual is unique, and 
-                    so are their hair needs. Our talented team of stylists is dedicated to providing you with 
-                    personalized attention, understanding your desires, and translating them into stunning hair 
+                    Our commitment to customer service is our guiding star. Your comfort and satisfaction
+                    are at the heart of everything we do. We believe that every individual is unique, and
+                    so are their hair needs. Our talented team of stylists is dedicated to providing you with
+                    personalized attention, understanding your desires, and translating them into stunning hair
                     creations that leave you feeling your best.
                 </p>
-                <p>Precision is our mantra. Every cut, every stroke of color, and every styling touch is 
-                    executed with meticulous care. We understand that the little details matter, and it's 
+                <p>Precision is our mantra. Every cut, every stroke of color, and every styling touch is
+                    executed with meticulous care. We understand that the little details matter, and it's
                     those details that set us apart. Whether you're seeking a bold change or a subtle enhancement,
-                    our stylists are here to bring your vision to life while ensuring that your hair health remains a top priority.
+                    our stylists are here to bring your vision to life while ensuring that your hair health remains a
+                    top priority.
                 </p>
                 <p>
-                    Thank you for choosing our salon as your go-to destination for all things hair. Get ready to 
+                    Thank you for choosing our salon as your go-to destination for all things hair. Get ready to
                     indulge in a journey of transformation, friendship, and style.
                 </p>
             </div>
         </div>
-    </div>
-    <!-- Services and price list button -->
-    <div class="container mt-5">
-        <div class="row justify-content-center py-3">
-            <div class="col-12 col-md-9 text-center">
-                <!-- services and pricelist button -->
-                <a class="btn col-7 col-md-8 col-lg-4 btn__border" href="services.html"
-                    aria-label="services and pricelist"><span>Services and Pricelist</span></a>
+        <!-- call to action container -->
+        <div class="row  justify-content-center py-3">
+            <div class="col-12 col-lg-4 col-md-5 text-center text-md-end">
+                <!-- Call to Book btn -->
+                <a class="btn  col-7 col-md-8 btn__border" href="tel:01268683992" rel="noopener"
+                    aria-label="call us on 01268 683992">
+                    <span>Call to Book </span></a>
+            </div>
+            <div class="col-12 col-lg-4 col-md-5 text-center text-md-start">
+                <!-- go online to book btn -->
+                <a class="btn  col-7 col-md-8 btn__border" href="" rel="noopener noreferrer" target="_blank"
+                    aria-label="book appointment online"><span>Book Online</span></a>
             </div>
         </div>
     </div>
     <!-- Our services section/general overview -->
     <div class="container-fluid mt-5" id="ourservices">
         <div class="row justify-content-center py-3">
-            <div class="col-12 col-md-9 text-center">
-                <h2 class="h2 pb-3">Our services</h2>
-            </div>
-            <!-- image displayed on mobile -->
+            <!-- image and header displayed on mobile -->
             <div class="col-12 pt-4 text-center d-sm-none d-block">
+                <h2 class="h2">Our services</h2>
                 <img class="index__img"
                     src="https://res.cloudinary.com/hwbrfij25/image/upload/v1/media/garage-brief_3_c3fz3e"
                     alt="long red-head hair image">
             </div>
+            <!-- text on all devices and header on larger screens -->
             <div class="col-12 col-sm-6 pt-4 pe-sm-4 pe-0">
+                <h2 class="h2 d-sm-block d-none">Our services</h2>
                 <p>
                     Our dedicated team specializes in a range of services,
                     from the artistry of balayage, creative colour, and highlights,
@@ -237,36 +240,45 @@
                     alt="long red-head hair image">
             </div>
         </div>
+        <!-- services and pricelist button -->
+        <div class="row justify-content-center py-3">
+            <div class="col-12 col-md-9 text-center">
+                <a class="btn  btn-terracotta col-7 col-md-8 col-lg-4 btn__border" href="services.html"
+                    aria-label="services and pricelist"><span>Services and Pricelist</span></a>
+            </div>
+        </div>
     </div>
     <!-- Who we are section -->
     <div class="container mt-5">
         <div class="row py-3">
-            <div class="col-12 text-center">
-                <h2 class="h2">Who we are</h2>
-            </div>
+            <!-- image display -->
             <div class="col-12 col-sm-6 pt-4 text-center">
-                <img class="index__img d-sm-block"
-                    src="https://res.cloudinary.com/hwbrfij25/image/upload/v1/media/gulia_1_koptyg"
+                <!-- header displayed on mobile -->
+                <h2 class="h2 d-block d-sm-none">Who we are</h2>
+                <img class="index__img" src="https://res.cloudinary.com/hwbrfij25/image/upload/v1/media/gulia_1_koptyg"
                     alt=" hair in a bun image">
             </div>
+            <!-- text display -->
             <div class="col-12 col-sm-6 ps-sm-4 pt-4">
+                <!-- header displayed on large screens -->
+                <h2 class="h2 d-none d-sm-block">Who we are</h2>
                 <p>
-                    Our commitment extends beyond your hair to the very planet we all share. 
-                    Embarking on a journey to become a sustainable salon, we're taking gradual 
-                    steps towards a greener future. Hand in hand, we'll tread this path of 
+                    Our commitment extends beyond your hair to the very planet we all share.
+                    Embarking on a journey to become a sustainable salon, we're taking gradual
+                    steps towards a greener future. Hand in hand, we'll tread this path of
                     conscious choices and environmental harmony.
                 </p>
                 <p>
-                    In the pursuit of excellence, education stands as the cornerstone. Our team not 
-                    only possesses a passion for hairstyling but also maintains an unwavering 
-                    dedication to continuous growth. Staying attuned to the latest trends, techniques, 
+                    In the pursuit of excellence, education stands as the cornerstone. Our team not
+                    only possesses a passion for hairstyling but also maintains an unwavering
+                    dedication to continuous growth. Staying attuned to the latest trends, techniques,
                     and innovations is our pledge to ensure you receive optimal attention.
                 </p>
-               <p>
-                A haircut is merely a fraction of what we offer. It's the entire experience that defines us. 
-                Step into our realm of relaxation, where every moment is tailored to soothe and rejuvenate. 
-                From the first cut to the final flourish, it's an exciting journey we're eager to share.
-               </p> 
+                <p>
+                    A haircut is merely a fraction of what we offer. It's the entire experience that defines us.
+                    Step into our realm of relaxation, where every moment is tailored to soothe and rejuvenate.
+                    From the first cut to the final flourish, it's an exciting journey we're eager to share.
+                </p>
             </div>
         </div>
     </div>
@@ -283,17 +295,18 @@
     <!-- Find us section -->
     <div class="container-fluid mt-5" id="findus">
         <div class="row py-3">
-            <div class="col-12 text-center">
+            <div class="col-12">
                 <h2 class="h2">Contact us</h2>
             </div>
             <div class="col-12 pt-5 text-center">
                 <!-- email -->
                 <p class="text-center"><a href="mailto:hello@phase2-hair.co.uk" rel="noopener noreferrer"
-                    target="_blank" aria-label="contact via email" class="url-link-white"><span>hello@phase2-hair.co.uk</span></a></p>
-            <!-- phone number -->
-            <p class="text-center" title="call us on 01268 683992"><a href="tel:01268683992"
-                    rel="noopener" aria-label="call us on 01268 683992" class="url-link-white">
-                    <span>01268 683992</span></a></p>
+                        target="_blank" aria-label="contact via email"
+                        class="url-link-white"><span>hello@phase2-hair.co.uk</span></a></p>
+                <!-- phone number -->
+                <p class="text-center" title="call us on 01268 683992"><a href="tel:01268683992" rel="noopener"
+                        aria-label="call us on 01268 683992" class="url-link-white">
+                        <span>01268 683992</span></a></p>
             </div>
             <div class="col-12 pt-3 text-center">
                 <p class="text-center">19 & 21 High Street</p>
@@ -301,20 +314,18 @@
                 <p class="text-center">SS8 7RB</p>
             </div>
         </div>
-    </div>
-    <!-- call to action container -->
-    <div class="container mt-5">
+        <!-- call to action container -->
         <div class="row justify-content-center py-3">
             <div class="col-12 col-lg-4 col-md-5 text-center text-md-end">
                 <!-- Call to Book btn -->
-                <a class="btn  col-7 col-md-8 btn__border" href="tel:01268683992" rel="noopener" target="_blank"
+                <a class="btn btn-terracotta col-7 col-md-8 btn__border" href="tel:01268683992" rel="noopener" target="_blank"
                     aria-label="Call to Book appointment: 01268 683992">
                     <span>Call to Book</span></a>
             </div>
             <div class="col-12 col-lg-4 col-md-5 text-center text-md-start">
                 <!-- go online to book btn -->
-                <a class="btn  col-7 col-md-8 btn__border" href="" rel="noopener noreferrer" target="_blank"
-                    aria-label="book appointment online"><span>Book Online</span></a>
+                <a class="btn btn-terracotta col-7 col-md-8 btn__border" href="" rel="noopener noreferrer"
+                    target="_blank" aria-label="book appointment online"><span>Book Online</span></a>
             </div>
         </div>
     </div>
@@ -322,7 +333,7 @@
     <div class="container my-5" id="openinghours">
         <div class="row py-3">
             <div class="col-12 text-center">
-                <h2 class="h2">Opening Hours</h2>
+                <h2 class="h2 pb-5">Opening Hours</h2>
             </div>
         </div>
         <!-- Opening hours table -->
@@ -361,30 +372,30 @@
             </table>
         </div>
     </div>
-     <!-- Footer -->
-     <footer class="container-fluid footer">
+    <!-- Footer -->
+    <footer class="container-fluid footer">
         <div class="row text-center">
             <!-- Contact us -->
             <div class="col-12 footer__social social py-4">
                 <!-- phone -->
-                <a href="tel:01268683992" rel="noopener noreferrer" target="_blank"
-                aria-label="call us on 01268 683992" class="p-2">
-                <i class="fa-solid fa-phone"></i>
-                <!-- email -->
-                <a href="mailto:hello@phase2-hair.co.uk" rel="noopener noreferrer" target="_blank"
-                aria-label="contact via email" class="p-2">
-                <i class="fa-solid fa-envelope"></i>
-                </a>
-                <!-- instagram -->
-                <a href="https://www.instagram.com/" rel="noopener noreferrer" target="_blank"
-                    aria-label="Find us on Instagram" class="p-2">
-                    <i class="fa-brands fa-instagram"></i>
-                </a>
-                <!-- Facebook -->
-                <a href="https://www.facebook.com/" rel="noopener noreferrer" target="_blank"
-                    aria-label="Find us on Facebook" class="p-2">
-                    <i class="fa-brands fa-facebook"></i>
-                </a>
+                <a href="tel:01268683992" rel="noopener noreferrer" target="_blank" aria-label="call us on 01268 683992"
+                    class="p-2">
+                    <i class="fa-solid fa-phone"></i>
+                    <!-- email -->
+                    <a href="mailto:hello@phase2-hair.co.uk" rel="noopener noreferrer" target="_blank"
+                        aria-label="contact via email" class="p-2">
+                        <i class="fa-solid fa-envelope"></i>
+                    </a>
+                    <!-- instagram -->
+                    <a href="https://www.instagram.com/" rel="noopener noreferrer" target="_blank"
+                        aria-label="Find us on Instagram" class="p-2">
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
+                    <!-- Facebook -->
+                    <a href="https://www.facebook.com/" rel="noopener noreferrer" target="_blank"
+                        aria-label="Find us on Facebook" class="p-2">
+                        <i class="fa-brands fa-facebook"></i>
+                    </a>
             </div>
             <!-- Address -->
             <div class="col-12 footer__address py-4">
@@ -392,8 +403,8 @@
             </div>
             <!-- Privacy Policy -->
             <div class="col-12 text-center footer__link py-2">
-                <a href="privacy-policy.html" rel="noopener noreferrer" target="_blank"
-                    aria-label="Privacy Policy" class="footer__link"><small>Privacy Policy</small></a>
+                <a href="privacy-policy.html" rel="noopener noreferrer" target="_blank" aria-label="Privacy Policy"
+                    class="footer__link"><small>Privacy Policy</small></a>
             </div>
             <!-- copyright -->
             <div class="col-12 footer__copy footer__link py-2 text-center">
@@ -402,12 +413,13 @@
             <!-- Designer -->
             <div class="col-12 footer__copy footer__link py-2 text-center">
                 <small>Site by: <a href="https://github.com/neringabickmore/" rel="noopener noreferrer" target="_blank"
-                    aria-label="Neringa Bickmore Github Account" class="footer__link">Neringa Bickmore</a></small>
+                        aria-label="Neringa Bickmore Github Account" class="footer__link">Neringa Bickmore</a></small>
             </div>
             <!-- company reg -->
             <div class="col-12 footer__copy footer__link py-2">
-                <p class="text-center small-print">Phase 2.0 Hair Lounge & Barbers is a trading name 
-                    for James Bickmore Salons Ltd  which is a company limited by guarantee with company registration number 14718862</p>
+                <p class="text-center small-print">Phase 2.0 Hair Lounge & Barbers is a trading name
+                    for James Bickmore Salons Ltd which is a company limited by guarantee with company registration
+                    number 14718862</p>
             </div>
         </div>
     </footer>

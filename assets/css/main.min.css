@@ -73,7 +73,9 @@ body {
   font-size: var(--font-large); }
 
 .h2 {
-  font-size: var(--font-medium); }
+  font-size: var(--font-medium);
+  padding-bottom: 3rem;
+  text-align: center; }
 
 .h3 {
   font-size: var(--font-small); }
@@ -104,6 +106,10 @@ body {
   margin: 3px; }
   .btn__border {
     border-color: var(--color-terracotta); }
+
+.btn-terracotta {
+  border-color: var(--color-white);
+  background-color: var(--color-white); }
 
 .btn:link,
 .btn:visited,
