@@ -103,7 +103,8 @@ body {
   border-radius: 0% !important;
   border-width: 2px;
   font-size: var(--font-s);
-  margin: 3px; }
+  margin: 3px;
+  margin: 1rem 0; }
   .btn__border {
     border-color: var(--color-terracotta); }
 
@@ -270,7 +271,7 @@ the user hovers on any place of the button
   border-style: none; }
 
 .day {
-  padding-right: 2rem !important;
+  padding-right: 1rem !important;
   text-align: end; }
 
 .time {
