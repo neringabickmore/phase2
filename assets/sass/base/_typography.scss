@@ -35,6 +35,7 @@ body {
 .h2,
 .h3 {
     text-transform: uppercase;
+    letter-spacing: .2rem;
 }
 
 .h1 {
@@ -50,7 +51,6 @@ body {
 .h3 {
     font-size: var(--font-small);
 }
-
 .h3-slogan {
     color: var(--color-white);
 }
