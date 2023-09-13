@@ -42,90 +42,91 @@
     <!-- Logo container -->
     <header class="container-fluid">
         <div class="row">
-            <!-- navigation -->
-            <div class="col-12 col-navbar">
-                <!-- navbars -->
-                <nav class=" d-block navbar pt-5">
-                    <div class="container-fluid pb-2 pe-5 justify-content-end">
-                        <div class="navbar-toggler" role="button" data-bs-toggle="collapse" data-bs-target="#navigation"
-                            aria-controls="navigation" aria-expanded="false">
-                            <div id="barsContainer">
-                                <div class="bar1"></div>
-                                <div class="bar2"></div>
-                            </div>
-                        </div>
-                    </div>
-                </nav>
-                <!-- menu -->
-                <div class="collapse pb-3" id="navigation">
-                    <ul class="navbar-nav ml-auto align-items-center">
-                        <!-- Welcome -->
-                        <li class="nav-item">
-                            <a class="nav-link-header" href="index.html">
-                                Welcome
-                            </a>
-                        </li>
-                        <!-- Meet the team-->
-                        <li class="nav-item">
-                            <a class="nav-link-header" href="team.html">
-                                Meet the team
-                            </a>
-                        </li>
-                        <!-- Services and pricelist-->
-                        <li class="nav-item">
-                            <a class="nav-link-header" href="services.html">
-                                Services and pricelist
-                            </a>
-                        </li>
-                        <!-- Book an appointment-->
-                        <li class="nav-item">
-                            <a class="nav-link-header" href="">
-                                Book an appointment
-                            </a>
-                        </li>
-                        <!--  contact us -->
-                        <li class="nav-item">
-                            <a class="nav-link-header" href="index.html#findus">
-                                 contact us
-                            </a>
-                        </li>
-                        <!-- Opening Hours-->
-                        <li class="nav-item">
-                            <a class="nav-link-header" href="index.html#openinghours">
-                                Opening Hours
-                            </a>
-                        </li>
-                        <!-- Salon Policies-->
-                        <li class="nav-item">
-                            <a class="nav-link-header" href="services.html#policies">
-                                Salon Policies
-                            </a>
-                        </li>
-                        <!-- Work with us -->
-                        <li class="nav-item">
-                            <a class="nav-link-header" href="careers.html">
-                                Work with us
-                            </a>
-                        </li>
-                    </ul>
+            <!-- navbar -->
+            <nav class="col-12 navbar pt-sm-5 pt-3 px-sm-5 px-3 d-flex">
+                <!-- social icons -->
+                <div class="d-flex justify-content-center social social-white">
+                    <a href="https://www.instagram.com/" rel="noopener noreferrer" target="_blank" aria-label="Find us on Instagram"
+                        title="instagram" class="p-3">
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
+                    <a href="https://www.facebook.com/" rel="noopener noreferrer" target="_blank" aria-label="Find us on Facebook"
+                        title="facebook" class="p-3">
+                        <i class="fa-brands fa-facebook"></i>
+                    </a>
                 </div>
-            </div>
-            <!-- social icons -->
-            <div class=" col-12 d-flex justify-content-center social social-white pt-2">
-                <a href="https://www.instagram.com/" rel="noopener noreferrer" target="_blank"
-                    aria-label="Find us on Instagram" title="instagram" class="p-3">
-                    <i class="fa-brands fa-instagram"></i>
-                </a>
-                <a href="https://www.facebook.com/" rel="noopener noreferrer" target="_blank"
-                    aria-label="Find us on Facebook" class="p-3">
-                    <i class="fa-brands fa-facebook"></i>
-                </a>
+                <!-- nav bars -->
+                <div class="ms-auto navbar-toggler align-self-center collapsed" role="button" data-bs-toggle="collapse"
+                    data-bs-target="#navigation" aria-controls="navigation" aria-expanded="false" title="site navigation menu">
+                    <div id="barsContainer">
+                        <div class="bar1"></div>
+                        <div class="bar2"></div>
+                    </div>
+                </div>
+            </nav>
+            <!--nav  menu -->
+            <div class="collapse pb-3" id="navigation">
+                <ul class="navbar-nav ml-auto align-items-center">
+                    <!-- Welcome -->
+                    <li class="nav-item">
+                        <a class="nav-link-header" href="index.html">
+                            Welcome
+                        </a>
+                    </li>
+                    <!-- Meet the team-->
+                    <li class="nav-item">
+                        <a class="nav-link-header" href="team.html">
+                            Meet the team
+                        </a>
+                    </li>
+                    <!-- Services and pricelist-->
+                    <li class="nav-item">
+                        <a class="nav-link-header" href="services.html">
+                            Services and pricelist
+                        </a>
+                    </li>
+                    <!-- Book an appointment-->
+                    <li class="nav-item">
+                        <a class="nav-link-header" href="">
+                            Book an appointment
+                        </a>
+                    </li>
+                    <!--  contact us -->
+                    <li class="nav-item">
+                        <a class="nav-link-header" href="index.html#findus">
+                            contact us
+                        </a>
+                    </li>
+                    <!-- Opening Hours-->
+                    <li class="nav-item">
+                        <a class="nav-link-header" href="index.html#openinghours">
+                            Opening Hours
+                        </a>
+                    </li>
+                    <!-- Salon Policies-->
+                    <li class="nav-item">
+                        <a class="nav-link-header" href="services.html#policies">
+                            Salon Policies
+                        </a>
+                    </li>
+                    <!-- Work with us -->
+                    <li class="nav-item">
+                        <a class="nav-link-header" href="careers.html">
+                            Work with us
+                        </a>
+                    </li>
+                </ul>
             </div>
             <!-- Logo -->
             <div class="col-12 text-center pt-0">
                 <a href="index.html" id="logo">
                     <img src="assets/images/Phase2.0-logo-narrow.png" id="logo__img" alt="logo">
                 </a>
+            </div>
+            <!-- Slogan container -->
+            <div class="col-12 d-none d-sm-block text-center pb-5">
+                <h3 class="h3 h3-slogan">elevate your look with effortlessly beautiful hair
+                </h3>
             </div>
         </div>
     </header>
@@ -146,6 +147,7 @@
             </div>
         </div>
     </div>
+    <!-- Main content -->
     <main>
         <div class="container">
             <div class="row mt-5">
