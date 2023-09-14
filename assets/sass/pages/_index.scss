@@ -1,0 +1,24 @@
+#findus,
+#ourservices {
+    background-color: var(--color-terracotta);
+    color: var(--color-white);
+}
+
+#findus {
+    padding: 5rem 0;
+}
+
+#ourservices,
+#welcomeintro,
+#whoweare {
+    padding: 5rem 10rem;
+}
+
+@media (max-width: 768px) {
+
+    #ourservices,
+    #welcomeintro,
+    #whoweare {
+        padding: 3rem;
+    }
+}

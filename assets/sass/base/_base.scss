@@ -1,0 +1,51 @@
+// COLORS VARIABLES
+:root {
+    --color-white: #fefefe;
+    --color-terracotta: #b55d41;
+    --color-green: #2b361a; 
+}
+
+// Basic site styling
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+html {
+    font-size: 62.5%;
+    box-sizing: border-box;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+
+body {
+    color: var(--color-green);
+    background-color: var(--color-white);
+    min-height: 100vh;
+    overflow-x: hidden;
+}
+.container {
+    padding: 0 3rem;
+}
+// Ensure paragraphs fill the column form end to end
+p {
+    text-align: justify;
+}
+
+/* Loader... */
+.loader-overlay-wrapper {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 99999999;
+    background-color: var(--color-green);
+}

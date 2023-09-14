@@ -1,0 +1,35 @@
+.social a i {
+    width: 32px;
+    height: 32px;
+    padding: 11.5px 7.5px;
+    font-size: 1.7rem;
+    border-radius: 50%;
+    line-height: 10px;
+}
+
+.social a i {
+    color: var(--color-white);
+    background-color: var(--color-terracotta);
+}
+.social-white a i {
+    color: var(--color-terracotta)!important;
+    background-color: var(--color-white)!important;
+}
+.social-white a:hover>i {
+    color: var(--color-white)!important;
+}
+
+.social a:hover>i {
+    background-color: var(--color-green)!important;
+    transition: .5s;
+    -webkit-transition: .5s;
+    -moz-transition: .5s;
+    -ms-transition: .5s;
+    -o-transition: .5s;
+}
+
+//  required to get rid of blue default color
+.social a {
+    text-decoration: none;
+
+}

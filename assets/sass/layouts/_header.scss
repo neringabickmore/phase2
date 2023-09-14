@@ -1,0 +1,37 @@
+header {
+    background-color: var(--color-terracotta);
+}
+
+#logo {
+
+    &__img {
+        width: auto;
+        height: 250px;
+        -o-object-fit: cover;
+        object-fit: cover;
+    }
+}
+@media (max-width: 500px) {
+    #logo__img {
+        height: 200px;
+    }
+}
+
+
+@media (min-width: 755px) {
+    #logo__img {
+        height: 425px;
+    }
+}
+
+@media (min-width: 1200px) {
+    #logo__img {
+        height: 300px;
+    }
+}
+
+@media (min-width: 1400px) {
+    #logo__img {
+        height: 425px;
+    }
+}

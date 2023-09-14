@@ -1,0 +1,86 @@
+.btn {
+    border-radius: 0%!important;
+    border-width: 2px;
+    font-size: var(--font-s);
+    margin: 3px;
+    &__border {
+        border-color: var(--color-terracotta);
+    }
+    margin: 1rem 0;
+}
+
+.btn-terracotta {
+    border-color: var(--color-white);
+    background-color: var(--color-white);
+}
+
+.btn:link, 
+.btn:visited, 
+.btn:active,
+.btn span {
+    text-decoration: none;
+    color: var(--color-terracotta);
+}
+
+.btn:hover {
+    color: var(--color-white);
+    background-color: var(--color-terracotta);
+    transform: translateY(3px);
+    transition: .5s;
+    -webkit-transform: translateY(3px);
+    -moz-transform: translateY(3px);
+    -ms-transform: translateY(3px);
+    -o-transform: translateY(3px);
+    -webkit-transition: .5s;
+    -moz-transition: .5s;
+    -ms-transition: .5s;
+    -o-transition: .5s;
+}
+
+/*
+Special selection to ensure span 
+changes colour to white when 
+the user hovers on any place of the button
+*/
+
+.btn:hover > span {
+    color: var(--color-white);
+}
+
+/** Go Up button **/
+
+#goUpBtn {
+    display: none;
+    position: fixed;
+    bottom: 2rem;
+    right: 2rem;
+    z-index: 99;
+    border: 1.75px solid var(--color-terracotta);
+    padding: .5px;
+    outline: none;
+    background-color: var(--color-white);
+    cursor: pointer;
+    border-radius: 50%;
+    vertical-align: middle;
+    width: 32px;
+    height: 32px;
+}
+
+#goUpBtn:hover {
+    background-color: var(--color-terracotta);
+    transition: .5s;
+    -webkit-transition: .5s;
+    -moz-transition: .5s;
+    -ms-transition: .5s;
+    -o-transition: .5s;
+}
+
+#goUpBtn:hover > i {
+    color: var(--color-white);
+}
+
+.fa-angles-up {
+    font-size: 16px;
+    color: var(--color-terracotta);
+}
+

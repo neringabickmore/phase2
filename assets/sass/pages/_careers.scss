@@ -1,0 +1,14 @@
+.careers {
+    &__body {
+        color: var(--color-white)!important;
+    }
+    &__btn {
+        border-color: var(--color-white)!important;
+    }
+    &__btn span {
+        color: var(--color-white)!important;  
+    }
+    &__btn:hover {
+        border-color: var(--color-terracotta)!important;
+    }
+}

@@ -1,0 +1,81 @@
+@font-face {
+    font-family: 'Century Gothic', 'sans-serif';
+    src: url('assets/fonts/CenturyGothic.ttf') format('truetype'),
+        url('assets/fonts/CenturyGothic.eot'),
+        url("assets/fonts/CenturyGothic.otf") format("opentype"),
+        url('assets/fonts/CenturyGothic.woff') format('woff'),
+        url('assets/fonts/CenturyGothic.woff2') format('woff2'),
+        url('assets/fonts/CenturyGothic.svg#CenturyGothic') format('svg');
+}
+// FONTS VARIABLES
+:root {
+    --font-main: 'Century Gothic', Arial, sans-serif;
+    --font-large: 5rem;
+    --font-medium: 3.5rem;
+    --font-small: 2.5rem;
+    --font-xs: 1.4rem;
+    --font-small-print: 1rem;
+    // footer specific font size
+    --font-xxs: 1.2rem;
+    --font-weight-light: 348;
+    --font-weight-medium: 400;
+}
+
+body {
+    font-family: var(--font-main);
+    font-weight: var(--font-weight-medium);
+    font-size: var(--font-xs);
+    font-weight: normal;
+    font-style: normal;
+    font-size: calc(var(--font-xs) + .2vw);
+    line-height: 1.7;
+}
+
+.h1,
+.h2,
+.h3 {
+    text-transform: uppercase;
+    letter-spacing: .2rem;
+}
+
+.h1 {
+    font-size: var(--font-large);
+}
+
+.h2 {
+    font-size: var(--font-medium);
+    padding-bottom: 3rem;
+    text-align: center;
+}
+
+.h3 {
+    font-size: var(--font-small);
+}
+.h3-slogan {
+    color: var(--color-white);
+    font-size: 20px;
+}
+
+.paragraph {
+    font-weight: var(--font-weight-light);
+}
+
+.small-print {
+    font-size: calc(var(--font-small-print) + .2vw);
+}
+
+.url-link-terracotta, 
+.url-link-terracotta:hover{
+    color: var(--color-terracotta);
+}
+.url-link-white, 
+.url-link-white:hover {
+    color: var(--color-white);
+}
+
+.url-link-terracotta:hover,
+.url-link-white:hover {
+    // color: var(--color-terracotta);
+    font-weight: bold;
+    transition: .5s;
+}

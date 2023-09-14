@@ -1,0 +1,437 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="keywords"
+        content="James Bickmore, hairdressing, hair lounge, barbers, session hair, colouring, balayage, ">
+    <meta name="author" content="Neringa Bickmore. neringa.bickmore@gmail.com">
+    <meta name="description" content="Phase 2.0 Hair Lounge & Barbers">
+    <meta name="copyright" content="James Bickmore Salons">
+    <meta name="revised" content="Sunday, 27th August 2023">
+    <meta name="Classification" content="Business">
+    <meta name="language" content="English">
+    <meta name="reply-to" content="hello@phase2-hair.co.uk">
+    <meta name="url" content="www.phase2-hair.co.uk">
+    <meta name="distribution" content="Global">
+    <!-- Apple Meta Tags -->
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta content="yes" name="apple-touch-fullscreen">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="viewport" content="width = 320, initial-scale = 1.0, user-scalable = no">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!-- local CSS file location -->
+    <link rel="stylesheet" href="assets/css/main.min.css">
+    <!--  Font Awesome-->
+    <script src="https://kit.fontawesome.com/3ca4663ed2.js" crossorigin="anonymous"></script>
+    <!-- jQuery adding for event listeners -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <title>Phase 2.0 Hair Lounge and Barbers</title>
+</head>
+
+<body>
+    <!-- Slow loader -->
+    <div class="loader-overlay-wrapper"></div>
+    <!-- go up button -->
+    <button id="goUpBtn" title="Go to top"><i class="fa-solid fa-angles-up p-2"></i></button>
+    <!-- Logo container -->
+    <header class="container-fluid">
+        <div class="row">
+            <!-- navbar -->
+            <nav class="col-12 navbar pt-sm-5 pt-3 px-sm-5 px-3 d-flex">
+                <!-- social icons -->
+                <div class="d-flex justify-content-center social social-white">
+                    <a href="https://www.instagram.com/" rel="noopener noreferrer" target="_blank" aria-label="Find us on Instagram"
+                        title="instagram" class="p-3">
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
+                    <a href="https://www.facebook.com/" rel="noopener noreferrer" target="_blank" aria-label="Find us on Facebook"
+                        title="facebook" class="p-3">
+                        <i class="fa-brands fa-facebook"></i>
+                    </a>
+                </div>
+                <!-- nav bars -->
+                <div class="ms-auto navbar-toggler align-self-center collapsed" role="button" data-bs-toggle="collapse"
+                    data-bs-target="#navigation" aria-controls="navigation" aria-expanded="false" title="site navigation menu">
+                    <div id="barsContainer">
+                        <div class="bar1"></div>
+                        <div class="bar2"></div>
+                    </div>
+                </div>
+            </nav>
+            <!--nav  menu -->
+            <div class="collapse pb-3" id="navigation">
+                <ul class="navbar-nav ml-auto align-items-center">
+                    <!-- Welcome -->
+                    <li class="nav-item">
+                        <a class="nav-link-header" href="index.html">
+                            Welcome
+                        </a>
+                    </li>
+                    <!-- Meet the team-->
+                    <li class="nav-item">
+                        <a class="nav-link-header" href="team.html">
+                            Meet the team
+                        </a>
+                    </li>
+                    <!-- Services and pricelist-->
+                    <li class="nav-item">
+                        <a class="nav-link-header" href="services.html">
+                            Services and pricelist
+                        </a>
+                    </li>
+                    <!-- Book an appointment-->
+                    <li class="nav-item">
+                        <a class="nav-link-header" href="">
+                            Book an appointment
+                        </a>
+                    </li>
+                    <!--  contact us -->
+                    <li class="nav-item">
+                        <a class="nav-link-header" href="index.html#findus">
+                            contact us
+                        </a>
+                    </li>
+                    <!-- Opening Hours-->
+                    <li class="nav-item">
+                        <a class="nav-link-header" href="index.html#openinghours">
+                            Opening Hours
+                        </a>
+                    </li>
+                    <!-- Salon Policies-->
+                    <li class="nav-item">
+                        <a class="nav-link-header" href="services.html#policies">
+                            Salon Policies
+                        </a>
+                    </li>
+                    <!-- Work with us -->
+                    <li class="nav-item">
+                        <a class="nav-link-header" href="careers.html">
+                            Work with us
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <!-- Logo -->
+            <div class="col-12 text-center pt-0">
+                <a href="index.html" id="logo">
+                    <img src="assets/images/Phase2.0-logo-narrow.png" id="logo__img" alt="logo">
+                </a>
+            </div>
+            <!-- Slogan container -->
+            <div class="col-12 d-none d-sm-block text-center pb-5">
+                <h3 class="h3 h3-slogan">elevate your look with effortlessly beautiful hair
+                </h3>
+            </div>
+        </div>
+    </header>
+    <!-- breadcrumb -->
+    <div class="container mt-3 ">
+        <div class="row py-3 align-items-center">
+            <div class="col-12">
+                <nav aria-label="breadcrumb">
+                    <ol class="breadcrumb">
+                        <li class="breadcrumb-item"><a href="team.html"><span>Meet the team</span> </a></li>
+                        <li class="breadcrumb-item" aria-current="page"><a href="team-member-leanna.html">Leanna</a>
+                        </li>
+                        <li class="breadcrumb-item active" aria-current="page">Jodi</li>
+                        <li class="breadcrumb-item" aria-current="page"><a href="team-member-faith.html">Faith</a></li>
+                    </ol>
+                </nav>
+            </div>
+        </div>
+    </div>
+    <!-- Main content -->
+    <main>
+        <div class="container">
+            <div class="row mt-5">
+                <!-- Picture  and title -->
+                <div class="col-12 col-sm-6 text-center team__col">
+                    <!-- display title on mobile -->
+                    <div class="d-sm-none d-block">
+                        <h3 class="h3">Jodi</h3>
+                        <p class="text-center">Senior Stylist</p>
+                    </div>
+                    <img src="assets/images/IMAGE-COMING-SOON....png" class="team__img mt-0 mt-sm-3"
+                        alt="James Bickmore">
+                    <!-- display bio on mobile -->
+                    <div class="d-sm-none d-block">
+                        <h3 class="h3 mt-sm-3">Bio</h3>
+                        <p class="">
+                            My journey into hairdressing commenced in 1999 as an Apprentice at Phase 2.
+                            I pride myself on unwavering commitment to intricate detailing, coupled with a sincere and
+                            patient approach to tending to clients' needs.
+                            Describing my style as a blend of classic and creative elements, I find immense joy in
+                            helping clients discover a unique twist that suits them perfectly.
+                        </p>
+                        <p>
+                            The true satisfaction of my work lies in witnessing clients leave with radiant smiles and a
+                            profound sense of happiness.
+                            From an early age, my fascination with hair was evident.
+                            I would seize any chance to experiment with diverse styles on my mother's hair.
+                            This passion only flourished as I delved into my apprenticeship, where the dynamic and
+                            sociable salon environment fueled my creativity and enthusiasm.
+                        </p>
+                        <p>
+                            When reflecting on my journey, it's not a single highlight that shines brightest; rather,
+                            I'm immensely proud of the loyal clientele that has grown alongside me throughout the years.
+                        </p>
+                    </div>
+                </div>
+                <!-- display title and bio on larger screens -->
+                <div class="col-12 col-sm-6 text-center team__col px-5 mt-sm-5 d-none d-sm-block">
+                    <h2 class="h2">Jodi</h2>
+                    <p class="text-center">Senior Stylist</p>
+                    <p class="">
+                        My journey into hairdressing commenced in 1999 as an Apprentice at Phase 2.
+                        I pride myself on unwavering commitment to intricate detailing, coupled with a sincere and
+                        patient approach to
+                        tending to clients' needs.
+                        Describing my style as a blend of classic and creative elements, I find immense joy in helping
+                        clients discover
+                        a unique twist that suits them perfectly.
+                    </p>
+                    <p>
+                        The true satisfaction of my work lies in witnessing clients leave with radiant smiles and a
+                        profound sense of
+                        happiness.
+                        From an early age, my fascination with hair was evident.
+                        I would seize any chance to experiment with diverse styles on my mother's hair.
+                        This passion only flourished as I delved into my apprenticeship, where the dynamic and sociable
+                        salon
+                        environment fueled my creativity and enthusiasm.
+                    </p>
+                    <p>
+                        When reflecting on my journey, it's not a single highlight that shines brightest; rather, I'm
+                        immensely proud of
+                        the loyal clientele that has grown alongside me throughout the years.
+                    </p>
+                </div>
+            </div>
+            <div class="row justify-content-center py-3">
+                <div class="col-12 text-center team__col px-5 mt-sm-5">
+                    <!-- Individual price list -->
+                    <h3 class="h3 my-5">Pricelist</h3>
+                </div>
+                <div class="col-12 col-sm-6">
+                    <table class="table mb-0 mb-sm-3">
+                        <tbody>
+                            <!-- Cut & Finish Short -->
+                            <tr class="align-middle">
+                                <th class="th text-start" scope="row">Cut & Finish Short</th>
+                                <td class="td text-end">£35</td>
+                            </tr>
+                            <!-- Cut and Finish Long -->
+                            <tr class="align-middle">
+                                <th class="th text-start" scope="row">Cut & Finish Long</th>
+                                <td class="td text-end">£40</td>
+                            </tr>
+                            <!-- Restyle -->
+                            <tr class="align-middle">
+                                <th class="th text-start" scope="row">Restyle</th>
+                                <td class="td text-end">£45</td>
+                            </tr>
+                            <!-- Blowdry short -->
+                            <tr class="align-middle">
+                                <th class="th text-start" scope="row">Blow-dry short</th>
+                                <td class="td text-end">£22</td>
+                            </tr>
+                            <!-- Blowdry Long-->
+                            <tr class="align-middle">
+                                <th class="th text-start" scope="row">Blow-dry Long</th>
+                                <td class="td text-end">£26</td>
+                            </tr>
+                            <!-- Bounch Blowdry -->
+                            <tr class="align-middle">
+                                <th class="th text-start" scope="row">Bouncy Blowdry</th>
+                                <td class="td text-end">£35</td>
+                            </tr>
+                            <!-- Session Hair -->
+                            <tr class="align-middle">
+                                <th class="th text-start" scope="row">Session Hair</th>
+                                <td class="td text-end">from £40</td>
+                            </tr>
+                            <!-- Roots-->
+                            <tr class="align-middle">
+                                <th class="th text-start" scope="row">Root Tint</th>
+                                <td class="td text-end">from £40</td>
+                            </tr>
+                            <!-- Global colour -->
+                            <tr class="align-middle">
+                                <th class="th text-start" scope="row">Full Head Tint</th>
+                                <td class="td text-end">from £52</td>
+                            </tr>
+                            <!-- Gloss -->
+                            <tr class="align-middle">
+                                <th class="th text-start" scope="row">Gloss</th>
+                                <td class="td text-end">from £45</td>
+                            </tr>
+                            <!-- T-section/partial -->
+                            <tr class="align-middle">
+                                <th class="th text-start" scope="row">T-section/Partial</th>
+                                <td class="td text-end">from £43</td>
+                            </tr>
+                            <!-- Half head highlights -->
+                            <tr class="align-middle">
+                                <th class="th text-start" scope="row">Half Head Highlights</th>
+                                <td class="td text-end">from £58</td>
+                            </tr>
+                            <!-- Full head highlights -->
+                            <tr class="align-middle">
+                                <th class="th text-start" scope="row">Full Head Highlights</th>
+                                <td class="td text-end">from £75</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <div class="col-12 col-sm-6">
+                    <table class="table">
+                        <tbody>
+                            <!-- Balayage partial  -->
+                            <tr class="align-middle">
+                                <th class="th text-start" scope="row">Balayage Partial</th>
+                                <td class="td text-end">from £53</td>
+                            </tr>
+                            <!-- Balayage Half head -->
+                            <tr class="align-middle">
+                                <th class="th text-start" scope="row">Balayage Half Head</th>
+                                <td class="td text-end">from £68</td>
+                            </tr>
+                            <!-- Balayage Full head -->
+                            <tr class="align-middle">
+                                <th class="th text-start" scope="row">Balayage Full Head</th>
+                                <td class="td text-end">from £82</td>
+                            </tr>
+                            <!-- Balayage with highlights-->
+                            <tr class="align-middle">
+                                <th class="th text-start" scope="row">Balayage with Highlights</th>
+                                <td class="td text-end">from £92</td>
+                            </tr>
+                            <!-- Tint with Highlights - Partial-->
+                            <tr class="align-middle">
+                                <th class="th text-start" scope="row">Tint with Highlights and/<br>or Balayage - Partial
+                                </th>
+                                <td class="td text-end">from £76</td>
+                            </tr>
+                            <!-- Tint with Highlights - Half Head -->
+                            <tr class="align-middle">
+                                <th class="th text-start" scope="row"> Tint with Highlights and/<br>or Balayage - Half
+                                    Head</th>
+                                <td class="td text-end">from £82</td>
+                            </tr>
+                            <!-- Tint with Highlights - Full Head -->
+                            <tr class="align-middle">
+                                <th class="th text-start" scope="row">Tint with Highlights and/<br>or Balayage - Full
+                                    Head</th>
+                                <td class="td text-end">from £88</td>
+                            </tr>
+                            <!-- Rootmelt & Balayage  -->
+                            <tr class="align-middle">
+                                <th class="th text-start" scope="row">Rootmelt & Balayage</th>
+                                <td class="td text-end">from £99</td>
+                            </tr>
+                            <!-- Scandi Blonde - Roots -->
+                            <tr class="align-middle">
+                                <th class="th text-start" scope="row">Scandi Blonde - Roots</th>
+                                <td class="td text-end">from £60</td>
+                            </tr>
+                            <!-- Scandi Blonde - Global colour-->
+                            <tr class="align-middle">
+                                <th class="th text-start" scope="row">Scandi Blonde - Full Head</th>
+                                <td class="td text-end">from £130</td>
+                            </tr>
+                            <!-- colour Correction -->
+                            <tr class="align-middle">
+                                <th class="th text-start" scope="row">Colour Correction</th>
+                                <td class="td text-end">On Consultation</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+        <!-- call to action container -->
+        <div class="container my-5">
+            <div class="row justify-content-center py-3">
+                <div class="col-12 col-lg-4 col-md-5 text-center text-md-end mb-3">
+                    <!-- call to book btn -->
+                    <a class="btn col-7 col-md-8 btn__border" href="tel:01268683992" rel="noopener noreferrer"
+                        target="_blank" aria-label="call to book appointment"><span>Call to
+                            Book </span></a>
+                </div>
+                <div class="col-12 col-lg-4 col-md-5 text-center text-md-start mb-3">
+                    <!-- go online to book btn -->
+                    <a class="btn col-7 col-md-8 btn__border" href="" rel="noopener noreferrer" target="_blank"
+                        aria-label="book appointment online"><span>Book Online</span></a>
+                </div>
+            </div>
+        </div>
+    </main>
+    <!-- Footer -->
+    <footer class="container-fluid footer">
+        <div class="row text-center">
+            <!-- Contact us -->
+            <div class="col-12 footer__social social py-4">
+                <!-- phone -->
+                <a href="tel:01268683992" rel="noopener noreferrer" target="_blank" aria-label="call us on 01268 683992"
+                    class="p-3">
+                    <i class="fa-solid fa-phone"></i></a>
+                <!-- email -->
+                <a href="mailto:hello@phase2-hair.co.uk" rel="noopener noreferrer" target="_blank"
+                    aria-label="contact via email" class="p-3">
+                    <i class="fa-solid fa-envelope"></i>
+                </a>
+                <!-- instagram -->
+                <a href="https://www.instagram.com/" rel="noopener noreferrer" target="_blank"
+                    aria-label="Find us on Instagram" class="p-3">
+                    <i class="fa-brands fa-instagram"></i>
+                </a>
+                <!-- Facebook -->
+                <a href="https://www.facebook.com/" rel="noopener noreferrer" target="_blank"
+                    aria-label="Find us on Facebook" class="p-3">
+                    <i class="fa-brands fa-facebook"></i>
+                </a>
+            </div>
+            <!-- Address -->
+            <div class="col-12 footer__address py-4">
+                19 & 21 High Street<br>Canvey Island<br>SS8 7RB
+            </div>
+            <!-- Policies and Terms -->
+            <div class="col-12 text-center footer__link py-2">
+                <!-- Privacy Policy -->
+                <a href="privacy-policy.html" rel="noopener noreferrer" target="_blank" aria-label="Privacy Policy"
+                    class="footer__link"><small>Privacy Policy</small></a> |
+                <!-- Website Terms and Conditions -->
+                <a href="website-terms&conditions.html" rel="noopener noreferrer" target="_blank"
+                    aria-label="Website Terms & Conditions" class="footer__link"><small>Terms & Conditions</small></a>
+            </div>
+            <!-- copyright -->
+            <div class="col-12 footer__copy py-2 text-center">
+                <small>Copyright &copy; 2023 | Phase 2.0 | All rights reserved</small>
+            </div>
+            <!-- Designer -->
+            <div class="col-12 footer__copy footer__link py-2 text-center">
+                <small>Site by: <a href="https://github.com/neringabickmore/" rel="noopener noreferrer" target="_blank"
+                        aria-label="Neringa Bickmore Github Account" class="footer__link">Neringa Bickmore</a></small>
+            </div>
+            <!-- company reg -->
+            <div class="col-12 footer__copy py-2">
+                <p class="text-center small-print">Phase 2.0 Hair Lounge & Barbers is a trading name
+                    for James Bickmore Salons Ltd which is a company limited by guarantee with company registration
+                    number 14718862</p>
+            </div>
+        </div>
+    </footer>
+    <!-- Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>

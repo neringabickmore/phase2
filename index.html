@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="keywords"
+        content="James Bickmore, hairdressing, hair lounge, barbers, session hair, colouring, balayage, ">
+    <meta name="author" content="Neringa Bickmore. neringa.bickmore@gmail.com">
+    <meta name="description" content="Phase 2.0 Hair Lounge & Barbers">
+    <meta name="copyright" content="James Bickmore Salons">
+    <meta name="revised" content="Sunday, 27th Auguts 2023">
+    <meta name="Classification" content="Business">
+    <meta name="language" content="English">
+    <meta name="reply-to" content="hello@phase2-hair.co.uk">
+    <meta name="url" content="www.phase2-hair.co.uk">
+    <meta name="distribution" content="Global">
+    <!-- Apple Meta Tags -->
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta content="yes" name="apple-touch-fullscreen">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="viewport" content="width = 320, initial-scale = 1.0, user-scalable = no">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!-- local CSS file location -->
+    <link rel="stylesheet" href="assets/css/main.min.css">
+    <!--  Font Awesome-->
+    <script src="https://kit.fontawesome.com/3ca4663ed2.js" crossorigin="anonymous"></script>
+    <!-- jQuery adding for event listeners -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <title>Phase 2.0 Hair Lounge and Barbers</title>
+</head>
+
+<body>
+    <!-- Slow loader -->
+    <div class="loader-overlay-wrapper"></div>
+    <!-- go up button -->
+    <button id="goUpBtn" title="Go to top"><i class="fa-solid fa-angles-up p-2"></i></button>
+    <!-- Logo container -->
+    <header class="container-fluid">
+        <div class="row">
+            <!-- navbar -->
+            <nav class="col-12 navbar pt-sm-5 pt-3 px-sm-5 px-3 d-flex">
+                <!-- social icons -->
+                <div class="d-flex justify-content-center social social-white">
+                    <a href="https://www.instagram.com/" rel="noopener noreferrer" target="_blank"
+                        aria-label="Find us on Instagram" title="instagram" class="p-3">
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
+                    <a href="https://www.facebook.com/" rel="noopener noreferrer" target="_blank"
+                        aria-label="Find us on Facebook" title="facebook" class="p-3">
+                        <i class="fa-brands fa-facebook"></i>
+                    </a>
+                </div>
+                <!-- nav bars -->
+                <div class="ms-auto navbar-toggler align-self-center collapsed" role="button" data-bs-toggle="collapse"
+                    data-bs-target="#navigation" aria-controls="navigation" aria-expanded="false"
+                    title="site navigation menu">
+                    <div id="barsContainer">
+                        <div class="bar1"></div>
+                        <div class="bar2"></div>
+                    </div>
+                </div>
+            </nav>
+            <!--nav  menu -->
+            <div class="collapse pb-3" id="navigation">
+                <ul class="navbar-nav ml-auto align-items-center">
+                    <!-- Welcome -->
+                    <li class="nav-item">
+                        <a class="nav-link-header" href="index.html">
+                            Welcome
+                        </a>
+                    </li>
+                    <!-- Meet the team-->
+                    <li class="nav-item">
+                        <a class="nav-link-header" href="team.html">
+                            Meet the team
+                        </a>
+                    </li>
+                    <!-- Services and pricelist-->
+                    <li class="nav-item">
+                        <a class="nav-link-header" href="services.html">
+                            Services and pricelist
+                        </a>
+                    </li>
+                    <!-- Book an appointment-->
+                    <li class="nav-item">
+                        <a class="nav-link-header" href="">
+                            Book an appointment
+                        </a>
+                    </li>
+                    <!--  contact us -->
+                    <li class="nav-item">
+                        <a class="nav-link-header" href="index.html#findus">
+                            contact us
+                        </a>
+                    </li>
+                    <!-- Opening Hours-->
+                    <li class="nav-item">
+                        <a class="nav-link-header" href="index.html#openinghours">
+                            Opening Hours
+                        </a>
+                    </li>
+                    <!-- Salon Policies-->
+                    <li class="nav-item">
+                        <a class="nav-link-header" href="services.html#policies">
+                            Salon Policies
+                        </a>
+                    </li>
+                    <!-- Work with us -->
+                    <li class="nav-item">
+                        <a class="nav-link-header" href="careers.html">
+                            Work with us
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <!-- Logo -->
+            <div class="col-12 text-center pt-0">
+                <a href="index.html" id="logo">
+                    <img src="assets/images/Phase2.0-logo-narrow.png" id="logo__img" alt="logo">
+                </a>
+            </div>
+            <!-- Slogan container -->
+            <div class="col-12 d-none d-sm-block text-center pb-5">
+                <h3 class="h3 h3-slogan">elevate your look with effortlessly beautiful hair
+                </h3>
+            </div>
+        </div>
+    </header>
+    <!-- Main content -->
+    <main>
+        <!-- Welcome Intro -->
+        <div class="container-fluid mt-5" id="welcomeintro">
+            <div class="row justify-content-center py-3 px-2">
+                <div class="col-12 col-sm-6 pt-4 px-4 text-center">
+                    <!-- header displayed on mobile -->
+                    <h2 class="h2 d-block d-sm-none">Welcome</h2>
+                    <img class="index__img pb-3"
+                        src="https://res.cloudinary.com/hwbrfij25/image/upload/v1/media/may_zx3ajb"
+                        alt="long wavy hair image ">
+                </div>
+                <!-- text on all devices and header on larger screens -->
+                <div class="col-12 col-sm-6 pt-4 px-4 d-flex flex-column">
+                    <h2 class="h2 d-none d-sm-block">Welcome</h2>
+                    <p class="mt-auto">
+                        Welcome to Phase2 Hair Lounge & Barbers, where your unique hair needs are our top priority.
+                        Our dedicated team of stylists provides personalized attention to turn your desires
+                        into stunning hair creations.
+                    </p>
+                    <p>
+                        Precision is our mantra, with every cut, color stroke,
+                        and styling touch executed with meticulous care.
+                        Thank you for choosing us as your go-to hair destination for a transformative, stylish journey.
+                    </p>
+                    <!-- Call to action buttons -->
+                    <div class="col-12 text-center pt-5 mt-auto">
+                        <!-- Call to book -->
+                        <a class="btn col-sm-5 col-8 btn__border" href="tel:01268683992" rel="noopener"
+                            aria-label="call us on 01268 683992">
+                            <span>Call to Book </span></a>
+                        <!-- Book online -->
+                        <a class="btn col-sm-5 col-8 btn__border" href="" rel="noopener noreferrer" target="_blank"
+                            aria-label="book appointment online"><span>Book Online</span></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Our services section -->
+        <div class="container-fluid mt-5" id="ourservices">
+            <div class="row justify-content-center py-3 px-2">
+                <!-- image and header displayed on mobile -->
+                <div class="col-12 pt-4 text-center d-sm-none d-block">
+                    <h2 class="h2">Our services</h2>
+                    <img class="index__img pb-3"
+                        src="https://res.cloudinary.com/hwbrfij25/image/upload/v1/media/garage-brief_3_c3fz3e"
+                        alt="long red-head hair image">
+                </div>
+                <!-- text on all devices and header on larger screens -->
+                <div class="col-12 col-sm-6 pt-4 px-4 d-flex flex-column">
+                    <h2 class="h2 d-sm-block d-none">Our services</h2>
+                    <div class="mt-auto">
+                        <p>
+                            Our skilled team excels in various services, including balayage, creative color,
+                            highlights, and custom cuts.
+                        </p>
+                        <p>
+                            We kickstart with a detailed consultation to grasp
+                            your preferences and needs, ensuring a tailored experience for bobs, crops, long hair,
+                            or curls.
+                        </p>
+                        <p>
+                            Your trust means the world to us as we embark on a journey
+                            of collaborative creativity, rejuvenation, and exceptional guest-focused care.
+                        </p>
+                    </div>
+                    <!-- Services & pricelist button -->
+                    <div class="col-12 text-center pt-5 mt-auto">
+                        <a class="btn btn-terracotta col-sm-5 col-8 btn__border" href="services.html"
+                            aria-label="services and pricelist"><span>Services and Pricelist</span></a>
+                    </div>
+                </div>
+                <!-- image displayed on larger screens -->
+                <div class="col-6 p-4 d-sm-block d-none text-center">
+                    <img class="index__img"
+                        src="https://res.cloudinary.com/hwbrfij25/image/upload/v1/media/garage-brief_3_c3fz3e"
+                        alt="long red-head hair image">
+                </div>
+            </div>
+        </div>
+        <!-- Who we are section -->
+        <div class="container-fluid mt-5" id="whoweare">
+            <div class="row justify-content-center py-3 px-2">
+                <div class="col-12 col-sm-6 pt-4 px-4 text-center">
+                    <!-- header displayed on mobile -->
+                    <h2 class="h2 d-block d-sm-none">Who we are</h2>
+                    <img class="index__img pb-3"
+                        src="https://res.cloudinary.com/hwbrfij25/image/upload/v1/media/gulia_1_koptyg"
+                        alt=" hair in a bun image">
+                </div>
+                <!-- text on all devices and header on larger screens -->
+                <div class="col-12 col-sm-6 pt-4 px-4 d-flex flex-column">
+                    <h2 class="h2 d-none d-sm-block">Who we are</h2>
+                    <div class="mt-auto">
+                        <p>
+                            Our commitment extends beyond your hair to the planet as we strive to become a sustainable
+                            salon,
+                            taking gradual steps towards a greener future.
+                        </p>
+                        <p>
+                            Education is key for our team, ensuring continuous growth and staying updated on the latest
+                            trends
+                            and techniques. Beyond a haircut, we offer a complete relaxation experience
+                            tailored to soothe and rejuvenate.
+                        </p>
+                        <p>
+                            Join us on this exciting journey of conscious choices, growth, and relaxation.
+                        </p>
+                    </div>
+                    <!-- meet the team button -->
+                    <div class="col-12 text-center pt-5 mt-auto">
+                        <a class="btn col-sm-5 col-8 text-center btn__border" href="team.html"
+                            aria-label="meet the team"><span>Meet the
+                                Team</span></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--  contact us section -->
+        <div class="container-fluid mt-5" id="findus">
+            <div class="row py-3 justify-content-center">
+                <div class="col-12">
+                    <h2 class="h2">Contact us</h2>
+                </div>
+                <div class="col-12 text-center">
+                    <!-- email -->
+                    <p class="text-center"><a href="mailto:hello@phase2-hair.co.uk" rel="noopener noreferrer"
+                            target="_blank" aria-label="contact via email"
+                            class="url-link-white"><span>hello@phase2-hair.co.uk</span></a></p>
+                    <!-- phone number -->
+                    <p class="text-center" title="call us on 01268 683992"><a href="tel:01268683992" rel="noopener"
+                            aria-label="call us on 01268 683992" class="url-link-white">
+                            <span>01268 683992</span></a></p>
+                </div>
+                <!-- Address and call to action -->
+                <div class="col-12 pt-3 text-center">
+                    <p class="text-center">19 & 21 High Street</p>
+                    <p class="text-center">Canvey Island</p>
+                    <p class="text-center">SS8 7RB</p>
+                    <!-- Call to action buttons -->
+                    <div class="row justify-content-center">
+                        <div class="col-12 col-sm-6 pt-5">
+                            <!-- Call to book -->
+                            <a class="btn btn-terracotta col-sm-4 col-8 btn__border" href="tel:01268683992"
+                                rel="noopener" aria-label="call us on 01268 683992">
+                                <span>Call to Book </span></a>
+                            <!-- Book online -->
+                            <a class="btn btn-terracotta col-sm-4 col-8 btn__border" href="" rel="noopener noreferrer"
+                                target="_blank" aria-label="book appointment online"><span>Book Online</span></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Opening hours -->
+        <div class="container my-5" id="openinghours">
+            <div class="row py-3">
+                <div class="col-12">
+                    <h2 class="h2 pb-0">Opening Hours</h2>
+                </div>
+            </div>
+            <!-- Opening hours table -->
+            <div class="row py-3">
+                <table class="table table-btn__borderless">
+                    <tbody class="text-center">
+                        <tr>
+                            <td class="day">Monday</td>
+                            <td class="time">9:00 - 17:30</td>
+                        </tr>
+                        <tr>
+                            <td class="day">Tuesday</td>
+                            <td class="time">9:00 - 17:30</td>
+                        </tr>
+                        <tr>
+                            <td class="day">Wednesday</td>
+                            <td class="time">9:00 - 17:30</td>
+                        </tr>
+                        <tr>
+                            <td class="day">Thursday</td>
+                            <td class="time">9:00 - 17:30</td>
+                        </tr>
+                        <tr>
+                            <td class="day">Friday</td>
+                            <td class="time">9:00 - 19:00</td>
+                        </tr>
+                        <tr>
+                            <td class="day">Saturday</td>
+                            <td class="time">8:30 - 17:00</td>
+                        </tr>
+                        <tr>
+                            <td class="day">Sunday</td>
+                            <td class="time">Closed</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </main>
+    <!-- Footer -->
+    <footer class="container-fluid footer">
+        <div class="row text-center">
+            <!-- Contact us -->
+            <div class="col-12 footer__social social py-4">
+                <!-- phone -->
+                <a href="tel:01268683992" rel="noopener noreferrer" target="_blank" aria-label="call us on 01268 683992"
+                    class="p-3">
+                    <i class="fa-solid fa-phone"></i></a>
+                <!-- email -->
+                <a href="mailto:hello@phase2-hair.co.uk" rel="noopener noreferrer" target="_blank"
+                    aria-label="contact via email" class="p-3">
+                    <i class="fa-solid fa-envelope"></i>
+                </a>
+                <!-- instagram -->
+                <a href="https://www.instagram.com/" rel="noopener noreferrer" target="_blank"
+                    aria-label="Find us on Instagram" class="p-3">
+                    <i class="fa-brands fa-instagram"></i>
+                </a>
+                <!-- Facebook -->
+                <a href="https://www.facebook.com/" rel="noopener noreferrer" target="_blank"
+                    aria-label="Find us on Facebook" class="p-3">
+                    <i class="fa-brands fa-facebook"></i>
+                </a>
+            </div>
+            <!-- Address -->
+            <div class="col-12 footer__address py-4">
+                19 & 21 High Street<br>Canvey Island<br>SS8 7RB
+            </div>
+            <!-- Policies and Terms -->
+            <div class="col-12 text-center footer__link py-2">
+                <!-- Privacy Policy -->
+                <a href="privacy-policy.html" rel="noopener noreferrer" target="_blank" aria-label="Privacy Policy"
+                    class="footer__link"><small>Privacy Policy</small></a> |
+                <!-- Website Terms and Conditions -->
+                <a href="website-terms&conditions.html" rel="noopener noreferrer" target="_blank"
+                    aria-label="Website Terms & Conditions" class="footer__link"><small>Terms & Conditions</small></a>
+            </div>
+            <!-- copyright -->
+            <div class="col-12 footer__copy py-2 text-center">
+                <small>Copyright &copy; 2023 | Phase 2.0 | All rights reserved</small>
+            </div>
+            <!-- Designer -->
+            <div class="col-12 footer__copy footer__link py-2 text-center">
+                <small>Site by: <a href="https://github.com/neringabickmore/" rel="noopener noreferrer" target="_blank"
+                        aria-label="Neringa Bickmore Github Account" class="footer__link">Neringa Bickmore</a></small>
+            </div>
+            <!-- company reg -->
+            <div class="col-12 footer__copy py-2">
+                <p class="text-center small-print">Phase 2.0 Hair Lounge & Barbers is a trading name
+                    for James Bickmore Salons Ltd which is a company limited by guarantee with company registration
+                    number 14718862</p>
+            </div>
+        </div>
+    </footer>
+    <!-- Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
