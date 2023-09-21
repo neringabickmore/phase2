@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="keywords"
+        content="James Bickmore, hairdressing, hair lounge, barbers, session hair, colouring, balayage, ">
+    <meta name="author" content="Neringa Bickmore. neringa.bickmore@gmail.com">
+    <meta name="description" content="Phase 2.0 Hair Lounge & Barbers">
+    <meta name="copyright" content="James Bickmore Salons">
+    <meta name="revised" content="Sunday, 27th Auguts 2023">
+    <meta name="Classification" content="Business">
+    <meta name="language" content="English">
+    <meta name="reply-to" content="hello@phase2-hair.co.uk">
+    <meta name="url" content="www.phase2-hair.co.uk">
+    <meta name="distribution" content="Global">
+    <!-- Apple Meta Tags -->
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta content="yes" name="apple-touch-fullscreen">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="viewport" content="width = 320, initial-scale = 1.0, user-scalable = no">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!-- local CSS file location -->
+    <link rel="stylesheet" href="assets/css/main.min.css">
+    <!--  Font Awesome-->
+    <script src="https://kit.fontawesome.com/3ca4663ed2.js" crossorigin="anonymous"></script>
+    <!-- jQuery adding for event listeners -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <!-- Favicons -->
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/images/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/images/favicon-16x16.png">
+    <link rel="manifest" href="assets/images/site.webmanifest">
+    <title>Phase 2.0 Hair Lounge and Barbers</title>
+</head>
+
+<body>
+    <!-- Slow loader -->
+    <div class="loader-overlay-wrapper"></div>
+    <!-- go up button -->
+    <button id="goUpBtn" title="Go to top"><i class="fa-solid fa-angles-up p-2"></i></button>
+    <!-- Logo container -->
+    <header class="container-fluid" id="barbers-header">
+        <div class="row">
+            <!-- navbar -->
+            <nav class="col-12 navbar pt-sm-5 pt-3 px-sm-5 px-3 d-flex">
+                <!-- social icons -->
+                <div class="d-flex justify-content-center social footer__social">
+                    <a href="https://www.instagram.com/phase2barbers/?hl=en" rel="noopener noreferrer" target="_blank" aria-label="Find us on Instagram"
+                        title="barber shop instagram" class="p-3">
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
+                    <a href="https://m.facebook.com/p/Phase-2-Men-100063702991820/" rel="noopener noreferrer" target="_blank" aria-label="Find us on Facebook"
+                        title="barbershop facebook" class="p-3">
+                        <i class="fa-brands fa-facebook"></i>
+                    </a>
+                </div>
+                <!-- nav bars -->
+                <div class="ms-auto navbar-toggler align-self-center collapsed" role="button" data-bs-toggle="collapse"
+                    data-bs-target="#navigation" aria-controls="navigation" aria-expanded="false" title="site navigation menu">
+                    <div id="barsContainer">
+                        <div class="bar1"></div>
+                        <div class="bar2"></div>
+                    </div>
+                </div>
+            </nav>
+            <!--nav  menu -->
+            <div class="collapse pb-3 barbers-navigation" id="navigation">
+                <ul class="navbar-nav barbers-navbar-nav ml-auto align-items-center">
+                    <!-- Welcome -->
+                    <li class="nav-item">
+                        <a class="nav-link-header" href="index.html">
+                            Welcome
+                        </a>
+                    </li>
+                    <!-- Meet the team-->
+                    <li class="nav-item">
+                        <a class="nav-link-header" href="team.html">
+                            Meet the team
+                        </a>
+                    </li>
+                    <!-- Services and pricelist-->
+                    <li class="nav-item">
+                        <a class="nav-link-header" href="services.html">
+                            Services and pricelist
+                        </a>
+                    </li>
+                    <!-- Barbers-->
+                    <li class="nav-item">
+                        <a class="nav-link-header" href="barbers.html">
+                            barbers
+                        </a>
+                    </li>
+                    <!-- Book an appointment-->
+                    <li class="nav-item">
+                        <a class="nav-link-header" href="">
+                            Book an appointment
+                        </a>
+                    </li>
+                    <!--  contact us -->
+                    <li class="nav-item">
+                        <a class="nav-link-header" href="index.html#findus">
+                            contact us
+                        </a>
+                    </li>
+                    <!-- Opening Hours-->
+                    <li class="nav-item">
+                        <a class="nav-link-header" href="index.html#openinghours">
+                            Opening Hours
+                        </a>
+                    </li>
+                    <!-- Salon Policies-->
+                    <li class="nav-item">
+                        <a class="nav-link-header" href="services.html#policies">
+                            Salon Policies
+                        </a>
+                    </li>
+                    <!-- Work with us -->
+                    <li class="nav-item">
+                        <a class="nav-link-header" href="careers.html">
+                            Work with us
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <!-- Logo -->
+            <div class="col-12 text-center pt-0">
+                <a href="index.html" id="logo">
+                    <img src="assets/images/Phase-2.0-Logo-Barbers.png" id="logo__img" alt="logo">
+                </a>
+            </div>
+        </div>
+    </header>
+    <!-- Main content -->
+    <main>
+        <!-- Services intro -->
+        <div class="container mt-5">
+            <div class="row py-3 justify-content-center align-items-center">
+                <div class="col-12">
+                    <h2 class="h2">barber services</h2>
+                </div>
+                <div class="align-self-center col-sm-7 col-12 pt-4">
+                    <p>
+                        Our stylists are always on a journey of growth, engaging in ongoing internal and external 
+                        training to further enhance their skills. You can witness the depth of their experience 
+                        and expertise reflected in our pricing structure. Interested in getting to know our stylists better? 
+                        Explore their bios in our <a href="team.html" class="url-link-terracotta"><span>meet the team</span></a> section, where you can delve into their 
+                        backgrounds, services, and pricing details.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <!-- Services pricelist & policies -->
+        <div class="container">
+            <!-- Pricelist -->
+            <div class="row justify-content-center py-3">
+                <!-- Barbers -->
+                <div class="col-12 px-sm-5 my-5">
+                    <div class="row justify-content-center">
+                        <div class="col-12 col-sm-6 pt-4">
+                            <table class="table mb-0 mb-sm-3">
+                                <tbody>
+                                    <!-- Cut & Style -->
+                                    <tr class="align-middle">
+                                        <th class="th" scope="row">Cut & Style</th>
+                                        <td class="td">£17</td>
+                                    </tr>
+                                    <!-- Restyle -->
+                                    <tr class="align-middle">
+                                        <th class="th" scope="row">Restyle</th>
+                                        <td class="td">£23</td>
+                                    </tr>
+                                    <!-- Blended crop -->
+                                    <tr class="align-middle">
+                                        <th class="th" scope="row">Blended Crop (Grade 1- 4)</th>
+                                        <td class="td">£15</td>
+                                    </tr>
+                                    <!-- Crop -->
+                                    <tr class="align-middle">
+                                        <th class="th" scope="row">Crop</th>
+                                        <td class="td">£13</td>
+                                    </tr>
+                                    <!-- Skin Fade -->
+                                    <tr class="align-middle">
+                                        <th class="th" scope="row">Skin Fade (Grade 0)</th>
+                                        <td class="td">£23</td>
+                                    </tr>
+                                    <!-- Under 16s Skin Fade -->
+                                    <tr class="align-middle">
+                                        <th class="th" scope="row">Under 16s Skin Fade</th>
+                                        <td class="td">£17.50</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                        <div class="col-12 col-sm-6 pt-sm-4">
+                            <table class="table">
+                                <tbody>
+                                    <!-- Hot Towel Shave -->
+                                    <tr class="align-middle">
+                                        <th class="th" scope="row">Hot towel shave</th>
+                                        <td class="td">£20</td>
+                                    </tr>
+                                    <!-- Beard/Shape -->
+                                    <tr class="align-middle">
+                                        <th class="th" scope="row">Beard / Shape</th>
+                                        <td class="td">£7.80</td>
+                                    </tr>
+                                    <!-- Highlights perm -->
+                                    <tr class="align-middle">
+                                        <th class="th" scope="row">Highlights Perm</th>
+                                        <td class="td">£33</td>
+                                    </tr>
+                                    <!-- Over 65s -->
+                                    <tr class="align-middle">
+                                        <th class="th" scope="row">Over 65s</th>
+                                        <td class="td">£10.50</td>
+                                    </tr>
+                                    <!-- Under 16s -->
+                                    <tr class="align-middle">
+                                        <th class="th" scope="row">Under 16s</th>
+                                        <td class="td">£12.65</td>
+                                    </tr>
+                                    <!-- Toddlers Trim -->
+                                    <tr class="align-middle">
+                                        <th class="th" scope="row">Toddler's Trim</th>
+                                        <td class="td">£11.55</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Salon policies -->
+            <div class="row justify-content-center align-items-center py-3" id="policies">
+                <div class="col-12">
+                    <h2 class="h2">Salon policies</h2>
+                </div>
+                <div class="align-self-center col-sm-7 col-12 px-3 mb-2">
+                    <p class="text-start">
+                        To ensure your colour lasts, we recommend you to use professional home care products recommended by
+                        your consultant.
+                    </p>
+                    <p class="text-start">
+                        If you are unhappy about the quality of the service you received, please contact us within 7 days
+                        from your appointment and we will arrange for you to come back for further consultation and
+                        correction.
+                    </p>
+                </div>
+                <div class="col-12 px-3 mb-2 justify-content-center align-items-center">
+                    <h3 class="h3">Pricing</h3>
+                    <div class="row justify-content-center">
+                        <div class="col-12 col-sm-6 px-3">
+                            <p class="text-start">
+                                Colour services are very complex, and we are only able to provide a starting price,
+                                displayed above.
+                                Your stylist will advise about the final service price at the consultation stage.
+                            </p>
+                            <p class="text-start">
+                                Once you are fully aware of what’s involved and happy with the quote, only then your stylist
+                                will
+                                proceed with the service.
+                            </p>
+                        </div>
+                        <div class="col-12 col-sm-6 px-3">
+                            <p class="text-start">
+                                Please note, colour prices do not include a blow-dry.
+                                All colour services require either a blow-dry or a cut & finish. Toner is charged in
+                                addition to
+                                your colour service.
+                            </p>
+                            <p class="text-start">All colour services must be followed up with a post-colour blow-dry or a
+                                cut &
+                                finish.</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Consultation -->
+                <div class="col-12 col-sm-6 px-3">
+                    <h3 class="h3">Consultation</h3>
+                    <p class="text-start">If you are new to the salon or would like a change, why not come in for a <b>free
+                            consultation</b> before your appointment?</p>
+                </div>
+                <!-- Patch Test -->
+                <div class="col-12 col-sm-6 px-3">
+                    <h3 class="h3">Patch Test</h3>
+                    <p class="text-start">Your well-being is essential to us and part of that is preventing allergic
+                        reactions from colour.
+                        <b> We, therefore, require </b>new guests as well as the guests who haven’t seen us for six months
+                        to have
+                        <b>a patch test</b> 48hrs before any technical service.
+                    </p>
+                </div>
+                <!-- Cancellation -->
+                <div class="col-12 col-sm-6 px-3">
+                    <h3 class="h3">Cancellation</h3>
+                    <p class="text-start">We understand that sometimes life gets in your way, and you must cancel your
+                        appointment.
+                        We get it. But please give us as much notice as possible.
+                        Cancellations made <b>over 48 hours</b> before an appointment <b>will not incur a charge</b>.
+                        Cancellations made between <b>24-48 hours</b> before the appointment will incur a <b>50% charge.
+                        </b>
+                        Any <b>no show</b>, will incur a <b>100% charge.</b>
+                    </p>
+                </div>
+                <!-- Payment -->
+                <div class="col-12 col-sm-6 px-3">
+                    <h3 class="h3">Payment</h3>
+                    <p class="text-start">We accept cash as well as all major credit & debit cards, including American
+                        Express. </p>
+                </div>
+            </div>
+        </div>
+        <!-- call to action container -->
+        <div class="container mt-5">
+            <div class="row justify-content-center py-3">
+                <!-- Meet the team -->
+                <div class="col-12 col-md-9 text-center mb-3">
+                    <a class="btn  col-7 col-md-8 col-lg-4 btn__border" href="team.html" target="_self"
+                        aria-label="meet the team"><span>Meet the Team</span></a>
+                </div>
+                <!-- call to book btn -->
+                <div class="col-12 col-md-9 text-center mb-3">
+                    <a class="btn  col-7 col-md-8 col-lg-4 btn__border" href="tel:01268683992" rel="noopener noreferrer"
+                        aria-label="call to book appointment: 01268 683992"><span>Call to
+                            Book </span></a>
+                </div>
+                <!-- go online to book btn -->
+                <div class="col-12 col-md-9 text-center mb-3">
+                    <a class="btn  col-7 col-md-8 col-lg-4 btn__border" href="" rel="noopener noreferrer" target="_blank"
+                        aria-label="book appointment online"><span>Book
+                            Online</span></a>
+                </div>
+            </div>
+        </div>
+    </main>
+    <!-- Footer -->
+    <footer class="container-fluid footer">
+        <div class="row text-center">
+            <!-- Contact us -->
+            <div class="col-12 footer__social social py-4">
+                <!-- phone -->
+                <a href="tel:01268683992" rel="noopener noreferrer" target="_blank" aria-label="call us on 01268 683992"
+                    class="p-3">
+                    <i class="fa-solid fa-phone"></i></a>
+                <!-- email -->
+                <a href="mailto:hello@phase2-hair.co.uk" rel="noopener noreferrer" target="_blank"
+                    aria-label="contact via email" class="p-3">
+                    <i class="fa-solid fa-envelope"></i>
+                </a>
+                <!-- instagram -->
+                <a href="https://www.instagram.com/phase2barbers/?hl=en" rel="noopener noreferrer" target="_blank"
+                    aria-label="Find us on Instagram" class="p-3">
+                    <i class="fa-brands fa-instagram"></i>
+                </a>
+                <!-- Facebook -->
+                <a href="https://m.facebook.com/p/Phase-2-Men-100063702991820/" rel="noopener noreferrer" target="_blank"
+                    aria-label="Find us on Facebook" class="p-3">
+                    <i class="fa-brands fa-facebook"></i>
+                </a>
+            </div>
+            <!-- Address -->
+            <div class="col-12 footer__address py-4">
+                19 High Street<br>Canvey Island<br>SS8 7RB
+            </div>
+            <!-- Policies and Terms -->
+            <div class="col-12 text-center footer__link py-2">
+                <!-- Privacy Policy -->
+                <a href="privacy-policy.html" rel="noopener noreferrer" target="_blank" aria-label="Privacy Policy"
+                    class="footer__link"><small>Privacy Policy</small></a> |
+                <!-- Website Terms and Conditions -->
+                <a href="website-terms&conditions.html" rel="noopener noreferrer" target="_blank"
+                    aria-label="Website Terms & Conditions" class="footer__link"><small>Terms & Conditions</small></a>
+            </div>
+            <!-- copyright -->
+            <div class="col-12 footer__copy py-2 text-center">
+                <small>Copyright &copy; 2023 | Phase 2.0 | All rights reserved</small>
+            </div>
+            <!-- Designer -->
+            <div class="col-12 footer__copy footer__link py-2 text-center">
+                <small>Site by: <a href="https://github.com/neringabickmore/" rel="noopener noreferrer" target="_blank"
+                        aria-label="Neringa Bickmore Github Account" class="footer__link">Neringa Bickmore</a></small>
+            </div>
+            <!-- company reg -->
+            <div class="col-12 footer__copy py-2">
+                <p class="text-center small-print">Phase 2.0 Hair Lounge & Barbers is a trading name
+                    for James Bickmore Salons Ltd which is a company limited by guarantee with company registration
+                    number 14718862</p>
+            </div>
+        </div>
+    </footer>
+    <!-- Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
