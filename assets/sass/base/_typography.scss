@@ -10,10 +10,9 @@
 // FONTS VARIABLES
 :root {
     --font-main: 'Century Gothic', Arial, sans-serif;
-    --font-large: 5rem;
-    --font-medium: 3.5rem;
-    --font-small: 2.5rem;
-    --font-xs: 1.4rem;
+    --font-large: 3.5rem;
+    --font-medium: 2.5rem;
+    --font-small: 1.4rem;
     --font-small-print: 1rem;
     // footer specific font size
     --font-xxs: 1.2rem;
@@ -24,10 +23,10 @@
 body {
     font-family: var(--font-main);
     font-weight: var(--font-weight-medium);
-    font-size: var(--font-xs);
+    font-size: var(--font-small);
     font-weight: normal;
     font-style: normal;
-    font-size: calc(var(--font-xs) + .2vw);
+    font-size: calc(var(--font-small) + .2vw);
     line-height: 1.7;
 }
 
@@ -36,6 +35,8 @@ body {
 .h3 {
     text-transform: uppercase;
     letter-spacing: .2rem;
+    padding-bottom: 3rem;
+    text-align: center;
 }
 
 .h1 {
@@ -44,14 +45,12 @@ body {
 
 .h2 {
     font-size: var(--font-medium);
-    padding-bottom: 3rem;
-    text-align: center;
 }
 
 .h3 {
     font-size: var(--font-small);
 }
-.h3-slogan {
+.h3-slogan, .h2-slogan {
     color: var(--color-white);
     font-size: 20px;
 }
