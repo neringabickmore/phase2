@@ -10,7 +10,7 @@
     <meta name="author" content="Neringa Bickmore. neringa.bickmore@gmail.com">
     <meta name="description" content="Phase 2.0 Hair Lounge & Barbers">
     <meta name="copyright" content="James Bickmore Salons">
-    <meta name="revised" content="Sunday, 27th August 2023">
+    <meta name="revised" content="Sunday, 27th Auguts 2023">
     <meta name="Classification" content="Business">
     <meta name="language" content="English">
     <meta name="reply-to" content="hello@phase2-hair.co.uk">
@@ -31,6 +31,13 @@
     <script src="https://kit.fontawesome.com/3ca4663ed2.js" crossorigin="anonymous"></script>
     <!-- jQuery adding for event listeners -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <!-- Favicons -->
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/images/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/images/favicon-16x16.png">
+    <link rel="manifest" href="assets/images/site.webmanifest">
+    <!-- Canonical URL -->
+    <link rel="canonical" href="">
     <title>Phase 2.0 Hair Lounge and Barbers</title>
 </head>
 
@@ -38,7 +45,7 @@
     <!-- Slow loader -->
     <div class="loader-overlay-wrapper"></div>
     <!-- go up button -->
-    <button id="goUpBtn" title="Go to top"><i class="fa-solid fa-angles-up p-2"></i></button>
+    <button id="goUpBtn" title="Go to top" aria-label="go to top"><i class="fa-solid fa-angles-up p-2"></i></button>
     <!-- Logo container -->
     <header class="container-fluid">
         <div class="row">
@@ -46,11 +53,11 @@
             <nav class="col-12 navbar pt-sm-5 pt-3 px-sm-5 px-3 d-flex">
                 <!-- social icons -->
                 <div class="d-flex justify-content-center social social-white">
-                    <a href="https://www.instagram.com/" rel="noopener noreferrer" target="_blank" aria-label="Find us on Instagram"
+                    <a href="https://www.instagram.com/phase2.0hairlounge/" rel="noopener noreferrer" target="_blank" aria-label="Find us on Instagram"
                         title="instagram" class="p-3">
                         <i class="fa-brands fa-instagram"></i>
                     </a>
-                    <a href="https://www.facebook.com/" rel="noopener noreferrer" target="_blank" aria-label="Find us on Facebook"
+                    <a href="https://www.facebook.com/people/Phase-20-Hair-Lounge/100063690153377/" rel="noopener noreferrer" target="_blank" aria-label="Find us on Facebook"
                         title="facebook" class="p-3">
                         <i class="fa-brands fa-facebook"></i>
                     </a>
@@ -85,9 +92,15 @@
                             Services and pricelist
                         </a>
                     </li>
+                    <!-- Barbers-->
+                    <li class="nav-item">
+                        <a class="nav-link-header" href="barbers.html">
+                            barbers
+                        </a>
+                    </li>
                     <!-- Book an appointment-->
                     <li class="nav-item">
-                        <a class="nav-link-header" href="">
+                        <a class="nav-link-header" href="https://s-iq.co/BookingPortal/dist/?salonid=ef1683b6-b001-41cb-ad21-971c2c754945&tab=book" rel="noopener noreferrer" target="_blank">
                             Book an appointment
                         </a>
                     </li>
@@ -119,14 +132,14 @@
             </div>
             <!-- Logo -->
             <div class="col-12 text-center pt-0">
-                <a href="index.html" id="logo">
+                <a href="index.html" id="logo" aria-label="go to welcome page">
                     <img src="assets/images/Phase2.0-logo-narrow.png" id="logo__img" alt="logo">
                 </a>
             </div>
             <!-- Slogan container -->
             <div class="col-12 d-none d-sm-block text-center pb-5">
-                <h3 class="h3 h3-slogan">elevate your look with effortlessly beautiful hair
-                </h3>
+                <h2 class="h2 h2-slogan">elevate your look with effortlessly beautiful hair
+                </h2>
             </div>
         </div>
     </header>
@@ -137,11 +150,11 @@
             <div class="row py-3 careers__text justify-content-center align-items-center">
                 <!-- section title -->
                 <div class="col-12">
-                    <h2 class="h2">Work with us</h2>
+                    <h1 class="h1">Work with us</h1>
                 </div>
                 <!-- main text -->
                 <div class="align-self-center col-sm-6 col-12 p-4">
-                    <p class="px-5 text-center">
+                    <p class="px-5">
                         We are excited to connect with talented individuals who are interested
                         in becoming a part of our team of dedicated stylists and barbers.
                         Our salon prides itself on cultivating a creative and nurturing atmosphere that looks
@@ -156,8 +169,8 @@
                         rel="noopener noreferrer" target="_blank"
                         aria-label="contact via email"><span>hello@phase2-hair.co.uk</span></a>
                 </div>
-                <div class="col-12 pt-2 my-5">
-                    <p class="text-center">Your journey towards becoming a valued member of our team <br>begins
+                <div class="align-self-center col-sm-9 col-12 p-4">
+                    <p class="px-5 text-center">Your journey towards becoming a valued member of our team begins
                         with a simple conversation.
                     </p>
                 </div>
@@ -170,7 +183,7 @@
             <!-- Contact us -->
             <div class="col-12 footer__social social py-4">
                 <!-- phone -->
-                <a href="tel:01268683992" rel="noopener noreferrer" target="_blank" aria-label="call us on 01268 683992"
+                <a href="tel:01268386654" rel="noopener noreferrer" target="_blank" aria-label="call us on 01268386654"
                     class="p-3">
                     <i class="fa-solid fa-phone"></i></a>
                 <!-- email -->
@@ -179,12 +192,12 @@
                     <i class="fa-solid fa-envelope"></i>
                 </a>
                 <!-- instagram -->
-                <a href="https://www.instagram.com/" rel="noopener noreferrer" target="_blank"
+                <a href="https://www.instagram.com/phase2.0hairlounge/" rel="noopener noreferrer" target="_blank"
                     aria-label="Find us on Instagram" class="p-3">
                     <i class="fa-brands fa-instagram"></i>
                 </a>
                 <!-- Facebook -->
-                <a href="https://www.facebook.com/" rel="noopener noreferrer" target="_blank"
+                <a href="https://www.facebook.com/people/Phase-20-Hair-Lounge/100063690153377/" rel="noopener noreferrer" target="_blank"
                     aria-label="Find us on Facebook" class="p-3">
                     <i class="fa-brands fa-facebook"></i>
                 </a>

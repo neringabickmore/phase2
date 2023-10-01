@@ -10,7 +10,7 @@
     <meta name="author" content="Neringa Bickmore. neringa.bickmore@gmail.com">
     <meta name="description" content="Phase 2.0 Hair Lounge & Barbers">
     <meta name="copyright" content="James Bickmore Salons">
-    <meta name="revised" content="Sunday, 27th August 2023">
+    <meta name="revised" content="Sunday, 27th Auguts 2023">
     <meta name="Classification" content="Business">
     <meta name="language" content="English">
     <meta name="reply-to" content="hello@phase2-hair.co.uk">
@@ -31,6 +31,13 @@
     <script src="https://kit.fontawesome.com/3ca4663ed2.js" crossorigin="anonymous"></script>
     <!-- jQuery adding for event listeners -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <!-- Favicons -->
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/images/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/images/favicon-16x16.png">
+    <link rel="manifest" href="assets/images/site.webmanifest">
+    <!-- Canonical URL -->
+    <link rel="canonical" href="">
     <title>Phase 2.0 Hair Lounge and Barbers</title>
 </head>
 
@@ -38,7 +45,7 @@
     <!-- Slow loader -->
     <div class="loader-overlay-wrapper"></div>
     <!-- go up button -->
-    <button id="goUpBtn" title="Go to top"><i class="fa-solid fa-angles-up p-2"></i></button>
+    <button id="goUpBtn" title="Go to top" aria-label="go to top"><i class="fa-solid fa-angles-up p-2"></i></button>
     <!-- Logo container -->
     <header class="container-fluid">
         <div class="row">
@@ -46,11 +53,11 @@
             <nav class="col-12 navbar pt-sm-5 pt-3 px-sm-5 px-3 d-flex">
                 <!-- social icons -->
                 <div class="d-flex justify-content-center social social-white">
-                    <a href="https://www.instagram.com/" rel="noopener noreferrer" target="_blank" aria-label="Find us on Instagram"
+                    <a href="https://www.instagram.com/phase2.0hairlounge/" rel="noopener noreferrer" target="_blank" aria-label="Find us on Instagram"
                         title="instagram" class="p-3">
                         <i class="fa-brands fa-instagram"></i>
                     </a>
-                    <a href="https://www.facebook.com/" rel="noopener noreferrer" target="_blank" aria-label="Find us on Facebook"
+                    <a href="https://www.facebook.com/people/Phase-20-Hair-Lounge/100063690153377/" rel="noopener noreferrer" target="_blank" aria-label="Find us on Facebook"
                         title="facebook" class="p-3">
                         <i class="fa-brands fa-facebook"></i>
                     </a>
@@ -85,9 +92,15 @@
                             Services and pricelist
                         </a>
                     </li>
+                    <!-- Barbers-->
+                    <li class="nav-item">
+                        <a class="nav-link-header" href="barbers.html">
+                            barbers
+                        </a>
+                    </li>
                     <!-- Book an appointment-->
                     <li class="nav-item">
-                        <a class="nav-link-header" href="">
+                        <a class="nav-link-header" href="https://s-iq.co/BookingPortal/dist/?salonid=ef1683b6-b001-41cb-ad21-971c2c754945&tab=book" rel="noopener noreferrer" target="_blank">
                             Book an appointment
                         </a>
                     </li>
@@ -119,14 +132,14 @@
             </div>
             <!-- Logo -->
             <div class="col-12 text-center pt-0">
-                <a href="index.html" id="logo">
+                <a href="index.html" id="logo" aria-label="go to welcome page">
                     <img src="assets/images/Phase2.0-logo-narrow.png" id="logo__img" alt="logo">
                 </a>
             </div>
             <!-- Slogan container -->
             <div class="col-12 d-none d-sm-block text-center pb-5">
-                <h3 class="h3 h3-slogan">elevate your look with effortlessly beautiful hair
-                </h3>
+                <h2 class="h2 h2-slogan">elevate your look with effortlessly beautiful hair
+                </h2>
             </div>
         </div>
     </header>
@@ -136,7 +149,7 @@
         <div class="container mt-5">
             <div class="row py-3 justify-content-center align-items-center">
                 <div class="col-12">
-                    <h2 class="h2">Meet the team</h2>
+                    <h1 class="h1">Meet the team</h1>
                 </div>
                 <div class="align-self-center col-sm-7 col-12 px-3 mb-2">
                     <p>We invite you to connect with our team and get a deeper
@@ -156,97 +169,97 @@
                     <a href="team-member-james.html" class="team__member_link" title="read more about team member">
                         <img src="https://res.cloudinary.com/dktjdf0v1/image/upload/v1692303971/Phase2/2I8A8759_idg8fi.jpg"
                             class="team__img" alt="James Bickmore">
-                        <h3 class="h3">James</h3>
-                        <p class="text-center">Creative Director</p>
+                        <h1 class="h1">James</h1>
+                        <h2 class="h2">Creative Director</h2>
                     </a>
                 </div>
                 <!-- Zoe -->
                 <div class="col-sm-6 col-md-4 col-12 text-center team__col">
                     <a href="team-member-zoe.html" class="team__member_link" title="read more about team member">
                         <img src="assets/images/IMAGE-COMING-SOON....png" class="team__img" alt="...">
-                        <h3 class="h3">Zoe</h3>
-                        <p class="text-center">Senior Stylist</p>
+                        <h1 class="h1">Zoe</h1>
+                        <h2 class="h2">Senior Stylist</h2>
                     </a>
                 </div>
                 <!-- Leanna -->
                 <div class="col-sm-6 col-md-4 col-12 text-center team__col">
                     <a href="team-member-leanna.html" class="team__member_link" title="read more about team member">
                         <img src="assets/images/IMAGE-COMING-SOON....png" class="team__img" alt="...">
-                        <h3 class="h3">Leanna</h3>
-                        <p class="text-center">Senior Stylist</p>
+                        <h1 class="h1">Leanna</h1>
+                        <h2 class="h2">Senior Stylist</h2>
                     </a>
                 </div>
                 <!-- Jodi -->
                 <div class="col-sm-6 col-md-4 col-12 text-center team__col">
                     <a href="team-member-jodi.html" class="team__member_link" title="read more about team member">
                         <img src="assets/images/IMAGE-COMING-SOON....png" class="team__img" alt="...">
-                        <h3 class="h3">Jodi</h3>
-                        <p class="text-center">Senior Stylist</p>
+                        <h1 class="h1">Jodi</h1>
+                        <h2 class="h2">Senior Stylist</h2>
                     </a>
                 </div>
                 <!-- Faith -->
                 <div class="col-sm-6 col-md-4 col-12 text-center team__col">
                     <a href="team-member-faith.html" class="team__member_link" title="read more about team member">
                         <img src="assets/images/IMAGE-COMING-SOON....png" class="team__img" alt="...">
-                        <h3 class="h3">Faith</h3>
-                        <p class="text-center">Barber</p>
+                        <h1 class="h1">Faith</h1>
+                        <h2 class="h2">Barber</h2>
                     </a>
                 </div>
                 <!-- Amber -->
                 <div class="col-sm-6 col-md-4 col-12 text-center team__col">
                     <a href="team-member-amber.html" class="team__member_link" title="read more about team member">
                         <img src="assets/images/IMAGE-COMING-SOON....png" class="team__img" alt="...">
-                        <h3 class="h3">Amber</h3>
-                        <p class="text-center">Stylist</p>
+                        <h1 class="h1">Amber</h1>
+                        <h2 class="h2">Stylist</h2>
                     </a>
                 </div>
                 <!-- Darcy -->
                 <div class="col-sm-6 col-md-4 col-12 text-center team__col">
                     <a href="team-member-darcy.html" class="team__member_link" title="read more about team member">
                         <img src="assets/images/IMAGE-COMING-SOON....png" class="team__img" alt="...">
-                        <h3 class="h3">Darcy</h3>
-                        <p class="text-center">Stylist</p>
+                        <h1 class="h1">Darcy</h1>
+                        <h2 class="h2">Stylist</h2>
                     </a>
                 </div>
                 <!-- Honey -->
                 <div class="col-sm-6 col-md-4 col-12 text-center team__col">
                     <a href="team-member-honey.html" class="team__member_link" title="read more about team member">
                         <img src="assets/images/IMAGE-COMING-SOON....png" class="team__img" alt="...">
-                        <h3 class="h3">Honey</h3>
-                        <p class="text-center">New Talent Stylist | Barber</p>
+                        <h1 class="h1">Honey</h1>
+                        <h2 class="h2">New Talent Stylist | Barber</h2>
                     </a>
                 </div>
                 <!-- Daisy -->
                 <div class="col-sm-6 col-md-4 col-12 text-center team__col">
                     <a href="team-member-daisy.html" class="team__member_link" title="read more about team member">
                         <img src="assets/images/IMAGE-COMING-SOON....png" class="team__img" alt="...">
-                        <h3 class="h3">Daisy</h3>
-                        <p class="text-center">New Talent Stylist</p>
+                        <h1 class="h1">Daisy</h1>
+                        <h2 class="h2">New Talent Stylist</h2>
                     </a>
                 </div>
                 <!-- Caitlyn -->
                 <div class="col-sm-6 col-md-4 col-12 text-center team__col">
                     <a href="team-member-caitlyn.html" class="team__member_link" title="read more about team member">
                         <img src="assets/images/IMAGE-COMING-SOON....png" class="team__img" alt="...">
-                        <h3 class="h3">Caitlyn</h3>
-                        <p class="text-center">Apprentice</p>
+                        <h1 class="h1">Caitlyn</h1>
+                        <h2 class="h2">Apprentice</h2>
                     </a>
                 </div>
                 <!-- Lilly-Mae -->
                 <div class="col-sm-6 col-md-4 col-12 text-center team__col">
                     <a href="team-member-lilly-mae.html" class="team__member_link" title="read more about team member">
                         <img src="assets/images/IMAGE-COMING-SOON....png" class="team__img" alt="...">
-                        <h3 class="h3">Lilly Mae</h3>
-                        <p class="text-center">Apprentice</p>
+                        <h1 class="h1">Lilly Mae</h1>
+                        <h2 class="h2">Apprentice</h2>
                     </a>
                 </div>
                 <!-- Could be you -->
                 <div class="col-sm-6 col-md-4 col-12 text-center team__col">
                     <a href="careers.html" class="team__member_link" title="read more about careers at Phase 2.0">
                         <img src="assets/images/this-could-be-you.png" class="team__img" alt="...">
-                        <h3 class="h3 text-center">Could be you</h3>
-                        <p class="text-center">Get in touch
-                        </p>
+                        <h1 class="h1 text-center">Could be you</h1>
+                        <h2 class="h2">Get in touch
+                        </h2>
                     </a>
                 </div>
             </div>
@@ -258,7 +271,7 @@
             <!-- Contact us -->
             <div class="col-12 footer__social social py-4">
                 <!-- phone -->
-                <a href="tel:01268683992" rel="noopener noreferrer" target="_blank" aria-label="call us on 01268 683992"
+                <a href="tel:01268386654" rel="noopener noreferrer" target="_blank" aria-label="call us on 01268386654"
                     class="p-3">
                     <i class="fa-solid fa-phone"></i></a>
                 <!-- email -->
@@ -267,12 +280,12 @@
                     <i class="fa-solid fa-envelope"></i>
                 </a>
                 <!-- instagram -->
-                <a href="https://www.instagram.com/" rel="noopener noreferrer" target="_blank"
+                <a href="https://www.instagram.com/phase2.0hairlounge/" rel="noopener noreferrer" target="_blank"
                     aria-label="Find us on Instagram" class="p-3">
                     <i class="fa-brands fa-instagram"></i>
                 </a>
                 <!-- Facebook -->
-                <a href="https://www.facebook.com/" rel="noopener noreferrer" target="_blank"
+                <a href="https://www.facebook.com/people/Phase-20-Hair-Lounge/100063690153377/" rel="noopener noreferrer" target="_blank"
                     aria-label="Find us on Facebook" class="p-3">
                     <i class="fa-brands fa-facebook"></i>
                 </a>

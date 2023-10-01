@@ -1,0 +1,13 @@
+#barbers-header {
+    background-color: var(--color-green);
+}
+.barbers-navigation, .barbers-navbar-nav .nav-item .nav-link-header {
+    background-color: var(--color-green)!important;
+}
+.barbers-navbar-nav .nav-item .nav-link-header {
+    border-color: var(--color-green);
+}
+
+.barbers-navbar-nav .nav-item .nav-link-header:hover {
+    border-color: var(--color-white)!important;
+}
