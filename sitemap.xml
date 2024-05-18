@@ -48,17 +48,17 @@
   <priority>0.80</priority>
 </url>
 <url>
+  <loc>https://phase2-hair.co.uk/robots.txt</loc>
+  <lastmod>2024-05-18T20:30:45+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
   <loc>https://phase2-hair.co.uk/team-member-james.html</loc>
   <lastmod>2023-10-01T20:30:45+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://phase2-hair.co.uk/team-member-zoe.html</loc>
-  <lastmod>2023-10-01T20:30:45+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://phase2-hair.co.uk/team-member-leanna.html</loc>
   <lastmod>2023-10-01T20:30:45+00:00</lastmod>
   <priority>0.64</priority>
 </url>
@@ -88,17 +88,7 @@
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://phase2-hair.co.uk/team-member-daisy.html</loc>
-  <lastmod>2023-10-01T20:30:45+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://phase2-hair.co.uk/team-member-caitlyn.html</loc>
-  <lastmod>2023-10-01T20:30:45+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://phase2-hair.co.uk/team-member-lilly-mae.html</loc>
+  <loc>https://phase2-hair.co.uk/team-member-lily-mae.html</loc>
   <lastmod>2023-10-01T20:30:45+00:00</lastmod>
   <priority>0.64</priority>
 </url>
