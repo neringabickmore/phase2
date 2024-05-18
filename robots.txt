@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://phase2-hair.co.uk/sitemap.xml
