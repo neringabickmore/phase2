@@ -56,14 +56,26 @@ window.onload = function() {
         'phone': phone
       })
     })
-    .then(response => response.text())
-    .then(result => {
-      alert(result);  // You can customize the success message here
+    .then(() => {
+      // Show custom notification with user's name
+      var message = document.getElementById("notificationMessage");
+
+      message.textContent = `Thank you, ${name}, for providing the information! Now let's book your appointment to redeem the offer!`;
+      document.getElementById("customNotification").style.display = "block";
+
+      // Close the modal after successful submission
+      // document.getElementById("offerModal").style.display = "none";
+      
     })
     .catch(error => {
       console.error('Error:', error);
     });
   });
+
+  // Handle close button for custom notification
+document.getElementById("closeNotification").onclick = function() {
+  document.getElementById("customNotification").style.display = "none";
+};
 
 
   // Close the modal if the user clicks outside the modal content

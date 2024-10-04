@@ -17,7 +17,7 @@
     <meta content=hello@phase2-hair.co.uk name=reply-to>
     <meta content=www.phase2-hair.co.uk name=url>
     <meta content=Global name=distribution><!-- Apple Meta Tags -->
-    <meta content=yes name=apple-mobile-web-app-capable>
+    <meta name="mobile-web-app-capable" content="yes">
     <meta content=yes name=apple-touch-fullscreen>
     <meta content=black name=apple-mobile-web-app-status-bar-style>
     <meta content="telephone=no" name=format-detection>
@@ -331,7 +331,21 @@
                 </div>
             </div>
           </div>
+        
+        <!-- Notification Modal -->
+        <div class="container">
+            <div class="row">
+                <div class="col-6 text-center alert alert-success" style="display:none;" role="alert" id="customNotification">
+                <p id="notificationMessage"></p>
+                <button id="closeNotification">Close</button>
+                </div>
+            </div>
+        </div>
+        </div>
 
+       
+
+  
         
         <!-- Bootstrap Bundle with Popper -->
         <script src=https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js crossorigin=anonymous
