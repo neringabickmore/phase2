@@ -26,7 +26,7 @@ $(document).ready(function(){
 window.onload = function() {
   setTimeout(function() {
     document.getElementById("offerModal").style.display = "block";
-  }, 5000); // 8 seconds delay
+  }, 2000); // 8 seconds delay
 
   document.getElementById("closeModal").onclick = function() {
     document.getElementById("offerModal").style.display = "none";
@@ -41,15 +41,19 @@ window.onload = function() {
 
     
     // Get the email input
+    var name = document.getElementById("name").value;
     var email = document.getElementById("email").value;
-    // var currentTimestamp = document.getElementById("timestamp").value;
+    var phone = document.getElementById("phone").value;
 
     // Send data to Google Apps Script using a POST request
-    fetch('https://script.google.com/macros/s/AKfycbxHwwzEcBgLRncTswXz83rZkhUfjt7O1Mbixf8YAjSL7MTryrPNFvm-kxzk-TzoPHeOeg/exec', {
+    fetch('https://script.google.com/macros/s/AKfycbzz58buHthB2724T_UdYcHczo258JrrcwqEZVnlLTvRcvZbYndcFaXkez1LyZfiqlsWKA/exec', {
+      
       method: 'POST',
       body: new URLSearchParams({
+        'timestamp': currentTimestamp,
+        'name':name,
         'email': email,
-        'timestamp': currentTimestamp
+        'phone': phone
       })
     })
     .then(response => response.text())

@@ -89,6 +89,7 @@ body {
 .small-print {
   font-size: calc(var(--font-small-print) + .2vw); }
 
+.form-text-terracotta,
 .url-link-terracotta,
 .url-link-terracotta:hover {
   color: var(--color-terracotta); }
