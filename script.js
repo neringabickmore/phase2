@@ -56,16 +56,19 @@ window.onload = function() {
         'phone': phone
       })
     })
+    
     .then(() => {
       // Show custom notification with user's name
       var message = document.getElementById("notificationMessage");
-
       message.textContent = `Thank you, ${name}, for providing the information! Now let's book your appointment to redeem the offer!`;
       document.getElementById("customNotification").style.display = "block";
 
       // Close the modal after successful submission
-      // document.getElementById("offerModal").style.display = "none";
-      
+
+      setTimeout(function() {
+        document.getElementById("offerModal").style.display = "none";
+      }, 8000); // 8 seconds delay
+
     })
     .catch(error => {
       console.error('Error:', error);
@@ -73,9 +76,9 @@ window.onload = function() {
   });
 
   // Handle close button for custom notification
-document.getElementById("closeNotification").onclick = function() {
+  document.getElementById("closeNotification").onclick = function() {
   document.getElementById("customNotification").style.display = "none";
-};
+  };
 
 
   // Close the modal if the user clicks outside the modal content
@@ -84,6 +87,7 @@ document.getElementById("closeNotification").onclick = function() {
       document.getElementById("offerModal").style.display = "none";
     }
   };
+  // Show notification when the test button is clicked
 };
 
 // loads tooltips 
