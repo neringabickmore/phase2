@@ -30,6 +30,12 @@ body {
 p {
   text-align: justify; }
 
+.border-terracotta {
+  border-color: var(--color-terracotta); }
+
+.border-white {
+  border-color: var(--color-white); }
+
 /* Loader... */
 .loader-overlay-wrapper {
   position: fixed;
@@ -89,11 +95,12 @@ body {
 .small-print {
   font-size: calc(var(--font-small-print) + .2vw); }
 
-.form-text-terracotta,
+.text-terracotta,
 .url-link-terracotta,
 .url-link-terracotta:hover {
   color: var(--color-terracotta); }
 
+.text-white,
 .url-link-white,
 .url-link-white:hover {
   color: var(--color-white); }
@@ -412,7 +419,8 @@ header {
   border-color: var(--color-terracotta) !important; }
 
 #findus,
-#ourservices {
+#ourservices,
+.terracotta-background {
   background-color: var(--color-terracotta);
   color: var(--color-white); }
 

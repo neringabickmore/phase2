@@ -39,6 +39,16 @@ p {
     text-align: justify;
 }
 
+.border-terracotta {
+    border-color: var(--color-terracotta);
+    // background-color: var(--color-terracotta);
+}
+
+.border-white {
+    border-color: var(--color-white);
+    // background-color: var(--color-terracotta);
+}
+
 /* Loader... */
 .loader-overlay-wrapper {
     position: fixed;

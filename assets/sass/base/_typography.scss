@@ -62,11 +62,13 @@ body {
     font-size: calc(var(--font-small-print) + .2vw);
 }
 
-.form-text-terracotta,
+.text-terracotta,
 .url-link-terracotta, 
 .url-link-terracotta:hover{
     color: var(--color-terracotta);
 }
+
+.text-white,
 .url-link-white, 
 .url-link-white:hover {
     color: var(--color-white);
@@ -78,3 +80,4 @@ body {
     font-weight: bold;
     transition: .5s;
 }
+

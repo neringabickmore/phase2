@@ -65,9 +65,9 @@ window.onload = function() {
 
       // Close the modal after successful submission
 
-      setTimeout(function() {
-        document.getElementById("offerModal").style.display = "none";
-      }, 8000); // 8 seconds delay
+      // setTimeout(function() {
+      //   document.getElementById("offerModal").style.display = "none";
+      // }, 15000); // 8 seconds delay
 
     })
     .catch(error => {
@@ -75,18 +75,21 @@ window.onload = function() {
     });
   });
 
-  // Handle close button for custom notification
-  document.getElementById("closeNotification").onclick = function() {
+  // Handle close buttons for custom notifications
+document.getElementById("closeNotification1").onclick = function() {
+  closeNotifications();
+};
+
+document.getElementById("closeNotification2").onclick = function() {
+  closeNotifications();
+};
+
+// Function to close the notification and modal
+function closeNotifications() {
   document.getElementById("customNotification").style.display = "none";
-  };
+  document.getElementById("offerModal").style.display = "none";
+}
 
-
-  // Close the modal if the user clicks outside the modal content
-  window.onclick = function(event) {
-    if (event.target == document.getElementById("offerModal")) {
-      document.getElementById("offerModal").style.display = "none";
-    }
-  };
   // Show notification when the test button is clicked
 };
 

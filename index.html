@@ -297,7 +297,7 @@
         <!-- Modal special offer - marketing subscription -->
         <div class="modal" style="display:none;" id="offerModal">
             <div class="modal-dialog container">
-            <div class="modal-content row">
+            <div class="modal-content row border-terracotta">
                 <div class="modal-body col-12">
                     <button type="button" class="btn-close" id="closeModal" data-bs-dismiss="modal"
                         aria-label="Close"></button>
@@ -325,7 +325,7 @@
                         <!-- Hidden input for the timestamp -->
                         <input type="hidden" id="timestamp" name="timestamp">
                         <div class="col-12 p-2">
-                            <button type="submit" class="btn btn__border form-text-terracotta">Send</button>
+                            <button type="submit" class="btn btn__border text-terracotta">Send</button>
                         </div>
                     </form>
                 </div>
@@ -334,10 +334,18 @@
         
         <!-- Notification Modal -->
         <div class="container">
-            <div class="row">
-                <div class="col-6 text-center alert alert-success" style="display:none;" role="alert" id="customNotification">
-                <p id="notificationMessage"></p>
-                <button id="closeNotification">Close</button>
+            <div class="row text-center">
+                <div class="col-6 text-center alert terracotta-background border-white" style="display:none;" role="alert"
+                    id="customNotification">
+                    <p id="notificationMessage"></p>
+                    <!-- Button for "I will book later!" action -->
+                    <button id="closeNotification1" class="btn text-white border-white">I will book later!</button>
+                    <!-- Styled <a> for "Let's book!" action -->
+                    <a id="closeNotification2" href="https://s-iq.co/BookingPortal/dist/?salonid=ef1683b6-b001-41cb-ad21-971c2c754945&tab=book"
+                        class="btn text-white border-white" aria-label="book appointment online" rel="noopener noreferrer"
+                        target="_blank">
+                        <span class="text-white">Let's book!</span>
+                    </a>
                 </div>
             </div>
         </div>
