@@ -8,6 +8,16 @@
 
 }
 
+.modal__img {
+    width: 525px;
+    height: 525px;
+    -o-object-fit: cover;
+    object-fit: cover;
+    -o-object-position: 50% 20%;
+    object-position: 50% 20%;
+
+}
+
 @media (min-width: 575px) {
     .index__img {
         width: 37vw;
