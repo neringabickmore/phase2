@@ -69,9 +69,9 @@ window.onload = function() {
 
       // Close the modal after successful submission
 
-      setTimeout(function() {
-        document.getElementById("offerModal").style.display = "none";
-      }, 8000); // 8 seconds delay
+      // setTimeout(function() {
+      //   document.getElementById("offerModal").style.display = "none";
+      // }, 15000); // 15 seconds delay
 
     })
     .catch(error => {
