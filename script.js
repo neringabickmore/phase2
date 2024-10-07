@@ -26,9 +26,12 @@ $(document).ready(function(){
 window.onload = function() {
   setTimeout(function() {
     document.getElementById("offerModal").style.display = "block";
-  }, 2000); // 8 seconds delay
+  }, 8000); // 8 seconds delay
 
-  document.getElementById("closeModal").onclick = function() {
+  document.getElementById("closeModal1").onclick = function() {
+    document.getElementById("offerModal").style.display = "none";
+  };
+  document.getElementById("closeModal2").onclick = function() {
     document.getElementById("offerModal").style.display = "none";
   };
 
@@ -60,14 +63,15 @@ window.onload = function() {
     .then(() => {
       // Show custom notification with user's name
       var message = document.getElementById("notificationMessage");
-      message.textContent = `Thank you, ${name}, for providing the information! Now let's book your appointment to redeem the offer!`;
+      message.textContent = `Thank you, ${name}! Your details have been submitted successfully. 
+      To redeem your 20% discount on your first appointment, use code OPTIN20 when booking.`;
       document.getElementById("customNotification").style.display = "block";
 
       // Close the modal after successful submission
 
-      // setTimeout(function() {
-      //   document.getElementById("offerModal").style.display = "none";
-      // }, 15000); // 8 seconds delay
+      setTimeout(function() {
+        document.getElementById("offerModal").style.display = "none";
+      }, 8000); // 8 seconds delay
 
     })
     .catch(error => {

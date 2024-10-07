@@ -290,54 +290,61 @@
                 <div class="col-12 py-2 footer__copy">
                     <p class="text-center small-print">Phase 2.0 Hair Lounge is a trading name for James
                         Bickmore Salons Ltd which is a company limited by guarantee with company registration number
-                        14718862
+                        14718862</p>
                 </div>
             </div>
         </footer>
         <!-- Modal special offer - marketing subscription -->
         <div class="modal" style="display:none;" id="offerModal">
             <div class="modal-dialog container-fluid modal-xl">
-                <div class="modal-content row gx-0 border-terracotta">
-                    <div class="modal-body p-0">
-                        <!-- image -->
-                        <div class="col-12 col-sm-6 ps-0 ">
+                <div class="modal-content border-terracotta rounded-0">
+                    <div class="modal-body row gx-0 p-0">
+                        <!-- Image -->
+                        <div class="col-12 col-sm-6 ps-0">
+                            <!-- Close modal button -->
+                             <div class="position-relative">
+                                 <button type="button" class="btn-close justify-content-end m-2 d-sm-none d-block position-absolute top-0 end-0" id="closeModal1"
+                                     data-bs-dismiss="modal" aria-label="Close"></button></div>
+                                 <h2 class="modal-title h2 d-sm-none d-block pt-3">Special Offer!</h2>
                             <img alt="long copper hair model image"
-                            src=https://res.cloudinary.com/dktjdf0v1/image/upload/v1728076516/Phase2/marketing_image_slgajz.jpg
-                            class="modal__img">
+                                src="https://res.cloudinary.com/dktjdf0v1/image/upload/v1728076516/Phase2/marketing_image_slgajz.jpg"
+                                class="modal__img img-fluid">
                         </div>
                         <!-- Content text and form -->
-                        <div class="col-12 col-sm-6 m-2">
-                             <!-- Close modal button -->
-                             <button type="button" class="btn-close justify-content-end me-2" id="closeModal" data-bs-dismiss="modal" aria-label="Close"></button>
-                            <h2 class="modal-title h2">Special Offer!</h2>
-                            <p>Get 20% off your next appointment when you sign up for our newsletter.</p>
+                        <div class="col-12 col-sm-6 p-4">
+                            <!-- Close modal button -->
+                            <div class="position-relative">
+                            <button type="button" class="btn-close justify-content-end me-2 d-none d-sm-block position-absolute top-0 end-0" id="closeModal2"
+                                data-bs-dismiss="modal" aria-label="Close"></button></div>
+                            <h2 class="modal-title h2 d-none d-sm-block">Special Offer!</h2>
+                            <p>Unlock 20% off your first appointment at Phase 2.0 Hair Lounge & Barbers! Sign up to receive exclusive offers, updates, and more. 
+                                Be the first to know about special deals and events! </p>
                             <!-- Personal details form -->
-                            <form id="emailForm" class="row text-center">
+                            <form id="emailForm" class="row text-center mx-3">
                                 <!-- Name -->
                                 <div class="col-12 p-2">
-                                    <!-- <label for="name">Your name, surname:</label> -->
-                                    <input type="text" id="name" name="name" required placeholder="Name, Surname" class="p-2 btn__border">
+                                    <input type="text" id="name" name="name" required placeholder="Name, Surname" class="p-2 btn__border col-12 col-sm-6">
                                 </div>
-                                <!-- email -->
+                                <!-- Email -->
                                 <div class="col-12 p-2">
-                                    <!-- <label for="email">Your email:</label> -->
-                                    <input type="email" id="email" name="email" required placeholder="Your email address"
-                                        class="p-2 btn__border">
+                                    <input type="email" id="email" name="email" required placeholder="Your email address" class="p-2 btn__border col-12 col-sm-6">
                                 </div>
-                                <!-- phone number -->
+                                <!-- Phone number -->
                                 <div class="col-12 p-2">
-                                    <!-- <label for="phone">Your mobile number:</label> -->
-                                    <input type="phone" id="phone" name="phone" required placeholder="Your mobile number"
-                                        class="p-2 btn__border">
+                                    <input type="phone" id="phone" name="phone" required placeholder="Your mobile number" class="p-2 btn__border col-12 col-sm-6">
                                 </div>
                                 <!-- Hidden input for the timestamp -->
                                 <input type="hidden" id="timestamp" name="timestamp">
+                                <!-- Submit button -->
                                 <div class="col-12 p-2">
-                                    <button type="submit" class="btn btn__border text-terracotta">Send</button>
+                                    <button type="submit" class="btn btn__border text-white background-terracotta col-12 col-sm-6">Send</button>
                                 </div>
                             </form>
+                            <p class="small-print">*** Please note, this discount cannot be used in conjunction with other offers. By providing your details, 
+                                you agree to receive marketing communications from Phase 2.0 Hair Lounge & Barbers. Your data will be processed and stored 
+                                on SalonIQ software.</p>
                         </div>
-                </div>
+                    </div>
                 </div>
             </div>
             <!-- Notification Modal -->
@@ -359,6 +366,7 @@
                 </div>
             </div>
         </div>
+        
         <!-- Bootstrap Bundle with Popper -->
         <script src=https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js crossorigin=anonymous
             integrity=sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM></script>
