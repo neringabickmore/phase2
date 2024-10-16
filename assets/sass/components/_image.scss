@@ -10,7 +10,8 @@
 
 .modal__img {
     width: 525px;
-    height: 525px;
+    // height: 525px;
+    height: auto;
     -o-object-fit: cover;
     object-fit: cover;
     -o-object-position: 50% 20%;
