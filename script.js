@@ -25,8 +25,13 @@ $(document).ready(function(){
 
 window.onload = function() {
   setTimeout(function() {
-    document.getElementById("offerModal").style.display = "block";
-  }, 8000); // 8 seconds delay
+    var modal = document.getElementById("offerModal");
+    modal.style.display = "block";  // Make it visible
+      setTimeout(function() {
+          modal.style.opacity = "1";  // Change opacity to 1 to fade in
+      }, 100);  // Slight delay before starting the fade-in
+  }, 8000);
+// 8 seconds delay
 
   document.getElementById("closeModal1").onclick = function() {
     document.getElementById("offerModal").style.display = "none";
@@ -45,16 +50,18 @@ window.onload = function() {
     
     // Get the email input
     var name = document.getElementById("name").value;
+    var surname = document.getElementById("surname").value;
     var email = document.getElementById("email").value;
     var phone = document.getElementById("phone").value;
 
     // Send data to Google Apps Script using a POST request
-    fetch('https://script.google.com/macros/s/AKfycbzz58buHthB2724T_UdYcHczo258JrrcwqEZVnlLTvRcvZbYndcFaXkez1LyZfiqlsWKA/exec', {
+    fetch('https://script.google.com/macros/s/AKfycbxFzCtIht908i4JI9HwHUzIarbcKTldDpyE9mPAhIdhc5oGvO0y4J6KsQI1Iqiq1h0E9g/exec', {
       
       method: 'POST',
       body: new URLSearchParams({
         'timestamp': currentTimestamp,
         'name':name,
+        'surname':surname,
         'email': email,
         'phone': phone
       })
