@@ -37,8 +37,21 @@
 }
 
 #offerModal {
-    display: none; /* Hidden by default */
-    opacity: 0;    /* Make it invisible */
-    transition: opacity 2s ease-in-out; /* Add transition for opacity */
-  }
-  
+    display: none;
+    /*Hiddenbydefault*/opacity: 0;
+    /*Makeitinvisible*/transition: opacity 1s ease-in-out;
+    -webkit-transition: opacity 1s ease-in-out;
+    -moz-transition: opacity 1s ease-in-out;
+    -ms-transition: opacity 1s ease-in-out;
+    -o-transition: opacity 1s ease-in-out;
+}
+
+#notification {
+    display: none;
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+    -webkit-transition: opacity 1s ease-in-out;
+    -moz-transition: opacity 1s ease-in-out;
+    -ms-transition: opacity 1s ease-in-out;
+    -o-transition: opacity 1s ease-in-out;
+}

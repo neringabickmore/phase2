@@ -30,12 +30,13 @@ window.onload = function() {
       setTimeout(function() {
           modal.style.opacity = "1";  // Change opacity to 1 to fade in
       }, 100);  // Slight delay before starting the fade-in
-  }, 8000);
-// 8 seconds delay
-
+  }, 5000);// 5 seconds delay
+  
+  // displayed on mobile x button dismisses modal
   document.getElementById("closeModal1").onclick = function() {
     document.getElementById("offerModal").style.display = "none";
   };
+  // displayed on web x button dismisses modal
   document.getElementById("closeModal2").onclick = function() {
     document.getElementById("offerModal").style.display = "none";
   };
@@ -48,7 +49,7 @@ window.onload = function() {
     document.getElementById("timestamp").value = currentTimestamp; // Set the hidden input value
 
     
-    // Get the email input
+    // Get the form input
     var name = document.getElementById("name").value;
     var surname = document.getElementById("surname").value;
     var email = document.getElementById("email").value;
@@ -73,35 +74,36 @@ window.onload = function() {
       message.textContent = `Thank you, ${name}! Your details have been submitted successfully. 
       To redeem your 20% discount on your first appointment, use code OPTIN20 when booking.`;
       document.getElementById("customNotification").style.display = "block";
-
-      // Close the modal after successful submission
-
-      // setTimeout(function() {
-      //   document.getElementById("offerModal").style.display = "none";
-      // }, 15000); // 15 seconds delay
-
     })
     .catch(error => {
       console.error('Error:', error);
     });
   });
 
-  // Handle close buttons for custom notifications
-document.getElementById("closeNotification1").onclick = function() {
-  closeNotifications();
-};
-
-document.getElementById("closeNotification2").onclick = function() {
-  closeNotifications();
-};
-
 // Function to close the notification and modal
-function closeNotifications() {
-  document.getElementById("customNotification").style.display = "none";
-  document.getElementById("offerModal").style.display = "none";
-}
+  function closeNotifications() {
+    var modal = document.getElementById("offerModal");
+    var notification = document.getElementById("customNotification");
 
-  // Show notification when the test button is clicked
+    // Fade out by changing opacity
+    modal.style.opacity = "0";
+    notification.style.opacity = "0";
+
+    // Wait for the transition to complete before setting display to none
+    setTimeout(function() {
+        modal.style.display = "none";
+        notification.style.display = "none";
+    }, 1000); // Matches the duration of the CSS transition
+  }
+
+      // Handle close buttons for custom notifications
+      document.getElementById("closeNotification1").onclick = function() {
+        closeNotifications();
+      };
+    
+      document.getElementById("closeNotification2").onclick = function() {
+        closeNotifications();
+      };
 };
 
 // loads tooltips 
