@@ -56,3 +56,11 @@
     color: var(--color-green);
     font-size: 2.5rem;
 }
+
+// arrow in the drop down menu: 
+.dropdown-toggle::after {
+    border-top: .5em solid;
+    border-right: .5em solid transparent;
+    border-left: .5em solid transparent;
+    vertical-align: .175em;
+}
