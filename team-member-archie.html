@@ -36,16 +36,15 @@
     <body><!-- Slow loader -->
         <div class=loader-overlay-wrapper></div><!-- go up button --> <button aria-label="go to top" id=goUpBtn
             title="Go to top"><i class="fa-solid fa-angles-up p-2"></i></button><!-- Logo container -->
-            <header class=container-fluid id=barbers-header>
+            <header class=container-fluid>
                 <div class=row><!-- navbar -->
-                    <nav class="col-12 px-3 d-flex navbar pt-3 pt-sm-5 px-sm-5"><!-- social icons -->
-                        <div class="justify-content-center d-flex footer__social social"><a
-                                href="https://www.instagram.com/phase2.0barbers/?hl=en" class=p-3
-                                aria-label="Find us on Instagram" rel="noopener noreferrer" target=_blank
-                                title="barber shop instagram"><i class="fa-brands fa-instagram"></i> </a><a
-                                href=https://m.facebook.com/p/Phase-2-Men-100063702991820/ class=p-3
-                                aria-label="Find us on Facebook" rel="noopener noreferrer" target=_blank
-                                title="barbershop facebook"><i class="fa-brands fa-facebook"></i></a></div><!-- nav bars -->
+                    <nav class="col-12 d-flex navbar pt-3 pt-sm-5 px-3 px-sm-5"><!-- social icons -->
+                        <div class="justify-content-center d-flex social social-white"><a
+                                href=https://www.instagram.com/phase2.0hairlounge/ class=p-3 aria-label="Find us on Instagram"
+                                rel="noopener noreferrer" target=_blank title=instagram><i class="fa-brands fa-instagram"></i>
+                            </a><a href=https://www.facebook.com/people/Phase-20-Hair-Lounge/100063690153377/ class=p-3
+                                aria-label="Find us on Facebook" rel="noopener noreferrer" target=_blank title=facebook><i
+                                    class="fa-brands fa-facebook"></i></a></div><!-- nav bars -->
                         <div class="align-self-center collapsed ms-auto navbar-toggler" aria-controls=navigation
                             aria-expanded=false data-bs-target=#navigation data-bs-toggle=collapse role=button
                             title="site navigation menu">
@@ -55,33 +54,69 @@
                             </div>
                         </div>
                     </nav><!--nav  menu -->
-                    <div class="barbers-navigation collapse pb-3" id=navigation>
-                        <ul class="barbers-navbar-nav align-items-center ml-auto navbar-nav"><!-- Welcome -->
+                    <div class="pb-3 collapse" id=navigation>
+                        <ul class="align-items-center ml-auto navbar-nav"><!-- Welcome -->
                             <li class=nav-item><a href=index.html class=nav-link-header>Welcome</a></li>
+                            <!-- Services-->
+                            <div class="dropdown nav-item">
+                                <a class="nav-link-header dropdown-toggle" href="#" role="button" id="dropdownMenuLink"
+                                    data-bs-toggle="dropdown" aria-expanded="false">
+                                    Services
+                                </a>
+        
+                                <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                                    <li><a class="dropdown-item" href="services.html">All services</a></li>
+                                    <li><a class="dropdown-item" href="colour.html">Colouring</a></li>
+                                    <li><a class="dropdown-item" href="colour.html#balayage">Balayage</a></li>
+                                    <li><a class="dropdown-item" href="colour.html#scandi-blonde">Scandi Blonde</a></li>
+                                    <li><a class="dropdown-item" href="colour.html#toning">Toning</a></li>
+                                    <li><a class="dropdown-item" href="colour.html#colour-correction">Colour correction</a></li>
+                                    <li><a class="dropdown-item" href="cut-and-style.html">Cut & Style</a></li>
+                                    <li><a class="dropdown-item" href="cut-and-style.html#session-hair">Session Hair</a></li>
+                                    <li><a class="dropdown-item" href="hair-extensions.html">Hair Extensions</a></li>
+                                    <li><a class="dropdown-item" href="technical-services.html">Technical</a></li>
+                                    <li><a class="dropdown-item" href="technical-services.html#keratin-treatment">Keratin
+                                            Treatment</a></li>
+                                    <li><a class="dropdown-item" href="hair-treatments.html">Hair Treatments</a></li>
+                                    <li><a class="dropdown-item" href="technical-services.html#perm">Perm</a></li>
+                                </ul>
+                            </div>
+                            <!-- Barbers-->
+                            <li class=nav-item><a href=barbers.html class=nav-link-header>Barbers</a></li>
                             <!-- Meet the team-->
                             <li class=nav-item><a href=team.html class=nav-link-header>Meet the team</a></li>
-                            <!-- Services and pricelist-->
-                            <li class=nav-item><a href=services.html class=nav-link-header>Services and pricelist</a></li>
-                            <!-- Barbers-->
-                            <li class=nav-item><a href=barbers.html class=nav-link-header>barbers</a></li>
                             <!-- Book an appointment-->
                             <li class=nav-item><a
                                     href="https://s-iq.co/BookingPortal/dist/?salonid=ef1683b6-b001-41cb-ad21-971c2c754945&tab=book"
                                     class=nav-link-header rel="noopener noreferrer" target=_blank>Book an appointment</a>
+                                <!-- Pricelist-->
+                            <li class=nav-item><a href=pricelist.html class=nav-link-header>Pricelist</a></li>
+                            <!-- Memberships-->
+                            <li class=nav-item><a href=memberships.html class=nav-link-header>Memberships</a></li>
+                            <!-- Products-->
+                            <li class=nav-item><a href=products.html class=nav-link-header>Products</a></li>
                             </li><!--  contact us -->
-                            <li class=nav-item><a href=index.html#findus class=nav-link-header>contact us</a></li>
+                            <li class=nav-item><a href=index.html#findus class=nav-link-header>Contact Us</a></li>
                             <!-- Opening Hours-->
                             <li class=nav-item><a href=index.html#openinghours class=nav-link-header>Opening Hours</a></li>
                             <!-- Salon Policies-->
-                            <li class=nav-item><a href=services.html#policies class=nav-link-header>Salon Policies</a></li>
+                            <li class=nav-item><a href=pricelist.html#policies class=nav-link-header>Salon Policies</a></li>
                             <!-- Work with us -->
-                            <li class=nav-item><a href=careers.html class=nav-link-header>Work with us</a>
+                            <li class=nav-item><a href=careers.html class=nav-link-header>Work with Us</a></li>
+                            <!-- FAQs-->
+                            <li class=nav-item><a href=careers.html class=nav-link-header>FAQ</a></li>
+                            
                         </ul>
                     </div><!-- Logo -->
                     <div class="col-12 text-center pt-0"><a href=index.html aria-label="go to welcome page" id=logo><img
-                                alt=logo id=logo__img src=assets/images/Phase-2.0-Logo-Barbers.png></a></div>
+                                alt=logo src=assets/images/Phase2.0-logo-narrow.png id=logo__img></a></div>
+                    <!-- Slogan container -->
+                    <div class="col-12 text-center d-none d-sm-block pb-5">
+                        <h2 class="h2 h2-slogan">elevate your look with effortlessly beautiful hair</h2>
+                    </div>
                 </div>
-            </header><!-- breadcrumb -->
+            </header>
+            <!-- breadcrumb -->
         <div class="container mt-3">
             <div class="row py-3 align-items-center">
                 <div class=col-12>
