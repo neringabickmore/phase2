@@ -4,7 +4,7 @@
     margin-left: -15px;
 }
 
-.nav-link-header {
+.nav-link-header, .dropdown-item {
     display: block;
     padding: .5rem 1rem;
     text-decoration: none;
@@ -19,13 +19,30 @@
     background-color: var(--color-terracotta);
 }
 
+// applies just for the drop down in the nav menu - services
+.dropdown-menu, .dropdown-item {    
+    color: var(--color-terracotta);
+    background-color: var(--color-white);
+}
+
+.dropdown-item,
 .nav-link-header,
 .dropdown-menu-header li a {
     font-size: 1.2rem;
     font-family: var(--font-text);
     letter-spacing: 0.1vw;
-    border: 1px var(--color-terracotta) solid;
     align-items: end;
+}
+
+.nav-link-header,
+.dropdown-menu-header li a {
+    border: 1px var(--color-terracotta) solid;
+}
+
+// applies just for the drop down in the nav menu - services
+.dropdown-item:focus, .dropdown-item:hover {
+    color: var(--color-white);
+    background-color: var(--color-terracotta);
 }
 
 .nav-link-header:focus,
@@ -64,3 +81,5 @@
     border-left: .5em solid transparent;
     vertical-align: .175em;
 }
+
+
