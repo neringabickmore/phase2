@@ -605,3 +605,61 @@ header {
 
 .barbers-navbar-nav .nav-item .nav-link-header:hover {
   border-color: var(--color-white) !important; }
+
+.services__link, .services__link:active, .services__link::before {
+  color: var(--color-green);
+  text-decoration: none; }
+
+.services__link h3 {
+  text-decoration: underline; }
+
+.services__link h3:hover {
+  color: var(--color-terracotta);
+  font-weight: bold;
+  transition: .5s;
+  -webkit-transition: .5s;
+  -moz-transition: .5s;
+  -ms-transition: .5s;
+  -o-transition: .5s; }
+
+.services__col {
+  padding: 0; }
+
+.services__col a:hover {
+  color: var(--color-green);
+  transition: .5s;
+  -webkit-transition: .5s;
+  -moz-transition: .5s;
+  -ms-transition: .5s;
+  -o-transition: .5s; }
+
+.services__col .h2 {
+  margin-top: 5rem; }
+
+.services__img {
+  width: 260px;
+  height: auto;
+  padding: 0;
+  margin: 1rem 0rem;
+  object-fit: cover;
+  -o-object-fit: cover; }
+
+@media (max-width: 575px) {
+  .services__img {
+    width: 300px; } }
+
+@media (min-width: 768px) {
+  .services__img {
+    width: 200px; } }
+
+@media (min-width: 992px) {
+  .services__img {
+    width: 300px; } }
+
+@media (min-width: 1200px) {
+  .services__img {
+    width: 350px; } }
+
+@media (min-width: 1400px) {
+  .services__img {
+    width: 400px; } }
