@@ -638,7 +638,7 @@ header {
 
 .services__img {
   width: 260px;
-  height: auto;
+  height: 360px;
   padding: 0;
   margin: 1rem 0rem;
   object-fit: cover;
