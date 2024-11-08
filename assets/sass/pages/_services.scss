@@ -1,0 +1,83 @@
+.services {
+
+    &__link,
+    &__link:active,
+    &__link::before {
+        color: var(--color-green);
+        text-decoration: none;
+    }
+
+    &__link h3 {
+        text-decoration: underline;
+    }
+
+    &__link h3:hover {
+        color: var(--color-terracotta);
+        font-weight: bold;
+        transition: .5s;
+        -webkit-transition: .5s;
+        -moz-transition: .5s;
+        -ms-transition: .5s;
+        -o-transition: .5s;
+    }
+}
+
+.services {
+    &__col {
+        padding: 0;
+    }
+
+    &__col a:hover {
+        color: var(--color-green);
+        transition: .5s;
+        -webkit-transition: .5s;
+        -moz-transition: .5s;
+        -ms-transition: .5s;
+        -o-transition: .5s;
+    }
+    &__col .h2 {
+        // padding: 5rem;
+        margin-top: 5rem;
+    }
+
+    &__img {
+        width: 260px;
+        height: 360px;
+        padding: 0;
+        margin: 1rem 0rem;
+        object-fit: cover;
+        -o-object-fit: cover;
+
+    }
+}
+
+
+@media (max-width: 575px) {
+    .services__img {
+        width: 300px;
+    }
+}
+
+@media (min-width: 768px) {
+    .services__img {
+        width: 200px;
+    }
+}
+
+@media (min-width: 992px) {
+    .services__img {
+        width: 300px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .services__img {
+        width: 350px;
+    }
+}
+
+@media (min-width: 1400px) {
+    .services__img {
+        width: 400px;
+    }
+}
