@@ -1,95 +1,129 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset
-      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
-            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
-<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
-
-
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!--  created with Free Online Sitemap Generator www.xml-sitemaps.com  -->
 <url>
-  <loc>https://phase2-hair.co.uk/</loc>
-  <lastmod>2023-10-01T20:30:45+00:00</lastmod>
-  <priority>1.00</priority>
+<loc>https://phase2-hair.co.uk/</loc>
+<lastmod>2024-11-08T00:33:29+00:00</lastmod>
+<priority>1.00</priority>
 </url>
 <url>
-  <loc>https://phase2-hair.co.uk/index.html</loc>
-  <lastmod>2023-10-01T20:30:45+00:00</lastmod>
-  <priority>0.80</priority>
+<loc>https://phase2-hair.co.uk/index.html</loc>
+<lastmod>2024-11-08T00:33:29+00:00</lastmod>
+<priority>0.80</priority>
 </url>
 <url>
-  <loc>https://phase2-hair.co.uk/team.html</loc>
-  <lastmod>2023-10-01T20:30:45+00:00</lastmod>
-  <priority>0.80</priority>
+<loc>https://phase2-hair.co.uk/services.html</loc>
+<lastmod>2024-11-08T00:33:29+00:00</lastmod>
+<priority>0.80</priority>
 </url>
 <url>
-  <loc>https://phase2-hair.co.uk/services.html</loc>
-  <lastmod>2023-10-01T20:30:45+00:00</lastmod>
-  <priority>0.80</priority>
+<loc>https://phase2-hair.co.uk/colour.html</loc>
+<lastmod>2024-11-08T00:33:29+00:00</lastmod>
+<priority>0.80</priority>
 </url>
 <url>
-  <loc>https://phase2-hair.co.uk/barbers.html</loc>
-  <lastmod>2023-10-01T20:30:45+00:00</lastmod>
-  <priority>0.80</priority>
+<loc>https://phase2-hair.co.uk/cut-and-style.html</loc>
+<lastmod>2024-11-08T00:33:29+00:00</lastmod>
+<priority>0.80</priority>
 </url>
 <url>
-  <loc>https://phase2-hair.co.uk/careers.html</loc>
-  <lastmod>2023-10-01T20:30:45+00:00</lastmod>
-  <priority>0.80</priority>
+<loc>https://phase2-hair.co.uk/hair-extensions.html</loc>
+<lastmod>2024-11-08T00:33:29+00:00</lastmod>
+<priority>0.80</priority>
 </url>
 <url>
-  <loc>https://phase2-hair.co.uk/privacy-policy.html</loc>
-  <lastmod>2023-10-01T20:30:45+00:00</lastmod>
-  <priority>0.80</priority>
+<loc>https://phase2-hair.co.uk/keratin-treatment.html</loc>
+<lastmod>2024-11-08T00:33:29+00:00</lastmod>
+<priority>0.80</priority>
 </url>
 <url>
-  <loc>https://phase2-hair.co.uk/website-terms&amp;conditions.html</loc>
-  <lastmod>2023-10-01T20:30:45+00:00</lastmod>
-  <priority>0.80</priority>
+<loc>https://phase2-hair.co.uk/technical-services.html</loc>
+<lastmod>2024-11-08T00:33:29+00:00</lastmod>
+<priority>0.80</priority>
 </url>
 <url>
-  <loc>https://phase2-hair.co.uk/robots.txt</loc>
-  <lastmod>2024-05-18T20:30:45+00:00</lastmod>
-  <priority>0.80</priority>
+<loc>https://phase2-hair.co.uk/hair-treatments.html</loc>
+<lastmod>2024-11-08T00:33:29+00:00</lastmod>
+<priority>0.80</priority>
 </url>
 <url>
-  <loc>https://phase2-hair.co.uk/team-member-james.html</loc>
-  <lastmod>2023-10-01T20:30:45+00:00</lastmod>
-  <priority>0.64</priority>
+<loc>https://phase2-hair.co.uk/barbers.html</loc>
+<lastmod>2024-11-08T00:33:29+00:00</lastmod>
+<priority>0.80</priority>
 </url>
 <url>
-  <loc>https://phase2-hair.co.uk/team-member-zoe.html</loc>
-  <lastmod>2023-10-01T20:30:45+00:00</lastmod>
-  <priority>0.64</priority>
+<loc>https://phase2-hair.co.uk/team.html</loc>
+<lastmod>2024-11-08T00:33:29+00:00</lastmod>
+<priority>0.80</priority>
 </url>
 <url>
-  <loc>https://phase2-hair.co.uk/team-member-jodie.html</loc>
-  <lastmod>2023-10-01T20:30:45+00:00</lastmod>
-  <priority>0.64</priority>
+<loc>https://phase2-hair.co.uk/pricelist.html</loc>
+<lastmod>2024-11-08T00:33:29+00:00</lastmod>
+<priority>0.80</priority>
 </url>
 <url>
-  <loc>https://phase2-hair.co.uk/team-member-faith.html</loc>
-  <lastmod>2023-10-01T20:30:45+00:00</lastmod>
-  <priority>0.64</priority>
+<loc>https://phase2-hair.co.uk/careers.html</loc>
+<lastmod>2024-11-08T00:33:29+00:00</lastmod>
+<priority>0.80</priority>
 </url>
 <url>
-  <loc>https://phase2-hair.co.uk/team-member-archie.html</loc>
-  <lastmod>2023-10-01T20:30:45+00:00</lastmod>
-  <priority>0.64</priority>
+<loc>https://phase2-hair.co.uk/faq.html</loc>
+<lastmod>2024-11-08T00:33:29+00:00</lastmod>
+<priority>0.80</priority>
 </url>
 <url>
-  <loc>https://phase2-hair.co.uk/team-member-amber.html</loc>
-  <lastmod>2023-10-01T20:30:45+00:00</lastmod>
-  <priority>0.64</priority>
+<loc>https://phase2-hair.co.uk/privacy-policy.html</loc>
+<lastmod>2024-11-08T00:33:29+00:00</lastmod>
+<priority>0.80</priority>
 </url>
 <url>
-  <loc>https://phase2-hair.co.uk/team-member-honey.html</loc>
-  <lastmod>2023-10-01T20:30:45+00:00</lastmod>
-  <priority>0.64</priority>
+<loc>https://phase2-hair.co.uk/website-terms&conditions.html</loc>
+<lastmod>2024-11-08T00:33:29+00:00</lastmod>
+<priority>0.80</priority>
 </url>
 <url>
-  <loc>https://phase2-hair.co.uk/team-member-lily-mae.html</loc>
-  <lastmod>2023-10-01T20:30:45+00:00</lastmod>
-  <priority>0.64</priority>
+<loc>https://phase2-hair.co.uk/privacy-policy-barbers.html</loc>
+<lastmod>2024-11-08T00:33:29+00:00</lastmod>
+<priority>0.64</priority>
+</url>
+<url>
+<loc>https://phase2-hair.co.uk/team-member-james.html</loc>
+<lastmod>2024-11-08T00:33:29+00:00</lastmod>
+<priority>0.64</priority>
+</url>
+<url>
+<loc>https://phase2-hair.co.uk/team-member-zoe.html</loc>
+<lastmod>2024-11-08T00:33:29+00:00</lastmod>
+<priority>0.64</priority>
+</url>
+<url>
+<loc>https://phase2-hair.co.uk/team-member-jodie.html</loc>
+<lastmod>2024-11-08T00:33:29+00:00</lastmod>
+<priority>0.64</priority>
+</url>
+<url>
+<loc>https://phase2-hair.co.uk/team-member-faith.html</loc>
+<lastmod>2024-11-08T00:33:29+00:00</lastmod>
+<priority>0.64</priority>
+</url>
+<url>
+<loc>https://phase2-hair.co.uk/team-member-archie.html</loc>
+<lastmod>2024-11-08T00:33:29+00:00</lastmod>
+<priority>0.64</priority>
+</url>
+<url>
+<loc>https://phase2-hair.co.uk/team-member-amber.html</loc>
+<lastmod>2024-11-08T00:33:29+00:00</lastmod>
+<priority>0.64</priority>
+</url>
+<url>
+<loc>https://phase2-hair.co.uk/team-member-honey.html</loc>
+<lastmod>2024-11-08T00:33:29+00:00</lastmod>
+<priority>0.64</priority>
+</url>
+<url>
+<loc>https://phase2-hair.co.uk/team-member-lily-mae.html</loc>
+<lastmod>2024-11-08T00:33:29+00:00</lastmod>
+<priority>0.64</priority>
 </url>
 </urlset>
