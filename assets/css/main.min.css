@@ -196,7 +196,7 @@ the user hovers on any place of the button
   object-position: 50% 20%; }
 
 .modal__img {
-  width: 525px;
+  width: 535px;
   height: auto;
   -o-object-fit: cover;
   object-fit: cover;
