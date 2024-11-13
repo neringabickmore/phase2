@@ -30,7 +30,7 @@ window.onload = function() {
       setTimeout(function() {
           modal.style.opacity = "1";  // Change opacity to 1 to fade in
       }, 100);  // Slight delay before starting the fade-in
-  }, 5000);// 5 seconds delay
+  }, 1500);// 5 seconds delay = 5000; now it is 1.5second for black Friday
   
   // displayed on mobile x button dismisses modal
   document.getElementById("closeModal1").onclick = function() {
@@ -71,10 +71,13 @@ window.onload = function() {
     .then(() => {
       // Show custom notification with user's name
       var message = document.getElementById("notificationMessage");
-      message.textContent = `Thank you, ${name}! Your details have been submitted successfully. 
-      To redeem your 20% discount on your first appointment, use code OPTIN20 when booking.`;
+      message.textContent = `Thank you, ${name}! Your details have been submitted successfully to the VIP list. 
+      You will be the first to know about our Black Friday Offers`;
       document.getElementById("customNotification").style.display = "block";
     })
+
+    // `Thank you, ${name}! Your details have been submitted successfully. 
+      // To redeem your 20% discount on your first appointment, use code OPTIN20 when booking.`;
     .catch(error => {
       console.error('Error:', error);
     });
