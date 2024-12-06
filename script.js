@@ -71,14 +71,12 @@ window.onload = function() {
     .then(() => {
       // Show custom notification with user's name
       var message = document.getElementById("notificationMessage");
-      message.textContent = `Thank you, ${name}! Your details have been submitted successfully to the VIP list. 
-      You will be the first to know about our Black Friday Offers`;
+      message.textContent = `Thank you, ${name}! Your details have been submitted successfully. 
+      To redeem your 20% discount on your first appointment, use code OPTIN20 when booking.`;
       document.getElementById("customNotification").style.display = "block";
     })
 
-    // `Thank you, ${name}! Your details have been submitted successfully. 
-      // To redeem your 20% discount on your first appointment, use code OPTIN20 when booking.`;
-    .catch(error => {
+   .catch(error => {
       console.error('Error:', error);
     });
   });
