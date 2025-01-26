@@ -1,0 +1,15 @@
+.colour-col {
+    background-color: var(--color-shell);
+    // border: 1px solid var(--color-terracotta);
+    padding: 2rem;
+    box-shadow: 3px 8px 3px var(--color-terracotta);
+    // padding: 2rem;
+
+    tr {
+        border-color: var(--color-terracotta);
+    }
+
+    table {
+        margin-bottom: 4rem;
+    }
+}
