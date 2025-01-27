@@ -1,6 +1,5 @@
 <!doctype html>
 <html lang=en>
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no">
@@ -68,11 +67,11 @@
         gtag('config', 'G-M8BBTF64RG');
     </script>
 </head>
-
 <body>
-    <header class=container-fluid id=barbers-header>
+    <header class=container-fluid>
         <div class=row><!-- navbar -->
-            <nav class="col-12 px-3 d-flex navbar pt-3 pt-sm-5 px-sm-5"><!-- social icons -->
+            <nav class="col-12 d-flex navbar pt-3 pt-sm-5 px-3 px-sm-5">
+                <!-- social icons -->
                 <div class="justify-content-center align-items-center d-flex social social-white">
                     <!-- Instagram -->
                     <a href=https://www.instagram.com/phase2.0hairlounge/ class=p-3 aria-label="Find us on Instagram"
@@ -95,17 +94,19 @@
                     </div>
                 </div>
             </nav><!--nav  menu -->
-            <div class="barbers-navigation pb-3 collapse" id=navigation>
-                <ul class="barbers-navbar-nav align-items-center ml-auto navbar-nav"><!-- Welcome -->
+            <div class="pb-3 collapse" id=navigation>
+                <ul class="align-items-center ml-auto navbar-nav">
+                    <!-- Welcome -->
                     <li class=nav-item><a href=index.html class=nav-link-header>Welcome</a></li>
+                    <!-- Colour Packages -->
+                    <li class=nav-item><a href=packages.html class=nav-link-header>Colour Packages</a></li>
                     <!-- Services-->
                     <div class="dropdown nav-item">
-                        <a class="nav-link-header dropdown-toggle" href="#" role="button" id="dropdownMenuLink"
+                        <a class="nav-link-header dropdown-toggle" href="#" role="button" id="dropdownMenuLink1"
                             data-bs-toggle="dropdown" aria-expanded="false">
                             Services
                         </a>
-
-                        <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                        <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink1">
                             <li><a class="dropdown-item" href="services.html">All services</a></li>
                             <li><a class="dropdown-item" href="colour.html">Colouring</a></li>
                             <li><a class="dropdown-item" href="colour.html#balayage">Balayage</a></li>
@@ -125,7 +126,21 @@
                     <!-- Barbers-->
                     <li class=nav-item><a href=barbers.html class=nav-link-header>Barbers</a></li>
                     <!-- Meet the team-->
-                    <li class=nav-item><a href=team.html class=nav-link-header>Meet the team</a></li>
+                    <div class="dropdown nav-item">
+                        <a class="nav-link-header dropdown-toggle" href="#" role="button" id="dropdownMenuLink2"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Meet the team
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink2">
+                            <li><a class="dropdown-item" href="team.html">All team members</a></li>
+                            <li><a class="dropdown-item" href="team-member-honey.html">Honey - New Talent</a></li>
+                            <li><a class="dropdown-item" href="team-member-amber.html">Amber - Stylist</a></li>
+                            <li><a class="dropdown-item" href="team-member-zoe.html">Zoe - Senior Stylist</a></li>
+                            <li><a class="dropdown-item" href="team-member-jodie.html">Jodie - Senior Stylist</a></li>
+                            <li><a class="dropdown-item" href="team-member-james.html">James - Creative Director</a></li>
+                            <li><a class="dropdown-item" href="team-member-lily-mae.html">Lily-Mae - Apprentice</a></li>
+                        </ul>
+                    </div>
                     <!-- Book an appointment-->
                     <li class=nav-item><a
                             href="https://s-iq.co/BookingPortal/dist/?salonid=ef1683b6-b001-41cb-ad21-971c2c754945&tab=book"
@@ -137,7 +152,7 @@
                     <!-- Products-->
                     <li class=nav-item><a href='https://s-iq.co/BookingPortal/dist/?salonid=ef1683b6-b001-41cb-ad21-971c2c754945' 
                         class=nav-link-header rel="noopener noreferrer" target=_blank>Products</a></li>
-                    </li><!--  contact us -->
+                    <!--  contact us -->
                     <li class=nav-item><a href=index.html#findus class=nav-link-header>Contact Us</a></li>
                     <!-- Opening Hours-->
                     <li class=nav-item><a href=index.html#openinghours class=nav-link-header>Opening Hours</a></li>
@@ -150,7 +165,11 @@
                 </ul>
             </div><!-- Logo -->
             <div class="col-12 text-center pt-0"><a href=index.html aria-label="go to welcome page" id=logo><img
-                        alt=logo id=logo__img src=assets/images/Phase-2.0-Logo-Barbers.png></a></div>
+                        alt=logo src=assets/images/Phase2.0-logo-narrow.png id=logo__img></a></div>
+            <!-- Slogan container -->
+            <!-- <div class="col-12 text-center d-none d-sm-block pb-5">
+                <h2 class="h2 h2-slogan">elevate your look with effortlessly beautiful hair</h2>
+            </div> -->
         </div>
     </header>
     <main>
