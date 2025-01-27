@@ -424,6 +424,9 @@ header {
   color: var(--color-terracotta);
   background-color: var(--color-white); }
 
+.dropdown {
+  position: unset; }
+
 .dropdown-item,
 .nav-link-header,
 .dropdown-menu-header li a {
@@ -436,7 +439,7 @@ header {
 .dropdown-menu-header li a {
   border: 1px var(--color-terracotta) solid; }
 
-.dropdown-item:focus, .dropdown-item:hover {
+.dropdown-item:hover {
   color: var(--color-white);
   background-color: var(--color-terracotta); }
 

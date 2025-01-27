@@ -18,11 +18,16 @@
     color: var(--color-white);
     background-color: var(--color-terracotta);
 }
-
+  
 // applies just for the drop down in the nav menu - services
 .dropdown-menu, .dropdown-item {    
     color: var(--color-terracotta);
     background-color: var(--color-white);
+}
+
+//  position needs to be unset or else we have a bug with dropdown menu item.
+.dropdown {
+    position:unset;
 }
 
 .dropdown-item,
@@ -40,7 +45,7 @@
 }
 
 // applies just for the drop down in the nav menu - services
-.dropdown-item:focus, .dropdown-item:hover {
+.dropdown-item:hover {
     color: var(--color-white);
     background-color: var(--color-terracotta);
 }
