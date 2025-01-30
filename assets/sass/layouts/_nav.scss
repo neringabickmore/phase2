@@ -25,11 +25,6 @@
     background-color: var(--color-white);
 }
 
-//  position needs to be unset or else we have a bug with dropdown menu item.
-.dropdown {
-    position:unset;
-}
-
 .dropdown-item,
 .nav-link-header,
 .dropdown-menu-header li a {
@@ -80,11 +75,11 @@
 }
 
 // arrow in the drop down menu: 
-.dropdown-toggle::after {
-    border-top: .5em solid;
-    border-right: .5em solid transparent;
-    border-left: .5em solid transparent;
-    vertical-align: .175em;
+.dropstart .dropdown-toggle::before{
+    border-top: .5em solid transparent;
+    border-right: .5em solid;
+    border-bottom: .5em solid transparent;
+    vertical-align: 0;
 }
 
 

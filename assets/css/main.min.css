@@ -424,9 +424,6 @@ header {
   color: var(--color-terracotta);
   background-color: var(--color-white); }
 
-.dropdown {
-  position: unset; }
-
 .dropdown-item,
 .nav-link-header,
 .dropdown-menu-header li a {
@@ -469,11 +466,11 @@ header {
   color: var(--color-green);
   font-size: 2.5rem; }
 
-.dropdown-toggle::after {
-  border-top: .5em solid;
-  border-right: .5em solid transparent;
-  border-left: .5em solid transparent;
-  vertical-align: .175em; }
+.dropstart .dropdown-toggle::before {
+  border-top: .5em solid transparent;
+  border-right: .5em solid;
+  border-bottom: .5em solid transparent;
+  vertical-align: 0; }
 
 .careers__body {
   color: var(--color-white) !important; }
