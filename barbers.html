@@ -72,90 +72,95 @@
 <body><!-- Slow loader -->
     <div class=loader-overlay-wrapper></div><!-- go up button --> <button aria-label="go to top" id=goUpBtn
         title="Go to top"><i class="fa-solid fa-angles-up p-2"></i></button><!-- Logo container -->
-        <header class=container-fluid id="barbers-header">
-            <div class=row><!-- navbar -->
-                <nav class="col-12 d-flex navbar pt-3 pt-sm-5 px-3 px-sm-5">
-                    <!-- social icons -->
-                    <div class="justify-content-center align-items-center d-flex social social-white">
-                        <!-- Instagram -->
-                        <a href=https://www.instagram.com/phase2.0hairlounge/ class=p-3 aria-label="Find us on Instagram"
-                            rel="noopener noreferrer" target=_blank title=instagram><i class="fa-brands fa-instagram"></i></a>
-                        <!-- Facebook -->
-                        <a href=https://www.facebook.com/people/Phase-20-Hair-Lounge/100063690153377/ class=p-3
-                            aria-label="Find us on Facebook" rel="noopener noreferrer" target=_blank title=facebook><i
-                                class="fa-brands fa-facebook"></i></a>
-                        <!-- buy vouchers -->
-                        <a href='https://s-iq.co/BookingPortal/dist/?salonid=ef1683b6-b001-41cb-ad21-971c2c754945&tab=giftcards'
-                            class="rounded p-2 btn btn-terracotta ms-4" aria-label="Buy Giftfcard" rel="noopener noreferrer"
-                            target=_blank title=giftcard><span>Buy Giftcard</span></a>
+    <header class=container-fluid id="barbers-header">
+        <div class=row><!-- navbar -->
+            <nav class="col-12 d-flex navbar pt-3 pt-sm-5 px-3 px-sm-5">
+                <!-- social icons -->
+                <div class="justify-content-center align-items-center d-flex social social-white">
+                    <!-- Instagram -->
+                    <a href=https://www.instagram.com/phase2.0hairlounge/ class=p-3 aria-label="Find us on Instagram"
+                        rel="noopener noreferrer" target=_blank title=instagram><i
+                            class="fa-brands fa-instagram"></i></a>
+                    <!-- Facebook -->
+                    <a href=https://www.facebook.com/people/Phase-20-Hair-Lounge/100063690153377/ class=p-3
+                        aria-label="Find us on Facebook" rel="noopener noreferrer" target=_blank title=facebook><i
+                            class="fa-brands fa-facebook"></i></a>
+                    <!-- buy vouchers -->
+                    <a href='https://s-iq.co/BookingPortal/dist/?salonid=ef1683b6-b001-41cb-ad21-971c2c754945&tab=giftcards'
+                        class="rounded p-2 btn btn-terracotta ms-4" aria-label="Buy Giftfcard" rel="noopener noreferrer"
+                        target=_blank title=giftcard><span>Buy Giftcard</span></a>
+                </div>
+                <!-- nav bars -->
+                <div class="align-self-center collapsed ms-auto navbar-toggler" aria-controls=navigation
+                    aria-expanded=false data-bs-target=#navigation data-bs-toggle=collapse role=button
+                    title="site navigation menu">
+                    <div id=barsContainer>
+                        <div class=bar1></div>
+                        <div class=bar2></div>
                     </div>
-                    <!-- nav bars -->
-                    <div class="align-self-center collapsed ms-auto navbar-toggler" aria-controls=navigation aria-expanded=false
-                        data-bs-target=#navigation data-bs-toggle=collapse role=button title="site navigation menu">
-                        <div id=barsContainer>
-                            <div class=bar1></div>
-                            <div class=bar2></div>
-                        </div>
+                </div>
+            </nav><!--nav  menu -->
+            <div class="barbers-navigation pb-3 collapse" id=navigation>
+                <ul class="barbers-navbar-nav align-items-sm-center align-items-end ms-sm-auto me5-5 navbar-nav">
+                    <!-- Welcome -->
+                    <li class=nav-item><a href=index.html class=nav-link-header>Welcome</a></li>
+                    <!-- Barbers-->
+                    <li class=nav-item><a href=barbers.html class=nav-link-header>Barbers</a></li>
+                    <!-- Meet the team-->
+                    <div class="dropstart nav-item">
+                        <a class="nav-link-header dropdown-toggle" href="#" role="button" id="dropdownMenuLink2"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Meet the team
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink2">
+                            <li><a class="dropdown-item" href="team.html">All team members</a></li>
+                            <li><a class="dropdown-item" href="team-member-faith.html">Faith - Barber</a></li>
+                            <li><a class="dropdown-item" href="team-member-archie.html">Archie - Barber</a></li>
+                            <li><a class="dropdown-item" href="team-member-james.html">James - Creative Director</a>
+                            </li>
+                            <li><a class="dropdown-item" href="team-member-honey.html">Honey - New Talent Stylist</a>
+                            </li>
+                            <li><a class="dropdown-item" href="team-member-amber.html">Amber - Stylist</a></li>
+                            <li><a class="dropdown-item" href="team-member-zoe.html">Zoe - Senior Stylist</a></li>
+                            <li><a class="dropdown-item" href="team-member-jodie.html">Jodie - Senior Stylist</a></li>
+                            <li><a class="dropdown-item" href="team-member-lily-mae.html">Lily-Mae - Apprentice</a></li>
+                        </ul>
                     </div>
-                </nav><!--nav  menu -->
-                <div class="barbers-navigation pb-3 collapse" id=navigation>
-                    <ul class="barbers-navbar-nav align-items-sm-center align-items-end ms-sm-auto me-5 navbar-nav">
-                        <!-- Welcome -->
-                        <li class=nav-item><a href=index.html class=nav-link-header>Welcome</a></li>
-                        <!-- Barbers-->
-                        <li class=nav-item><a href=barbers.html class=nav-link-header>Barbers</a></li>
-                        <!-- Meet the team-->
-                        <div class="dropstart nav-item">
-                            <a class="nav-link-header dropdown-toggle" href="#" role="button" id="dropdownMenuLink2"
-                                data-bs-toggle="dropdown" aria-expanded="false">
-                                Meet the team
-                            </a>
-                            <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink2">
-                                <li><a class="dropdown-item" href="team.html">All team members</a></li>
-                                <li><a class="dropdown-item" href="team-member-honey.html">Faith - Barber</a></li>
-                                <li><a class="dropdown-item" href="team-member-honey.html">Archie - Barber</a></li>
-                                <li><a class="dropdown-item" href="team-member-james.html">James - Creative Director</a></li>
-                                <li><a class="dropdown-item" href="team-member-honey.html">Honey - New Talent Stylist</a></li>
-                                <li><a class="dropdown-item" href="team-member-amber.html">Amber - Stylist</a></li>
-                                <li><a class="dropdown-item" href="team-member-zoe.html">Zoe - Senior Stylist</a></li>
-                                <li><a class="dropdown-item" href="team-member-jodie.html">Jodie - Senior Stylist</a></li>
-                                <li><a class="dropdown-item" href="team-member-lily-mae.html">Lily-Mae - Apprentice</a></li>
-                            </ul>
-                        </div>
-                        <!-- Products-->
-                        <li class=nav-item><a
+                    <!-- Products-->
+                    <li class=nav-item><a
                             href='https://s-iq.co/BookingPortal/dist/?salonid=ef1683b6-b001-41cb-ad21-971c2c754945'
                             class=nav-link-header rel="noopener noreferrer" target=_blank>Products</a></li>
-                            <!--  contact us -->
-                            <li class=nav-item><a href=index.html#findus class=nav-link-header>Contact Us</a></li>
-                            <!-- Opening Hours-->
-                            <li class=nav-item><a href=index.html#openinghours class=nav-link-header>Opening Hours</a></li>
-                            <!-- Salon Policies-->
-                            <li class=nav-item><a href=barbers.html#policies class=nav-link-header>Policies</a></li>
-                            <!-- Hair Lounge-->
-                            <div class="dropstart nav-item">
-                                <a class="nav-link-header dropdown-toggle" href="#" role="button" id="dropdownMenuLink1"
-                                    data-bs-toggle="dropdown" aria-expanded="false">
-                                    Hair Lounge
-                                </a>
-                                <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink1">
-                                    <li><a class="dropdown-item" href=packages.html>Colour Packages</a></li>
-                                    <li><a class="dropdown-item" href="services.html">Services</a></li>
-                                    <li><a class="dropdown-item" href="pricelist.html">Pricelist</a></li>
-                                    <li><a class="dropdown-item" href="https://s-iq.co/BookingPortal/dist/?salonid=ef1683b6-b001-41cb-ad21-971c2c754945&tab=book"
-                                        rel="noopener noreferrer" target=_blank>Book an appointment</a>
-                                </ul>
-                            </div>
-                            <!-- Work with us -->
-                            <li class=nav-item><a href=careers.html class=nav-link-header>Work with Us</a></li>
-                        <!-- FAQs-->
-                        <li class=nav-item><a href=faq.html class=nav-link-header>FAQ</a></li>
-                    </ul>
-                </div><!-- Logo -->
-                <div class="col-12 text-center pt-0"><a href=index.html aria-label="go to welcome page" id=logo><img alt=logo
-                            src=assets/images/Phase-2.0-Logo-Barbers.png id=logo__img></a></div>
-            </div>
-        </header>
+                    <!--  contact us -->
+                    <li class=nav-item><a href=index.html#findus class=nav-link-header>Contact Us</a></li>
+                    <!-- Opening Hours-->
+                    <li class=nav-item><a href=index.html#openinghours class=nav-link-header>Opening Hours</a></li>
+                    <!-- Salon Policies-->
+                    <li class=nav-item><a href=barbers.html#policies class=nav-link-header>Policies</a></li>
+                    <!-- Hair Lounge-->
+                    <div class="dropstart nav-item">
+                        <a class="nav-link-header dropdown-toggle" href="#" role="button" id="dropdownMenuLink1"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Hair Lounge
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink1">
+                            <li><a class="dropdown-item" href=packages.html>Colour Packages</a></li>
+                            <li><a class="dropdown-item" href="services.html">Services</a></li>
+                            <li><a class="dropdown-item" href="pricelist.html">Pricelist</a></li>
+                            <li><a class="dropdown-item"
+                                    href="https://s-iq.co/BookingPortal/dist/?salonid=ef1683b6-b001-41cb-ad21-971c2c754945&tab=book"
+                                    rel="noopener noreferrer" target=_blank>Book an appointment</a>
+                        </ul>
+                    </div>
+                    <!-- Work with us -->
+                    <li class=nav-item><a href=careers.html class=nav-link-header>Work with Us</a></li>
+                    <!-- FAQs-->
+                    <li class=nav-item><a href=faq.html class=nav-link-header>FAQ</a></li>
+                </ul>
+            </div><!-- Logo -->
+            <div class="col-12 text-center pt-0"><a href=index.html aria-label="go to welcome page" id=logo><img
+                        alt=logo src=assets/images/Phase-2.0-Logo-Barbers.png id=logo__img></a></div>
+        </div>
+    </header>
     <!-- Main content -->
     <main><!-- Services intro -->
         <div class="container mt-5">
@@ -295,7 +300,7 @@
             </div><!-- Salon policies -->
             <div class="justify-content-center row py-3 align-items-center" id=policies>
                 <div class=col-12>
-                    <h1 class=h1>Salon policies</h1>
+                    <h1 class=h1>Policies</h1>
                 </div>
                 <div class="col-12 px-3 mb-2 align-self-center col-sm-7">
                     <p class=text-start>To ensure your colour lasts, we recommend you to use professional home care
@@ -309,10 +314,10 @@
                     <div class="justify-content-center row">
                         <div class="col-12 px-3 col-sm-6">
                             <p class=text-start>Colour services are very complex, and we are only able to provide a
-                                starting price, displayed above. Your stylist will advise about the final service
+                                starting price, displayed above. Your stylist/barber will advise about the final service
                                 price at the consultation stage.
                             <p class=text-start>Once you are fully aware of what’s involved and happy with the
-                                quote, only then your stylist will proceed with the service.
+                                quote, only then your stylist/barber will proceed with the service.
                         </div>
                         <div class="col-12 px-3 col-sm-6">
                             <p class=text-start>Please note, colour prices do not include a blow-dry. All colour
@@ -326,7 +331,7 @@
                 </div><!-- Consultation -->
                 <div class="col-12 px-3 col-sm-6">
                     <h2 class=h2>Consultation</h2>
-                    <p class=text-start>If you are new to the salon or would like a change, why not come in for a
+                    <p class=text-start>If you are new to our barbers or would like a change, why not come in for a
                         <b>free consultation</b> before your appointment?
                 </div><!-- Patch Test -->
                 <div class="col-12 px-3 col-sm-6">
