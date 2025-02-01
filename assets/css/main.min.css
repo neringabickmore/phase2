@@ -2,7 +2,8 @@
   --color-white: #fefefe;
   --color-terracotta: #b55d41;
   --color-green: #2b361a;
-  --color-shell: #fff4ec; }
+  --color-shell: #fff4ec;
+  --color-light-green: #DDE4CD; }
 
 * {
   margin: 0;
@@ -349,6 +350,14 @@ the user hovers on any place of the button
     border-color: var(--color-terracotta); }
   .colour-col table {
     margin-bottom: 4rem; }
+  .colour-col__barbers {
+    background-color: var(--color-light-green);
+    padding: 2rem;
+    box-shadow: 3px 8px 3px var(--color-green); }
+    .colour-col__barbers tr {
+      border-color: var(--color-green); }
+    .colour-col__barbers table {
+      margin-bottom: 4rem; }
 
 .footer {
   background-color: var(--color-green);
