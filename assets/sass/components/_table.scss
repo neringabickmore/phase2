@@ -19,3 +19,12 @@
 .th {
     text-align: start;
 }
+
+.th .url-link-terracotta {
+    font-weight: normal!important;
+    // text-decoration: none!important;
+}
+
+.th .url-link-terracotta:hover {
+    font-weight: bold!important;
+}

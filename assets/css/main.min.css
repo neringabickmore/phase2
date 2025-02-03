@@ -315,6 +315,12 @@ the user hovers on any place of the button
 .th {
   text-align: start; }
 
+.th .url-link-terracotta {
+  font-weight: normal !important; }
+
+.th .url-link-terracotta:hover {
+  font-weight: bold !important; }
+
 .accordion-item {
   border-radius: 0% !important;
   border-width: 2px;
