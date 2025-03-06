@@ -415,9 +415,97 @@
                     14718862
             </div>
         </div>
-    </footer><!-- Bootstrap Bundle with Popper -->
+    </footer>
+    <!-- Modal - Hair Extensions Promo -->
+    <div class="modal" style="display:none;" id="offerModal">
+        <div class="modal-dialog container-fluid modal-xl">
+            <div class="modal-content border-terracotta rounded-0">
+                <div class="modal-body row gx-0 p-0">
+                    <!-- Image -->
+                    <div class="col-12 col-sm-6 ps-0">
+                        <!-- Close modal button -->
+                        <div class="position-relative">
+                            <button type="button"
+                                class="btn-close justify-content-end m-2 d-sm-none d-block position-absolute top-0 end-0"
+                                id="closeModal1" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <h2 class="modal-title h2 d-sm-none d-block pt-3">Hair Extensions Offer!</h2>
+                        <!-- image -->
+                        <img alt="hair extensions promo banner"
+                            src="https://res.cloudinary.com/dktjdf0v1/image/upload/v1738704537/Phase2/about-us-homepage_tf2ykc.jpg"
+                            class="modal__img img-fluid">
+                    </div>
+                    <!-- Content text and form -->
+                    <div class="col-12 col-sm-6 p-4">
+                        <!-- Close modal button -->
+                        <div class="position-relative">
+                            <button type="button"
+                                class="btn-close justify-content-end me-2 d-none d-sm-block position-absolute top-0 end-0"
+                                id="closeModal2" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <h2 class="modal-title h2 d-none d-sm-block">Sign up for hair extensions offers!</h2>
+                        <p>Hair extensions offers coming soon. Be the first to know about them!</p>
+                        <!-- Personal details form -->
+                        <form id="emailForm" class="row text-center mx-3">
+                            <!-- Name -->
+                            <div class="col-12 p-2">
+                                <input type="text" id="name" name="name" required placeholder="Name"
+                                    class="p-2 btn__border col-12 col-sm-6">
+                            </div>
+                            <!-- SurnnName -->
+                            <div class="col-12 p-2">
+                                <input type="text" id="surname" name="surname" required placeholder="Surname"
+                                    class="p-2 btn__border col-12 col-sm-6">
+                            </div>
+                            <!-- Email -->
+                            <div class="col-12 p-2">
+                                <input type="email" id="email" name="email" required placeholder="Your email address"
+                                    class="p-2 btn__border col-12 col-sm-6">
+                            </div>
+                            <!-- Phone number -->
+                            <div class="col-12 p-2">
+                                <input type="phone" id="phone" name="phone" required placeholder="Your mobile number"
+                                    class="p-2 btn__border col-12 col-sm-6">
+                            </div>
+                            <!-- Hidden input for the timestamp -->
+                            <input type="hidden" id="timestamp" name="timestamp">
+                            <!-- Submit button -->
+                            <div class="col-12 p-2">
+                                <button type="submit"
+                                    class="btn btn__border text-white background-terracotta col-12 col-sm-6">Send</button>
+                            </div>
+                        </form>
+                        <p class="small-print">***Discount cannot be used in conjunction with other offers and applies
+                            to selected services when booked online. By providing your details,
+                            you agree to receive our exclusive marketing communications. Your data will be stored
+                            on SalonIQ.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Notification Modal -->
+        <div class="container">
+            <div class="row text-center justify-content-center">
+                <div class="col-sm-6 col-12 text-center alert terracotta-background border-white" style="display:none;"
+                    role="alert" id="customNotification">
+                    <p id="notificationMessage"></p>
+                    <!-- Button for "I will book later!" action -->
+                    <button id="closeNotification1" class="btn text-white border-white">I will book later!</button>
+                    <!-- Styled <a> for "Let's book!" action -->
+                    <a id="closeNotification2"
+                        href="https://s-iq.co/BookingPortal/dist/?salonid=ef1683b6-b001-41cb-ad21-971c2c754945&tab=book"
+                        class="btn text-white border-white" aria-label="book appointment online"
+                        rel="noopener noreferrer" target="_blank">
+                        <span class="text-white">Let's book!</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Bootstrap Bundle with Popper -->
     <!-- jQuery adding for event listeners -->
     <script src=https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js></script>
     <script src=script.js></script>
+    <script src=extensions.js></script>
 </body>
 </html>
