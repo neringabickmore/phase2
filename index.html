@@ -74,7 +74,8 @@
     <!-- Trust index script to show icon at the footer -->
     <script defer async src='https://cdn.trustindex.io/loader-cert.js?9107908437493538d846a61c275'></script>
     <!-- Trust index rich snippet -->
-    <script type="text/javascript" defer async src="https://cdn.trustindex.io/assets/js/richsnippet.js?efd6d1278794g811"></script>
+    <script type="text/javascript" defer async
+        src="https://cdn.trustindex.io/assets/js/richsnippet.js?efd6d1278794g811"></script>
 </head>
 
 <body><!-- Slow loader -->
@@ -194,7 +195,8 @@
         </div>
     </header>
     <!-- Main content -->
-    <main><!-- Welcome Intro -->
+    <main>
+        <!-- Welcome Intro -->
         <div class="container-fluid mt-5" id=welcomeintro>
             <div class="row py-3 justify-content-center px-2">
                 <div class="col-12 text-center pt-4 col-sm-6 px-4"><!-- header displayed on mobile -->
@@ -225,12 +227,14 @@
                         your
                         style together.
                         <!-- Call to action buttons -->
-                    <div class="col-12 text-center mt-auto pt-5"><!-- Call to book --> <a href=tel:01268683992
-                            class="btn btn__border col-8 col-sm-5" aria-label="call us on 01268683992"
-                            rel=noopener><span>Call to Book </span></a><!-- Book online --> <a
-                            href="https://book.getslick.com/#/salon/4953/" class="btn btn__border col-8 col-sm-5"
-                            aria-label="book appointment online" rel="noopener noreferrer" target=_blank><span>Book
-                                Online</span></a></div>
+                    <div class="col-12 text-center mt-auto pt-5">
+                        <!-- Book online --> <a href="https://book.getslick.com/#/salon/4953/"
+                            class="btn btn__border col-8 col-sm-5" aria-label="book appointment online"
+                            rel="noopener noreferrer" target=_blank><span>Book
+                                Online</span></a>
+                        <!-- Call to book --><a href=tel:01268683992 class="btn btn__border col-8 col-sm-5"
+                            aria-label="call us on 01268683992" rel=noopener><span>Call to Book </span></a>
+                    </div>
                 </div>
             </div>
         </div><!-- Our services section -->
@@ -329,6 +333,12 @@
                     <h1 class=h1>Contact us</h1>
                     <h2 class="h2">Book Your Appointment Today – It's Easy!</h2>
                 </div>
+                <!-- Call to action buttons -->
+                <div class="col-12 col-sm-6 pb-5 text-center">
+                    <!-- Book online --> <a href="https://book.getslick.com/#/salon/4953/"
+                        class="btn btn__border btn-terracotta" aria-label="book appointment online"
+                        rel="noopener noreferrer" target=_blank><span>Book Your Appointment</span></a>
+                </div>
                 <div class="col-12 text-center"><!-- email -->
                     <p class=text-center><a href=mailto:hello@phase2-hair.co.uk class=url-link-white
                             aria-label="contact via email" rel="noopener noreferrer"
@@ -339,19 +349,9 @@
                 <div class="col-12 text-center pt-3">
                     <p class=text-center>21 High Street
                     <p class=text-center>Canvey Island
-                    <p class=text-center>SS8 7RB</p><!-- Call to action buttons -->
-                    <div class="row justify-content-center">
-                        <div class="col-12 col-sm-6 pt-5"><!-- Call to book --> <a href=tel:01268683992
-                                class="btn btn__border col-8 btn-terracotta col-sm-4"
-                                aria-label="call us on 01268683992" rel=noopener><span>Call to Book
-                                </span></a><!-- Book online --> <a href="https://book.getslick.com/#/salon/4953/"
-                                class="btn btn__border col-8 btn-terracotta col-sm-4"
-                                aria-label="book appointment online" rel="noopener noreferrer" target=_blank><span>Book
-                                    Online</span></a></div>
-                    </div>
+                    <p class=text-center>SS8 7RB</p>
                 </div>
             </div>
-
         </div>
         <!-- Google reviews widget -->
         <div class="container my-5">
@@ -379,7 +379,7 @@
             </div><!-- Opening hours table -->
             <div class="row py-3">
                 <!-- hair lounge hours -->
-                <div class="col-sm-6 col-12 text-center">
+                <div class="col-sm-6 col-12 text-center pb-5 pb-sm-0">
                     <h2 class="h2">Hair Lounge</h2>
                     <table class="table table-btn__borderless">
                         <tbody class=text-center>
@@ -407,7 +407,7 @@
                     </table>
                 </div>
                 <!-- barbers hours -->
-                <div class="col-sm-6 col-12 text-center">
+                <div class="col-sm-6 col-12 text-center py-sm-0 py-3">
                     <h2 class="h2">Barbers</h2>
                     <table class="table table-btn__borderless">
                         <tbody class=text-center>
@@ -437,16 +437,16 @@
                 <!-- Call to action buttons -->
                 <p class="text-center mt-5">Ready to book your appointment? Use our online booking system or call us
                     to secure your spot today!</p>
-                    <div class="row justify-content-center">
+                <div class="row justify-content-center">
                     <div class="col-12 col-sm-6 text-center mt-auto pt-3"><!-- Call to book --> <a href=tel:01268683992
                             class="btn btn__border col-8 col-sm-5" aria-label="call us on 01268683992"
                             rel=noopener><span>Call to Book
                             </span></a><!-- Book online --> <a href="https://book.getslick.com/#/salon/4953/"
                             class="btn btn__border col-8 col-sm-5" aria-label="book appointment online"
                             rel="noopener noreferrer" target=_blank><span>Book Online</span></a></div>
-                    </div>
                 </div>
             </div>
+        </div>
         </div>
     </main><!-- Footer -->
     <footer class="container-fluid footer">
@@ -531,7 +531,7 @@
                                 <input type="text" id="name" name="name" required placeholder="Name"
                                     class="p-2 btn__border col-12 col-sm-6">
                             </div>
-                            <!-- SurnnName -->
+                            <!-- Surname -->
                             <div class="col-12 p-2">
                                 <input type="text" id="surname" name="surname" required placeholder="Surname"
                                     class="p-2 btn__border col-12 col-sm-6">
