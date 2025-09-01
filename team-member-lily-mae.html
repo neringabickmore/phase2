@@ -194,11 +194,25 @@
     </div>
     <main>
         <div class=container>
-            <div class="row mt-5">
-                <div class="col-12 text-center col-sm-6 team__col"><img alt="Team member Lily-Mae"
+            <div class="row mt-5"><!-- Picture  and title -->
+                <div class="col-12 text-center team__col col-sm-6"><!-- display title on mobile -->
+                    <div class="d-block d-sm-none">
+                        <h1 class=h1>Lily-Mae</h1>
+                        <h2 class=h2>Apprentice</h2>
+                    </div><img alt="Team member Lily-Mae"
                         src=https://res.cloudinary.com/dktjdf0v1/image/upload/v1697641177/Phase2/Lily-Mae_1_sq72ir.png
-                        class=team__img></div>
-                <div class="col-12 text-center col-sm-6 team__col mt-sm-5 px-5">
+                        class="mt-sm-3 mt-0 team__img"><!-- display bio on mobile -->
+                    <div class="d-block d-sm-none">
+                        <h2 class="h2 mt-sm-3">Bio</h2>
+                        <p>I'm Lily-Mae, and I’m starting my journey to become a hairstylist. I love being creative, working with 
+                        different clients, and helping them feel great about themselves. Hairdressing is so exciting because 
+                        I get to learn new things every day and try out different styles.</p>
+                    <p>In the future, I hope to become a senior stylist, work with amazing clients, and keep improving my skills. 
+                        I’m really excited to grow in this career and make every client feel special.</p>
+                    </p>
+                    </div>
+                </div><!-- display title and bio on larger screens -->
+                <div class="col-12 text-center team__col col-sm-6 d-none d-sm-block mt-sm-5 px-5">
                     <h1 class=h1>Lily-Mae</h1>
                     <h2 class=h2>Apprentice</h2>
                     <p>I'm Lily-Mae, and I’m starting my journey to become a hairstylist. I love being creative, working with 
@@ -209,16 +223,101 @@
                     </p>
                 </div>
             </div>
-        </div>
+            <div class="row py-3 justify-content-center">
+                <div class="col-12 text-center team__col mt-sm-5 px-5"><!-- Individual price list -->
+                    <h2 class="h2 my-5">Rising Star Pricelist</h2>
+                </div>
+                <div class="col-12 col-sm-6">
+                    <table class="table mb-0 mb-sm-3">
+                        <tbody><!-- Cut & Finish  -->
+                            <tr class=align-middle>
+                                <th class="text-start th" scope=row>Cut & Finish
+                                <td class="td text-end">23
+                            </tr><!-- Restyle -->
+                            <tr class=align-middle>
+                                <th class="text-start th" scope=row>Restyle
+                                <td class="td text-end">31
+                            </tr><!-- Blowdry -->
+                            <tr class=align-middle>
+                                <th class="text-start th" scope=row>Blow-dry
+                                <td class="td text-end">19
+                            </tr><!-- Bounch Blowdry -->
+                            <tr class=align-middle>
+                                <th class="text-start th" scope=row>Bouncy Blowdry
+                                <td class="td text-end">From 29
+                            </tr><!-- Roots-->
+                            <tr class=align-middle>
+                                <th class="text-start th" scope=row>Root Tint
+                                <td class="td text-end">From 32
+                            </tr><!-- Global colour -->
+                            
+                        </tbody>
+                    </table>
+                </div>
+                <div class="col-12 col-sm-6">
+                    <table class=table>
+                        <tbody>
+                            <!-- Global colour -->
+                            <tr class=align-middle>
+                                <th class="text-start th" scope=row>Full Head Tint
+                                <td class="td text-end">From 43
+                            </tr>
+                            <!-- T-section/partial -->
+                            <tr class=align-middle>
+                                <th class="text-start th" scope=row>T-section/Partial
+                                <td class="td text-end">From 33
+                            </tr>
+                            <!-- Highlights -->
+                            <tr class=align-middle>
+                                <th class="text-start th" scope=row>Highlights
+                                <td class="td text-end">From 48
+                            </tr><!-- Balayage -->
+                            <tr class=align-middle>
+                                <th class="text-start th" scope=row>Balayage
+                                <td class="td text-end">From 43
+                            </tr><!-- colour Change -->
+                            <!-- <tr class=align-middle>
+                                <th class="text-start th" scope=row>Colour Correction
+                                <td class="td text-end">On Consultation
+                            </tr>Scandi Blonde - Roots -->
+                            <!-- <tr class=align-middle>
+                                <th class="text-start th" scope=row>Scandi Blonde - Roots
+                                <td class="td text-end">From 52.99 -->
+                            </tr><!-- Scandi Blonde - Global colour-->
+                            <!-- <tr class=align-middle>
+                                <th class="text-start th" scope=row>Scandi Blonde - Full Head
+                                <td class="td text-end">From 109.99 -->
+                            </tr><!-- Tint with Highlights - Partial-->
+                            <tr class=align-middle>
+                                <th class="text-start th" scope=row>Tint with Highlights and or Balayage
+                                <td class="td text-end">From 62
+                            </tr><!-- Keratin Treatment -->
+                            <!-- <tr class=align-middle>
+                                <th class="text-start th" scope=row>Keratin Treatment
+                                <td class="td text-end">From 100
+                            </tr> -->
+                            <!-- Perm -->
+                            <!-- <tr class=align-middle>
+                                <th class="text-start th" scope=row>Perm
+                                <td class="td text-end">From 49
+                            </tr> -->
+                            <!-- Hair Extensions -->
+                            <!-- <tr class=align-middle>
+                                <th class="text-start th" scope=row>Hair Extensions
+                                <td class="td text-end">On Consultation
+                            </tr> -->
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div><!-- call to action container -->
         <div class="container my-5">
             <div class="row py-3 justify-content-center">
-                <!-- <div class="col-12 text-center col-lg-4 col-md-5 mb-3 text-md-end"><a href=tel:01268683992
+                <div class="col-12 text-center col-sm-6 mb-3"><!-- go online to book btn -->
+                    <a href="https://book.getslick.com/#/salon/4953/"
                         class="btn btn__border col-7 col-md-8" rel="noopener noreferrer" target=_blank
-                        aria-label="call to book appointment:01268683992"><span>Call to Book</span></a></div>
-                <div class="col-12 text-center col-lg-4 col-md-5 mb-3 text-md-start"><a
-                        href="https://book.getslick.com/#/salon/4953/"
-                        class="btn btn__border col-7 col-md-8" rel="noopener noreferrer" target=_blank
-                        aria-label="book appointment online"><span>Book Online</span></a></div> -->
+                        aria-label="book appointment online"><span>Book Your Appointment</span></a>
+                </div>
             </div>
         </div>
     </main>
